@@ -13,6 +13,10 @@ https://www.psychologytoday.com/us/blog/brain-wise/201411/your-brain-stories
 ------------------------------------------------------------------------------------
 https://buffer.com/resources/science-of-storytelling-why-telling-a-story-is-the-most-powerful-way-to-activate-our-brains/
 
+------------------------------------------------------------------------------------------------
+looking at story arcs and the plot, includes characters
+https://writingwithjennifer.com/story-charts/
+
 
 https://jackkornfield.com/the-storytelling-mind
 
@@ -26,3 +30,13 @@ https://elearningindustry.com/18-free-digital-storytelling-tools-for-teachers-an
 
 
 https://www.youtube.com/watch?v=GOGru_4z1Vc - shapes of stories
+
+https://hbr.org/2014/10/why-your-brain-loves-good-storytelling
+
+https://study.com/academy/lesson/the-neuroscience-of-storytelling.html
+
+https://www.harvardbusiness.org/the-science-behind-the-art-of-storytelling/
+
+https://www.dana.org/article/why-inspiring-stories-make-us-react-the-neuroscience-of-narrative/
+
+https://businessofstory.com/how-to-excite-the-moral-molecule-in-your-audience-to-make-you-more-trustworthy/

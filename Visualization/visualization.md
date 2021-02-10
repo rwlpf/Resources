@@ -2,6 +2,7 @@ https://treehousetechgroup.com/the-psychology-behind-data-visualization/
 https://treehousetechgroup.com/importance-of-data-visualization-for-your-business/
 https://treehousetechgroup.com/the-psychology-behind-data-visualization/
 
+https://research.lib.buffalo.edu/dataviz/resources
 
 
 Good examples
@@ -9,6 +10,10 @@ Good examples
 
 https://informationisbeautiful.net/
 Good examples of visualization in this case its most infograhpics worth looking at though
+
+----------------------------------------------------------------------------------------------
+Some good pratical applications of Gesulat pricncipals as applies to data Viz
+https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/
 
 
 Bad / awful examples
@@ -62,3 +67,11 @@ https://pages.wustl.edu/files/pages/imce/dcl/zacksmemcog99.pdf
 https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary
 
 https://www.canva.com/graphs/line-graphs/
+
+------------------------------------------------------------------------------
+To pie or not to pie that is question
+https://www.storytellingwithdata.com/blog/2015/03/the-great-pie-debate
+
+-------------------------------------------------------------------------------------------------------------
+https://blog.datawrapper.de/dualaxis/
+naughty ways to use dual axis
