@@ -1,3 +1,14 @@
+Books 
+https://handsondataviz.org/
+https://clauswilke.com/dataviz/index.html
+
+==================================================================================================================
+
+
+https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/
+
+
+
 https://treehousetechgroup.com/the-psychology-behind-data-visualization/
 https://treehousetechgroup.com/importance-of-data-visualization-for-your-business/
 https://treehousetechgroup.com/the-psychology-behind-data-visualization/
@@ -74,4 +85,4 @@ https://www.storytellingwithdata.com/blog/2015/03/the-great-pie-debate
 
 -------------------------------------------------------------------------------------------------------------
 https://blog.datawrapper.de/dualaxis/
-naughty ways to use dual axis
+naughty ways to use dual axis on line chart
