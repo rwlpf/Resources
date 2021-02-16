@@ -17,3 +17,5 @@ Nice use of graphics to illustrate cognitive overload and how to avoid it
 
 https://uxmag.com/articles/four-cognitive-design-guidelines-for-effective-information-dashboards
 The Psychology Behind Information Dashboards - what else to say !
+
+https://www.datapine.com/blog/dashboard-design-principles-and-best-practices/
