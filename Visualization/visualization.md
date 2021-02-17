@@ -86,3 +86,8 @@ https://www.storytellingwithdata.com/blog/2015/03/the-great-pie-debate
 -------------------------------------------------------------------------------------------------------------
 https://blog.datawrapper.de/dualaxis/
 naughty ways to use dual axis on line chart
+
+------------------------------------------------------------------------------
+https://thisisindexed.com/
+Very simple visualizations yet also very profound
+------------------------------------------------------------------------------

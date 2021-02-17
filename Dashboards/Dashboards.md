@@ -19,3 +19,9 @@ https://uxmag.com/articles/four-cognitive-design-guidelines-for-effective-inform
 The Psychology Behind Information Dashboards - what else to say !
 
 https://www.datapine.com/blog/dashboard-design-principles-and-best-practices/
+
+https://adniasolutions.com/dashboard-design-principles/the-principles-of-visual-design-for-dashboards/
+
+https://adniasolutions.com/dashboard-design-principles/introduction-to-dashboards/
+
+https://www.sisense.com/blog/4-design-principles-creating-better-dashboards/
