@@ -5,3 +5,11 @@ https://www.alleydog.com/glossary/definition.php?term=Preattentive+Processing
 https://learnforeverlearn.com/preattentive/
 
 https://en.wikipedia.org/wiki/Pre-attentive_processing
+
+https://learnforeverlearn.com/preattentive/
+A few more examples including those from Colin Ware and Stephen Few
+
+http://www.perceptualedge.com/articles/ie/visual_perception.pdf
+
+https://www.csc2.ncsu.edu/faculty/healey/PP/
+More references to other material, excellent java script applet demostrating target detection.

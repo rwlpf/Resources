@@ -40,3 +40,7 @@ https://www.harvardbusiness.org/the-science-behind-the-art-of-storytelling/
 https://www.dana.org/article/why-inspiring-stories-make-us-react-the-neuroscience-of-narrative/
 
 https://businessofstory.com/how-to-excite-the-moral-molecule-in-your-audience-to-make-you-more-trustworthy/
+
+https://www.entrepreneur.com/article/361640
+
+https://medium.com/@frankheijdenrijk/15-must-read-books-that-will-make-you-an-outstanding-storyteller-553ecaf006a1

@@ -18,6 +18,10 @@ https://research.lib.buffalo.edu/dataviz/resources
 
 Good examples
 
+https://flowingdata.com/2009/11/25/9-ways-to-visualize-proportions-a-guide/
+how to use pie charts or other visualizations instead
+
+-----------------------------------------------------------------------------------
 
 https://informationisbeautiful.net/
 Good examples of visualization in this case its most infograhpics worth looking at though
