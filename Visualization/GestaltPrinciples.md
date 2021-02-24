@@ -7,3 +7,4 @@ Gapminder - look at to analysis what it uses :-)
 https://www.slideshare.net/powerfulpoint/using-gestalt-theory-in-visualizations-and-presentations
 
 https://adniasolutions.com/dashboard-design-principles/the-principles-of-visual-design-for-dashboards/
+https://www.aliallage.com/gestalt-principles-and-storytelling-with-data/

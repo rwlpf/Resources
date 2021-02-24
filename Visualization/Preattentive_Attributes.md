@@ -7,7 +7,8 @@ https://learnforeverlearn.com/preattentive/
 https://en.wikipedia.org/wiki/Pre-attentive_processing
 
 https://learnforeverlearn.com/preattentive/
-A few more examples including those from Colin Ware and Stephen Few
+A few more examples including those from Colin Ware and Stephen Few.
+An excellent list of and set of examples quite a few on this page.
 
 http://www.perceptualedge.com/articles/ie/visual_perception.pdf
 
