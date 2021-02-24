@@ -1,4 +1,4 @@
-https://sqlbits.com/Sessions/Event10/Presenting_Like_Jagger https://github.com/rwlpf/Resources/blob/master/Speaking/Speaking.md
+https://sqlbits.com/Sessions/Event10/Presenting_Like_Jagger 
 
 Buck Woody if you have not heard this gentleman speaking about speaking you need to !
 ---------------------------------------------------------------
