@@ -30,7 +30,13 @@ Good examples of visualization in this case its most infograhpics worth looking 
 Some good pratical applications of Gesulat pricncipals as applies to data Viz
 https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/
 
-
+---------------------------------------------------------
+https://xviz.com/blogs/pie-charts-good-bad-or-ugly/
+Can Pie charts be a good idea?
+------------------------------------------------------------------------------
+To pie or not to pie that is question
+https://www.storytellingwithdata.com/blog/2015/03/the-great-pie-debate
+---------------------------------------------------------
 Bad / awful examples
 https://www.reddit.com/r/dataisugly/
 https://viz.wtf/
@@ -83,9 +89,7 @@ https://github.com/ft-interactive/chart-doctor/tree/master/visual-vocabulary
 
 https://www.canva.com/graphs/line-graphs/
 
-------------------------------------------------------------------------------
-To pie or not to pie that is question
-https://www.storytellingwithdata.com/blog/2015/03/the-great-pie-debate
+
 
 -------------------------------------------------------------------------------------------------------------
 https://blog.datawrapper.de/dualaxis/
