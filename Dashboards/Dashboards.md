@@ -25,3 +25,9 @@ https://adniasolutions.com/dashboard-design-principles/the-principles-of-visual-
 https://adniasolutions.com/dashboard-design-principles/introduction-to-dashboards/
 
 https://www.sisense.com/blog/4-design-principles-creating-better-dashboards/
+
+https://webapphuddle.com/beginners-guide-to-dashboard-design/
+Good introuduction to creating dashboards with some nice examples
+
+https://dataschool.com/how-to-design-a-dashboard/
+Online version of a book discussing the principals for creating a dashboard
