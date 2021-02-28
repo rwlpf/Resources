@@ -26,6 +26,10 @@ https://adniasolutions.com/dashboard-design-principles/introduction-to-dashboard
 
 https://www.sisense.com/blog/4-design-principles-creating-better-dashboards/
 
+https://blog.panoply.io/dashboard-101-basics-of-a-great-dashboard
+Discussing some of the basic principals of dashboard design
+Also showing some the types of dashboard
+
 ---
 C-suite
 https://datorama.com/blog/2016/09/23/executive-dashboards-improve-c-level-view/
@@ -36,3 +40,5 @@ Good introuduction to creating dashboards with some nice examples
 
 https://dataschool.com/how-to-design-a-dashboard/
 Online version of a book discussing the principals for creating a dashboard
+---
+https://adamfard.com/blog/dashboard-ui

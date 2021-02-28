@@ -44,3 +44,7 @@ https://businessofstory.com/how-to-excite-the-moral-molecule-in-your-audience-to
 https://www.entrepreneur.com/article/361640
 
 https://medium.com/@frankheijdenrijk/15-must-read-books-that-will-make-you-an-outstanding-storyteller-553ecaf006a1
+
+---
+https://simplicable.com/new/storytelling
+20 + Storytelling Techniques
