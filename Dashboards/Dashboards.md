@@ -31,3 +31,8 @@ C-suite
 https://datorama.com/blog/2016/09/23/executive-dashboards-improve-c-level-view/
 ---
 https://www.datapine.com/blog/ceo-dashboard-report-examples-and-templates/
+https://webapphuddle.com/beginners-guide-to-dashboard-design/
+Good introuduction to creating dashboards with some nice examples
+
+https://dataschool.com/how-to-design-a-dashboard/
+Online version of a book discussing the principals for creating a dashboard
