@@ -19,5 +19,10 @@ https://mediabakerymoments.tumblr.com/
 https://pixabay.com/
 ----------------------------------------------------------------
 https://deathtothestockphoto.com/
-
+----------------------------------------------------------------
 cartoonstock.com
+----------------------------------------------------------------
+https://snapwiresnaps.tumblr.com/
+----------------------------------------------------------------
+https://nos.twnsnd.co/page/2
+

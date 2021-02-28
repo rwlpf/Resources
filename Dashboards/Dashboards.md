@@ -25,3 +25,9 @@ https://adniasolutions.com/dashboard-design-principles/the-principles-of-visual-
 https://adniasolutions.com/dashboard-design-principles/introduction-to-dashboards/
 
 https://www.sisense.com/blog/4-design-principles-creating-better-dashboards/
+
+---
+C-suite
+https://datorama.com/blog/2016/09/23/executive-dashboards-improve-c-level-view/
+---
+https://www.datapine.com/blog/ceo-dashboard-report-examples-and-templates/
