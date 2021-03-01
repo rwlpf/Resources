@@ -42,3 +42,6 @@ https://dataschool.com/how-to-design-a-dashboard/
 Online version of a book discussing the principals for creating a dashboard
 ---
 https://adamfard.com/blog/dashboard-ui
+---
+https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns
+Scanning patterns
