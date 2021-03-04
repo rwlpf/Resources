@@ -1,5 +1,9 @@
 http://www.bigbookofdashboards.com/index.html
 
+http://www.bigbookofdashboards.com/chartchat.html
+set of discussions about visuals on dashboards
+---
+
 https://www.datapine.com/blog/dashboard-design-principles-and-best-practices/
 
 https://doc.arcgis.com/en/dashboards/gallery/
@@ -29,7 +33,6 @@ https://www.sisense.com/blog/4-design-principles-creating-better-dashboards/
 https://blog.panoply.io/dashboard-101-basics-of-a-great-dashboard
 Discussing some of the basic principals of dashboard design
 Also showing some the types of dashboard
-
 ---
 C-suite
 https://datorama.com/blog/2016/09/23/executive-dashboards-improve-c-level-view/
@@ -45,3 +48,6 @@ https://adamfard.com/blog/dashboard-ui
 ---
 https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns
 Scanning patterns
+---
+https://uxplanet.org/10-rules-for-better-dashboard-design-ef68189d734c
+Some excellent recommendations

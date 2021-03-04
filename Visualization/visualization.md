@@ -98,4 +98,6 @@ naughty ways to use dual axis on line chart
 ------------------------------------------------------------------------------
 https://thisisindexed.com/
 Very simple visualizations yet also very profound
-------------------------------------------------------------------------------
+----
+https://www.slideshare.net/vis4/making-data-visualizations-a-survival-guide
+

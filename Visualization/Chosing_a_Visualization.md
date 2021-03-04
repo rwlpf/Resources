@@ -25,4 +25,18 @@ https://blog.hubspot.com/agency/choose-chart-visualize-data
 ---
 https://chart.guide/
 Both a website and a poster showing the diffent types of visuals
-
+---
+https://www.slideshare.net/vis4/making-data-visualizations-a-survival-guide
+Excelent advice and ideas on how to create better visualizations
+--
+https://policyviz.com/2014/09/09/graphic-continuum/
+Large poster and desktop version for sale
+---
+https://excelcharts.com/classification-chart-types/
+Microsoft Excel chart chooser
+---
+http://labs.juiceanalytics.com/chartchooser/index.html
+Another Microsoft Excel chart chooser
+---
+https://www.easel.ly/blog/types-of-graphs-and-charts-for-visualizing-data/
+Good advice on how to find right type of visual for your data
