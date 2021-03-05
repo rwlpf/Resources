@@ -14,8 +14,8 @@ Will create a colour palette from a picture.  Also has a built in visualation to
 
 ---
 https://medialab.github.io/iwanthue/
-
+Tool to create distinct colour palettes for "data scientists" no less ;-)
 ---
 https://www.colour-blindness.com/
-
+Information about colour blindness
 ---
