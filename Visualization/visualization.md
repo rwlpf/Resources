@@ -101,3 +101,5 @@ Very simple visualizations yet also very profound
 ----
 https://www.slideshare.net/vis4/making-data-visualizations-a-survival-guide
 
+https://thenounproject.com/
+Icons for visualations - Free and paid for
