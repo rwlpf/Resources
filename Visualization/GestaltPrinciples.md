@@ -1,4 +1,4 @@
-https://studiousguy.com/real-life-examples-gestalt-principles/
+https://studiousguy.com/real-life-examples-gestalt-principles/</br>
 https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/
 https://www.canva.com/learn/gestalt-theory/
 https://practicalpie.com/gestalt-principles/ - links to good images
