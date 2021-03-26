@@ -19,3 +19,5 @@ Tool to create distinct colour palettes for "data scientists" no less ;-)
 https://www.colour-blindness.com/
 Information about colour blindness
 ---
+https://www.klipfolio.com/blog/dashboard-design-mistake-misuse-of-colour
+Use of colour in dashboard
