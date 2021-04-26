@@ -103,3 +103,6 @@ https://www.slideshare.net/vis4/making-data-visualizations-a-survival-guide
 
 https://thenounproject.com/
 Icons for visualations - Free and paid for
+---
+https://codemag.com/Article/1911101/Best-Practices-for-Data-Visualizations-A-Recipe-for-Success
+Good list of examples of best practice in data visualization
