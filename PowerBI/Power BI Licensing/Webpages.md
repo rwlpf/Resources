@@ -10,7 +10,7 @@ https://radacad.com/power-bi-licensing-walk-through-guide
 
 ------------
 
-https://blog.coeo.com/power-bi-licensing-deployment-options
+https://blog.coeo.com/power-bi-licensing-deployment-options</br>
 Good listing includes price guidance
 
 ------------
@@ -27,4 +27,3 @@ https://www.burningsuit.co.uk/blog/2018/02/power-bi-free-vs-pro/
 Better than most
 
 ------------
-
