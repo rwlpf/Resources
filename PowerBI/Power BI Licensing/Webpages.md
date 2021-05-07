@@ -18,10 +18,12 @@ Good listing includes price guidance
 https://docs.microsoft.com/en-us/power-bi/consumer/end-user-license
 As useful as a chocolate teapot !
 Only considers Free, Pro and Premium (seriously Microsoft !!!)
+Better still not quite there IMO
+https://docs.microsoft.com/en-us/power-bi/consumer/end-user-features
 
 ------------
 
 https://www.burningsuit.co.uk/blog/2018/02/power-bi-free-vs-pro/
 Better than most
 
-------------
+----------
