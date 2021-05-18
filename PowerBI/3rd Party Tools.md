@@ -1,4 +1,4 @@
-Yes Microsoft are encouraging people to use 3rd tools to edit PowerBI models and reports, no really. - https://docs.microsoft.com/en-gb/power-bi/transform-model/desktop-external-tools
+Yes Microsoft are encouraging people to use 3rd tools to edit PowerBI models and reports, no really. </br> - https://docs.microsoft.com/en-gb/power-bi/transform-model/desktop-external-tools
 
 ------
 Surpisingly enough Guy in a cube has done a video about some of these
