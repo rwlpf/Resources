@@ -10,7 +10,7 @@ https://www.chartblocks.com/en/support/faqs/faq/when-to-use-a-pie-chart
 
 ------
 
-We are taught how to use and interpreate pie charts from a young age
+We are taught how to use and interpreate pie charts from a young age </br>
 https://www.theschoolrun.com/what-is-a-pie-chart
 
 ------
