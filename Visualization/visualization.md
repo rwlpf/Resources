@@ -106,3 +106,7 @@ Icons for visualations - Free and paid for
 ---
 https://codemag.com/Article/1911101/Best-Practices-for-Data-Visualizations-A-Recipe-for-Success
 Good list of examples of best practice in data visualization
+
+----
+
+https://www.eea.europa.eu/data-and-maps/daviz/learn-more/chart-dos-and-donts
