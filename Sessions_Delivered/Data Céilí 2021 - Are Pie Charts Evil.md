@@ -20,10 +20,10 @@ https://twitter.com/MaxCRoser/status/857389434756505600?ref_src=twsrc%5Etfw%7Ctw
 
 Against Pie Charts
 
-https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts
-https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf
-https://www.addtwodigital.com/add-two-blog/2021/3/1/rule-1
-https://www.darkhorseanalytics.com/blog/salvaging-the-pie
+https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts </br>
+https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf </br>
+https://www.addtwodigital.com/add-two-blog/2021/3/1/rule-1 </br>
+https://www.darkhorseanalytics.com/blog/salvaging-the-pie 
 
 ------
 
