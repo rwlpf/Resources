@@ -43,7 +43,7 @@ https://medium.com/geckoboard-under-the-hood/think-before-you-pie-chart-and-more
 ------
 
 Pie chart best practices
-https://www.excelcampus.com/charts/pie-charts-best-practices/
+https://www.excelcampus.com/charts/pie-charts-best-practices/ </br>
 https://act-on.com/blog/data-visualization-101-how-to-make-better-pie-charts-and-bar-graphs/
 
 ------
