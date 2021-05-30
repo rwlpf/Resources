@@ -1,3 +1,14 @@
+
+**Data_Ceili_2021 - Are pie charts evil?**
+-----
+
+Links to studies on why humans like circles
+https://www.sciencefocus.com/science/why-do-we-find-circles-so-beautiful/</br>
+https://scienceblogs.com/cognitivedaily/2006/03/27/the-emotion-of-shapes</br>
+https://www.smithsonianmag.com/science-nature/do-our-brains-find-certain-shapes-more-attractive-than-others-180947692/</br>
+https://www.sciencedaily.com/releases/2013/12/131219102759.htm</br>
+
+
 https://www.storytellingwithdata.com/blog/2020/5/14/what-is-a-pie-chart
 
 https://bizfluent.com/list-6715678-advantages-disadvantages-pie-chart.html
@@ -23,17 +34,14 @@ Against Pie Charts
 https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts </br>
 https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf </br>
 https://www.addtwodigital.com/add-two-blog/2021/3/1/rule-1 </br>
-https://www.darkhorseanalytics.com/blog/salvaging-the-pie 
+https://www.darkhorseanalytics.com/blog/salvaging-the-pie </br>
 
 ------
-
 In defense of Pie Charts
 
-http://speakingppt.com/why-tufte-is-flat-out-wrong-about-pie-charts/
-
-http://www.neoformix.com/2007/InDefenseOfPieCharts.html
-
-https://classes.engineering.wustl.edu/cse557/spring2017/readings/displaying-proportions
+http://speakingppt.com/why-tufte-is-flat-out-wrong-about-pie-charts/</br>
+http://www.neoformix.com/2007/InDefenseOfPieCharts.html</br>
+https://classes.engineering.wustl.edu/cse557/spring2017/readings/displaying-proportions</br>
 
 ------
 
@@ -48,18 +56,14 @@ https://act-on.com/blog/data-visualization-101-how-to-make-better-pie-charts-and
 
 ------
 
-Futher reading 
+**Futher reading** 
 
 https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results </br>
 https://eagereyes.org/techniques/pie-charts
 
 Love the title of this article
-https://policyviz.com/2018/01/11/fk-it-lets-use-pie-charts/
-
+https://policyviz.com/2018/01/11/fk-it-lets-use-pie-charts/</br>
 https://www.theartofwarquotes.com/the-art-of-war-quotes/
 
 "The one who understands when and where they have to use Pie Charts will prevail."
 Adapated from Art of War by Sun Tze
-
-------
-	Data_Ceili_2021
