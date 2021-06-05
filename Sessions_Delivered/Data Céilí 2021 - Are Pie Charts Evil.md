@@ -7,7 +7,8 @@ https://www.sciencefocus.com/science/why-do-we-find-circles-so-beautiful/</br>
 https://scienceblogs.com/cognitivedaily/2006/03/27/the-emotion-of-shapes</br>
 https://www.smithsonianmag.com/science-nature/do-our-brains-find-certain-shapes-more-attractive-than-others-180947692/</br>
 https://www.sciencedaily.com/releases/2013/12/131219102759.htm</br>
-
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4024389/</br>
+https://pubmed.ncbi.nlm.nih.gov/16913943/</br>
 
 https://www.storytellingwithdata.com/blog/2020/5/14/what-is-a-pie-chart
 
