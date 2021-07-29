@@ -8,3 +8,6 @@ https://www.slideshare.net/powerfulpoint/using-gestalt-theory-in-visualizations-
 
 https://adniasolutions.com/dashboard-design-principles/the-principles-of-visual-design-for-dashboards/
 https://www.aliallage.com/gestalt-principles-and-storytelling-with-data/
+
+https://en.wikipedia.org/wiki/Illusory_contours
+https://en.wikipedia.org/wiki/Necker_cube
