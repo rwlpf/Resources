@@ -12,3 +12,5 @@ This started with just Adam Saxton
 Website - 
 YouTube - 
 >>>>>>> master
+---
+Power BI Whitepapers from Microsoft - https://docs.microsoft.com/en-us/power-bi/guidance/whitepapers
