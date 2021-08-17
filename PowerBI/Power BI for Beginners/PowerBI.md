@@ -3,7 +3,8 @@ https://www.youtube.com/watch?v=TmhQCQr_DCA
 Shows you how to install PowerBI desktop, next how to get data from speadsheet and the web.  Next on to how to use Power Query Editor with some examples, then adding add to visuals
 
 ---
-New to Power BI? - Youtube playlist
+New to Power BI? - Youtube playlist - Curbal
+This is worth watching Ruth is really good job explaining the concepts.
 https://www.youtube.com/playlist?list=PLDz00l_jz6zx0wwS5HKFz5u-dEoAuRQMW
 
 ---
@@ -20,3 +21,10 @@ Playlist for the above topic
 
 https://www.youtube.com/watch?v=Vqz2d7pTOV8&list=RDCMUCFp1vaKzpfvoGai0vE5VJ0w&start_radio=1
 ---
+
+Microsoft training  - free training from Microsoft 
+
+https://powerbi.microsoft.com/en-us/learning/ - link to training, documenation and samples
+
+Set of guided training courses 
+https://docs.microsoft.com/en-us/learn/powerplatform/power-bi?WT.mc_id=sitertzn_learntab_guidedlearning-card-powerbi
