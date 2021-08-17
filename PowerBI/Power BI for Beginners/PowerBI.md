@@ -1,11 +1,11 @@
 How to use Microsoft Power BI - Tutorial for Beginners<br/>
-https://www.youtube.com/watch?v=TmhQCQr_DCA
+https://www.youtube.com/watch?v=TmhQCQr_DCA<br/>
 Shows you how to install PowerBI desktop, next how to get data from speadsheet and the web.  Next on to how to use Power Query Editor with some examples, then adding add to visuals
 
 ---
 
 New to Power BI? - Youtube playlist - Curbal<br/>
-This is worth watching Ruth is really good job explaining the concepts.
+This is worth watching Ruth is really good job explaining the concepts.<br/>
 https://www.youtube.com/playlist?list=PLDz00l_jz6zx0wwS5HKFz5u-dEoAuRQMW
 
 ---
@@ -22,15 +22,15 @@ Guy in a Cube explaining what is PowerBI and where is came from.  Good overview 
 
 Playlist for the above topic<br/>
 
-https://www.youtube.com/watch?v=Vqz2d7pTOV8&list=RDCMUCFp1vaKzpfvoGai0vE5VJ0w&start_radio=1
+https://www.youtube.com/watch?v=Vqz2d7pTOV8&list=RDCMUCFp1vaKzpfvoGai0vE5VJ0w&start_radio=1<br/>
 
 ---
 
 Microsoft training  - free training from Microsoft<br/> 
-https://powerbi.microsoft.com/en-us/learning/ - link to training, documenation and samples
+https://powerbi.microsoft.com/en-us/learning/ - link to training, documenation and samples<br/>
 
 Set of guided training courses<br/> 
-https://docs.microsoft.com/en-us/learn/powerplatform/power-bi?WT.mc_id=sitertzn_learntab_guidedlearning-card-powerbi
+https://docs.microsoft.com/en-us/learn/powerplatform/power-bi?WT.mc_id=sitertzn_learntab_guidedlearning-card-powerbi<br/>
 
 ---
 Free course, self paced on line from Edx<br/>
