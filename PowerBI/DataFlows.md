@@ -9,3 +9,10 @@ https://radacad.com/dataflow-vs-dataset-what-are-the-differences-of-these-two-po
 ------------
 Matthew Roche you want to know something about data flows here is another excellent place to start
 https://ssbipolar.com/2018/10/23/dataflows-in-power-bi/
+
+---
+
+Power BI Dataflows [Full Course]
+Free course from Pragmatic Works - 3 hours 
+
+https://www.youtube.com/watch?v=GuU6_cqu8FE
