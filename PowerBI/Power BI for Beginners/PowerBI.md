@@ -15,3 +15,8 @@ Want see how can take data from an Excel spreadsheet and create a PowerBi report
 What is Power BI? (2021)
 https://www.youtube.com/watch?v=Vqz2d7pTOV8
 Guy in a Cube explaining what is PowerBI and where is came from.  Good overview lots of resoures mentioned.
+
+Playlist for the above topic  
+
+https://www.youtube.com/watch?v=Vqz2d7pTOV8&list=RDCMUCFp1vaKzpfvoGai0vE5VJ0w&start_radio=1
+---
