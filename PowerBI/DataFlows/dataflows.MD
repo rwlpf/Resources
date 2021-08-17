@@ -10,7 +10,7 @@ https://ssbipolar.com/2018/11/27/power-bi-dataflows-faq/
 Microsoft documentation on the topic<br/>
 https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-introduction-self-service
 
-Dataflows best practices (Microsoft Documentation)c<br/>
+Dataflows best practices (Microsoft Documentation)<br/>
 https://docs.microsoft.com/en-us/power-bi/transform-model/dataflows/dataflows-best-practices
 
 ---
