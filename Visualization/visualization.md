@@ -116,3 +116,8 @@ https://www.eea.europa.eu/data-and-maps/daviz/learn-more/chart-dos-and-donts
 https://vcg.seas.harvard.edu/files/pfister/files/infovis_submission251-camera.pdf
 Paper looking at what makes visulations memorable. What people look at when the see a visualization for the first time, and what they look at when the see it again.  Interesting point is how important titles are in visualations for recognition and memorablity. Titles are very important for memorablity and recognition.
 (PDF of article - infovis_submission251-camera.pdf)
+
+-----
+
+https://perceptualedge.com/articles/visual_business_intelligence/the_chartjunk_debate.pdf
+Discussion of about chart junk.  Fair points made not too much mud slinging ;-)

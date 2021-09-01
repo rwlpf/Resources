@@ -43,6 +43,8 @@ https://www.slideshare.net/vis4/making-data-visualizations-a-survival-guide
 Large poster and desktop version for sale
 https://policyviz.com/2014/09/09/graphic-continuum/
 
+https://policyviz.com/books/better-data-visualizations/policyviz-data-visualization-catalog/
+Catalog of data visulations, the good the bad, also some truly ugly.
 ------------
 Microsoft Excel chart chooser
 https://excelcharts.com/classification-chart-types/
