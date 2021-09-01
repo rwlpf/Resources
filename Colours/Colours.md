@@ -21,3 +21,8 @@ Information about colour blindness
 ---
 https://www.klipfolio.com/blog/dashboard-design-mistake-misuse-of-colour
 Use of colour in dashboard
+
+---
+https://color.adobe.com/
+Colour wheel has a variety of options to create different pallettes
+Also there some excellent accessiblty tools as well

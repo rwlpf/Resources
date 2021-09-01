@@ -10,3 +10,6 @@ https://thenode.biologists.com/data-visualization-with-flying-colors/research/
 https://cran.r-project.org/web/packages/colorBlindness/vignettes/colorBlindness.html
 
 ---
+https://color.adobe.com/
+Colour wheel has a variety of options to create different pallettes
+Also there some excellent accessiblty tools as well
