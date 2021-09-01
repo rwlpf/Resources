@@ -121,3 +121,7 @@ Paper looking at what makes visulations memorable. What people look at when the 
 
 https://perceptualedge.com/articles/visual_business_intelligence/the_chartjunk_debate.pdf
 Discussion of about chart junk.  Fair points made not too much mud slinging ;-)
+
+-----
+https://d3js.org/
+Some really good examples can be found here for inspiration.
