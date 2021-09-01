@@ -125,3 +125,7 @@ Discussion of about chart junk.  Fair points made not too much mud slinging ;-)
 -----
 https://d3js.org/
 Some really good examples can be found here for inspiration.
+
+----
+http://chartmaker.visualisingdata.com/
+Which tools can create what types of charts
