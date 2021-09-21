@@ -5,7 +5,7 @@ In the **Master** Database run following script
 
     CREATE LOGIN [SQLAccountName] WITH PASSWORD = supercomplicatedPassword
 
-In the **Target** database run the following code 
+In the **Target** database run the following code (NB do this for Master DB if want to grant access to multiple databases on the server)
 
     CREATE USER [SQLAccountName] FROM LOGIN [SQLAccountName] 
 

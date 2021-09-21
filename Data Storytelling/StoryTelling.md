@@ -48,3 +48,7 @@ https://medium.com/@frankheijdenrijk/15-must-read-books-that-will-make-you-an-ou
 ---
 https://simplicable.com/new/storytelling
 20 + Storytelling Techniques
+---
+
+https://hbr.org/2013/04/how-to-tell-a-story-with-data
+Which types of audience require what type of information, what are you trying to commuicate?
