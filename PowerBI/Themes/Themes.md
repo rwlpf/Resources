@@ -11,3 +11,7 @@ Online theme generator for PowerBI
 ---
 https://themes.powerbi.tips/
 ---
+
+Base 64 image encoder online
+
+https://www.base64-image.de/
