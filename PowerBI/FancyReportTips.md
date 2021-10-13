@@ -3,3 +3,5 @@ https://www.google.com/search?q=how+to+have+a+gif+on+power+bi&rlz=1C1GCEU_enGB95
 Shows how to add GIF to tooltip
 ---
 
+Add last refreshed date to PowerBI report
+https://askgarth.com/blog/how-to-add-the-last-refreshed-date-and-time-to-a-power-bi-report/
