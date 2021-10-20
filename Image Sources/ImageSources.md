@@ -26,3 +26,7 @@ https://snapwiresnaps.tumblr.com/
 ----------------------------------------------------------------
 https://nos.twnsnd.co/page/2
 
+----------------------------------------------------------------
+Source of free and royalty free icons
+https://flaticons.net/
+
