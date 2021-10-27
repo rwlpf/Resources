@@ -1,0 +1,122 @@
+https://www.strava.com/api/v3/athlete/clubs" "Authorization: Bearer [[token]]"
+
+733b1978beb02ea85e96c2a68562dbceeec882e0
+
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website
+
+[
+    {
+        "id": 277086,
+        "resource_state": 2,
+        "name": "Red Bull UK",
+        "profile_medium": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/277086/6213875/1/medium.jpg",
+        "profile": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/277086/6213875/1/large.jpg",
+        "cover_photo": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/277086/6213876/29/large.jpg",
+        "cover_photo_small": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/277086/6213876/29/small.jpg",
+        "activity_types": [
+            "Ride",
+            "VirtualRide",
+            "EBikeRide",
+            "Velomobile",
+            "Handcycle",
+            "Run",
+            "VirtualRun",
+            "Wheelchair",
+            "Swim"
+        ],
+        "dimensions": [
+            "moving_time",
+            "num_activities",
+            "swim_time",
+            "ride_time",
+            "run_time",
+            "distance",
+            "best_activities_moving_time"
+        ],
+        "sport_type": "other",
+        "city": "London",
+        "state": "England",
+        "country": "United Kingdom",
+        "private": false,
+        "member_count": 97433,
+        "featured": false,
+        "verified": true,
+        "url": "redbulluk"
+    },
+    {
+        "id": 19533,
+        "resource_state": 2,
+        "name": "Quorum Athletes",
+        "profile_medium": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/19533/407679/2/medium.jpg",
+        "profile": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/19533/407679/2/large.jpg",
+        "cover_photo": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/19533/4732148/1/large.jpg",
+        "cover_photo_small": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/19533/4732148/1/small.jpg",
+        "activity_types": [
+            "Ride",
+            "VirtualRide",
+            "EBikeRide",
+            "Velomobile",
+            "Handcycle",
+            "Run",
+            "VirtualRun",
+            "Wheelchair",
+            "Swim"
+        ],
+        "dimensions": [
+            "moving_time",
+            "num_activities",
+            "swim_time",
+            "ride_time",
+            "run_time",
+            "distance",
+            "best_activities_moving_time"
+        ],
+        "sport_type": "other",
+        "city": "Edinburgh",
+        "state": "Scotland",
+        "country": "United Kingdom",
+        "private": false,
+        "member_count": 28,
+        "featured": false,
+        "verified": false,
+        "url": "quorum"
+    },
+    {
+        "id": 982081,
+        "resource_state": 2,
+        "name": "A Quorum Journey",
+        "profile_medium": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/982081/22258587/1/medium.jpg",
+        "profile": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/982081/22258587/1/large.jpg",
+        "cover_photo": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/982081/22259024/20/large.jpg",
+        "cover_photo_small": "https://dgalywyr863hv.cloudfront.net/pictures/clubs/982081/22259024/20/small.jpg",
+        "activity_types": [
+            "Ride",
+            "VirtualRide",
+            "EBikeRide",
+            "Velomobile",
+            "Handcycle",
+            "Run",
+            "VirtualRun",
+            "Wheelchair",
+            "Swim"
+        ],
+        "dimensions": [
+            "moving_time",
+            "num_activities",
+            "swim_time",
+            "ride_time",
+            "run_time",
+            "distance",
+            "best_activities_moving_time"
+        ],
+        "sport_type": "other",
+        "city": "",
+        "state": "Scotland",
+        "country": "United Kingdom",
+        "private": true,
+        "member_count": 32,
+        "featured": false,
+        "verified": false,
+        "url": "AQuorumJourney"
+    }
+]

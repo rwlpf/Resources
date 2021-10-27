@@ -1,0 +1,73 @@
+https://github.com/franchyze923/Code_From_Tutorials/blob/master/Strava_Api/request_links.txt
+
+https://www.youtube.com/watch?v=sgscChKfGyg
+
+Client ID - 73209
+Client Secret - e09a1d0afdd6e7bb96a2126e7671513d82f9ee05
+Access Token - 0803fd1ec6edf958403c3fdabfaa47193cc56ae3
+Refresh Token - 44c635fb82142254a15726dc51eef148fb99fee5
+
+   
+1) Get authorization code from authorization page. This is a one time, manual step. 
+Paste the below code in a browser, hit enter then grab the "code" part from the resulting url. 
+
+https://www.strava.com/oauth/authorize?client_id=your_client_id&redirect_uri=http://localhost&response_type=code&scope=activity:read_all
+
+http://localhost/?state=&code=6bb0bc5249623dfa833a871319e0f2e1de4152ab&scope=read,activity:read_all
+6bb0bc5249623dfa833a871319e0f2e1de4152ab
+
+
+2) Exchange authorization code for access token & refresh token (THIS IS A FUCKEN POST !!!!)
+
+https://www.strava.com/oauth/token?client_id=73209&client_secret=e09a1d0afdd6e7bb96a2126e7671513d82f9ee05&code=6bb0bc5249623dfa833a871319e0f2e1de4152ab&grant_type=authorization_code
+
+Response
+{
+    "token_type": "Bearer",
+    "expires_at": 1634823481,
+    "expires_in": 21600,
+    "refresh_token": "63f469bf4b99e8a5b1846107482ae6b3915d5ba0",
+    "access_token": "733b1978beb02ea85e96c2a68562dbceeec882e0",
+    "athlete": {
+        "id": 3410392,
+        "username": null,
+        "resource_state": 2,
+        "firstname": "Robert",
+        "lastname": "French",
+        "bio": "",
+        "city": "Glasgow",
+        "state": "Scotland",
+        "country": "United Kingdom",
+        "sex": "M",
+        "premium": false,
+        "summit": false,
+        "created_at": "2013-11-21T10:02:32Z",
+        "updated_at": "2021-10-14T16:58:56Z",
+        "badge_type_id": 0,
+        "weight": 93.8935,
+        "profile_medium": "https://graph.facebook.com/951023291619340/picture?height=256&width=256",
+        "profile": "https://graph.facebook.com/951023291619340/picture?height=256&width=256",
+        "friend": null,
+        "follower": null
+    }
+}
+
+3) View your activities using the access token just received
+
+https://www.strava.com/api/v3/athlete/activities?access_token=cb63ec2c3901bb5560c504f883745609eceb8623
+
+3) Use refresh token to get new access tokens
+
+https://www.strava.com/oauth/token?client_id=your_client_id&client_secret=your_client_secret&refresh_token=your_refresh_token_from_previous_step&grant_type=refresh_token
+
+
+https://www.strava.com/oauth/token?client_id=73209&client_secret=e09a1d0afdd6e7bb96a2126e7671513d82f9ee05&refresh_token=63f469bf4b99e8a5b1846107482ae6b3915d5ba0&grant_type=refresh_token
+
+New refresh_token response
+{
+    "token_type": "Bearer",
+    "access_token": "733b1978beb02ea85e96c2a68562dbceeec882e0",
+    "expires_at": 1634823481,
+    "expires_in": 21388,
+    "refresh_token": "63f469bf4b99e8a5b1846107482ae6b3915d5ba0"
+}

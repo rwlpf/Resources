@@ -1,0 +1,4 @@
+{"type":"FeatureCollection", "features": [
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-3.0705075,58.6447265]},"properties":{"Name":"John O'Groats Harbour","description":null,"tessellate":-1}},
+{"type":"Feature","geometry":{"type":"Point","coordinates":[26.536155,67.931897]},"properties":{"Name":"Lapland, Finland","description":null,"tessellate":-1}}
+]}
