@@ -45,3 +45,7 @@ https://stackoverflow.com/questions/56142543/what-difference-between-power-bi-pr
 
 ---
 https://www.reddit.com/r/PowerBI/comments/ck91ld/power_bi_premium_vs_power_bi_embedded/
+
+David Eversly
+
+Matt Allington - new power bi tips service
