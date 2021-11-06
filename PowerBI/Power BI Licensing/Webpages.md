@@ -46,6 +46,17 @@ https://stackoverflow.com/questions/56142543/what-difference-between-power-bi-pr
 ---
 https://www.reddit.com/r/PowerBI/comments/ck91ld/power_bi_premium_vs_power_bi_embedded/
 
+---
+
+https://jlsql.blog/2018/01/30/power-bi-embedded-sku-differences-and-cost-breakdowns/comment-page-1/
+
+---
+
 David Eversly
 
 Matt Allington - new power bi tips service
+---
+https://exceleratorbi.com.au/affordable-power-bi-premium-using-powerbishare-com/
+An affordable alternative using A-SKU instead of P-SKU within *current* Microsoft licencing terms
+---
+
