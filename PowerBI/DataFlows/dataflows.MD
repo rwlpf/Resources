@@ -31,7 +31,7 @@ https://blog.capacent.com/fi/microsoft-power-bi-dataflows
 
 ---
 
-Refresh dataflows automatically using PowerAutomate<\br>
+Refresh dataflows automatically using PowerAutomate</br>
 https://powerbi.microsoft.com/en-us/blog/announcing-dataflows-power-automate-connector-public-preview/
 ---
 
