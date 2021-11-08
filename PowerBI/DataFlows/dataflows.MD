@@ -30,7 +30,8 @@ https://data-marc.com/2020/06/09/how-to-keep-your-power-bi-dataflows-organized-a
 https://blog.capacent.com/fi/microsoft-power-bi-dataflows
 
 ---
-Refresh dataflows automatically using PowerAutomate
+
+Refresh dataflows automatically using PowerAutomate<\br>
 https://powerbi.microsoft.com/en-us/blog/announcing-dataflows-power-automate-connector-public-preview/
 ---
 
