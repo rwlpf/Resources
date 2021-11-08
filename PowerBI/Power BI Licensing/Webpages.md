@@ -52,12 +52,12 @@ https://jlsql.blog/2018/01/30/power-bi-embedded-sku-differences-and-cost-breakdo
 
 ---
 
-EMBEDDING POWER BI? CHOOSING BETWEEN PBI PREMIUM OR EMBEDDED<\br>
+EMBEDDING POWER BI? CHOOSING BETWEEN PBI PREMIUM OR EMBEDDED</br>
 https://www.bluegranite.com/blog/choosing-between-pbi-premium-or-embedded
 
 ---
 
-Matt Allington - new power bi tips service<\br>
+Matt Allington - new power bi tips service</br>
 https://exceleratorbi.com.au/affordable-power-bi-premium-using-powerbishare-com/
 An affordable alternative using A-SKU instead of P-SKU within *current* Microsoft licencing terms
 ---
