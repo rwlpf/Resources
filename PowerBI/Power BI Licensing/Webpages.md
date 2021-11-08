@@ -52,7 +52,7 @@ https://jlsql.blog/2018/01/30/power-bi-embedded-sku-differences-and-cost-breakdo
 
 ---
 
-EMBEDDING POWER BI? CHOOSING BETWEEN PBI PREMIUM OR EMBEDDED
+EMBEDDING POWER BI? CHOOSING BETWEEN PBI PREMIUM OR EMBEDDED<\br>
 https://www.bluegranite.com/blog/choosing-between-pbi-premium-or-embedded
 
 ---
