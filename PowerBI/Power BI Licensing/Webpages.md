@@ -58,7 +58,7 @@ https://www.bluegranite.com/blog/choosing-between-pbi-premium-or-embedded
 ---
 
 Matt Allington - new power bi tips service</br>
-https://exceleratorbi.com.au/affordable-power-bi-premium-using-powerbishare-com/
+https://exceleratorbi.com.au/affordable-power-bi-premium-using-powerbishare-com/</br>
 An affordable alternative using A-SKU instead of P-SKU within *current* Microsoft licencing terms
 ---
 
