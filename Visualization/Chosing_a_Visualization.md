@@ -58,7 +58,7 @@ Good advice on how to find right type of visual for your data
 https://www.easel.ly/blog/types-of-graphs-and-charts-for-visualizing-data/
 
 ------------
-Set of pages by an infographics agency Ferdio
+Set of pages by an infographics agency Ferdio </br>
 [Page with different chart types, by family, input, funtion, and shape.  Information on each chart type](http://bhv.io/datavizproject "Page with different chart types, by family, input, funtion, and shape.  Information on each chart type")
 
 [Questions and ideas about data viz, short one paragraphs really good](https://www.ferdio.com/notebook "Questions and ideas about data viz, short one paragraphs really good")
