@@ -70,6 +70,6 @@ bhv.io/graphiccontinuum
 
 ---
 
-https://www.darkhorseanalytics.com/blog/data-looks-better-naked
-https://www.darkhorseanalytics.com/blog/data-looks-better-naked-maps-edition
-https://www.darkhorseanalytics.com/blog/salvaging-the-pie
+https://www.darkhorseanalytics.com/blog/data-looks-better-naked </br>
+https://www.darkhorseanalytics.com/blog/data-looks-better-naked-maps-edition </br>
+https://www.darkhorseanalytics.com/blog/salvaging-the-pie </br>
