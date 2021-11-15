@@ -65,3 +65,9 @@ Set of pages by an infographics agency Ferdio
 
 ------------
 bhv.io/graphiccontinuum
+
+---
+
+https://www.darkhorseanalytics.com/blog/data-looks-better-naked
+https://www.darkhorseanalytics.com/blog/data-looks-better-naked-maps-edition
+https://www.darkhorseanalytics.com/blog/salvaging-the-pie
