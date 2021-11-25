@@ -66,7 +66,7 @@ Love the title of this article
 https://policyviz.com/2018/01/11/fk-it-lets-use-pie-charts/</br>
 https://www.theartofwarquotes.com/the-art-of-war-quotes/</br>
 
-https://youtu.be/NxmHDNNTFyk - examing the use of pie charts citing various research papers
+https://youtu.be/NxmHDNNTFyk - examing the use of pie charts citing various research papers (Pie chart myths)
 
 "The one who understands when and where they have to use Pie Charts will prevail."
 Adapated from Art of War by Sun Tze
