@@ -63,3 +63,7 @@ An affordable alternative using A-SKU instead of P-SKU within *current* Microsof
 
 ---
 
+If you have an Office 365 E5 or Microsoft 365 E5 then it is *assumed* you have a Power BI pro licence.  Or do you https://dataveld.com/2021/12/12/microsoft-365-e5-and-the-case-of-the-missing-power-bi-pro/ notes that with the introduction of two add-ons for E5 Security and E5 Compliance. These not have Power BI Pro *sigh* see comparison sheet for details - https://go.microsoft.com/fwlink/p/?LinkID=2139145&clcid=0x409&culture=en-us&country=US
+
+---
+
