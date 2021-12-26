@@ -11,7 +11,7 @@ In the **Target** database run the following code (NB do this for Master DB if w
 
 In the **Target** database run the following code 
 
-    SP_ADDROLEMEMBER 'db_reader', 'SQLAccountName'
+    SP_ADDROLEMEMBER 'db_datareader', 'SQLAccountName'
 
 Or if want to grant specific permissions on a schema this would be run in the **Target** database
 

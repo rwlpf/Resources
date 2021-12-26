@@ -9,6 +9,12 @@ https://www.youtube.com/watch?v=uX3_dnb5on0 - Rolling Total in PowerQuery
 http://www.worldbiking.info/wordpress/2018/02/download-eurovelo-routes-gps-tracks/
 https://www.bennetts.co.uk/bikesocial/news-and-views/features/travel/what-are-the-best-motorcycle-routes-in-the-uk
 
+---
+
 https://advrider.com/gps-navigation-where-to-find-gpx-files/
+This includes link to base camp which will allow editing of routes
+https://www.garmin.com/en-US/shop/downloads/basecamp
+---
+
 https://www.wikiloc.com/trail-bike-trails/tet-france-section-1-20170913-20184193
 
