@@ -68,3 +68,19 @@ https://www.visualcapitalist.com/ - excellent source of infographics
 
 ---
 
+https://venngage.com/blog/data-storytelling/ - How to Tell a Story With Data: A Guide for Beginners
+
+---
+
+https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/
+"People hear statistics, but they feel stories"
+
+---
+
+https://www.nugit.co/what-is-data-storytelling/
+
+---
+
+Types of stories - https://annettesimmons.com/ - six types of stories
+
+----
