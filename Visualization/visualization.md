@@ -129,3 +129,11 @@ Some really good examples can be found here for inspiration.
 ----
 http://chartmaker.visualisingdata.com/
 Which tools can create what types of charts
+
+---
+
+https://twitter.com/FrankElavsky/status/1469023374529765385 - chart descriptions
+
+---
+
+https://journals.sagepub.com/stoken/default+domain/10.1177%2F15291006211051956-FREE/full#.YbpbbYlu2Xw.twitter - The Science of Visual Data Communication: What Works
