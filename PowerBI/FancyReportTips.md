@@ -5,3 +5,10 @@ Shows how to add GIF to tooltip
 
 Add last refreshed date to PowerBI report
 https://askgarth.com/blog/how-to-add-the-last-refreshed-date-and-time-to-a-power-bi-report/
+
+---
+
+Remove the page tab at bottom of Power BI report when passing a URL
+https://community.powerbi.com/t5/Desktop/Hide-or-Disable-PAGE-Tab/td-p/1012521
+TL:DR
+Append '&navContentPaneEnabled=false' to the end of the report URL

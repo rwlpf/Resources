@@ -1,0 +1,1 @@
+https://powerusers.microsoft.com/t5/Community-App-Samples/Conference-and-Events-App-for-Attendees/td-p/199250
