@@ -1,0 +1,47 @@
+## Naming Convention Suggested Best practice
+
+Recommended **not to use** the following words in the name of a workspace
+- Power BI
+- Workspace
+
+Avoid the use of a backslash ‘/’ in the workspace name Azure Data Lake Storage Gen 2 autogenerates folder names for Dataflows in the background.  This character is used to separate folders. 
+The name of the workspace should reflect the content of the workspace, for example 
+
+ - Sales  
+ - Sales Client 
+ -  Finance General 
+ - Finance Analytic 
+ - Marketing
+
+Note that it is not possible to have subfolders underneath a workspace.  So, consider using subject or departmental names and subject matter to help define workspace names. 
+
+If using multiple workspaces for different parts of development then this could be appended to the end of the workspace name, for example 
+ - Sales [Dev] 
+  - Sales [UAT] 
+  - Sales 
+  - Finance General [Dev] 
+  - Finance General [UAT] 
+  - Finance General  
+   - Sales -Dataflow's [Dev] 
+   - Sales [UAT] 
+   - Sales 
+   - Finance General [Dev] 
+   - Finance General [UAT] 
+   - Finance General 
+   - Finance Month End 
+   - Finance Reconciliation [UAT] [R]  
+   - Sales Analytics 
+   - Marketing [Public]
+Note that any workspace without the suffix [Dev] or [UAT] is the Production workspace  
+
+**Suggestions for Workspace suffixes** 
+
+[Test] - Testing content used for testing purposes 
+[Dev] - Development content is being actively developed 
+[Public] - Content is shared publicly eg published to the web 
+[Team] - Content is managed by a team of people 
+[R] - Restricted content, the data in the workspace is sensitive  
+
+**Workspace Naming - Tips / hints / suggestions** 
+The prefix will allow sorting and searching giving some consideration to that will help people find the workspaces they want. 
+Use images – it is possible to assign an image (jpg or png). Adding an image to the workspace might make it easier to find the workspaces. 
