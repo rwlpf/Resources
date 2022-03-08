@@ -66,11 +66,14 @@ Set of pages by an infographics agency Ferdio </br>
 [Questions and ideas about data viz, short one paragraphs really good](https://www.ferdio.com/notebook "Questions and ideas about data viz, short one paragraphs really good")
 
 ------------
-bhv.io/graphiccontinuum
+
+https://coolinfographics.com/blog/2014/10/3/the-graphic-continuum.html
 
 ---
 
 https://www.data-to-viz.com/
+
+Really nice visual way of selecting visuals teaching by example, hover over each type to see more detail.
 
 ---
 
