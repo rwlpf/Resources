@@ -14,3 +14,5 @@ https://wearecolorblind.com/resources/collection/resources-for-designing-for-the
 https://blog.datawrapper.de/color-contrast-check-data-vis-wcag-apca/
 Importance of colour contrast in particular for data visualization
 ---
+https://www.microsoft.com/design/inclusive/
+---
