@@ -5,7 +5,7 @@ http://ft.com/vocabulary
 [Tableau version of the FT poster](https://public.tableau.com/views/VisualVocabulary/VisualVocabulary?%3Aembed=y&%3Adisplay_count=yes&publish=yes&%3AshowVizHome=no#1 "Tableau version of the FT poster")
 
 ------------
-[PowerBI version of the FT poster](https://app.powerbi.com/view?r=eyJrIjoiMDA4YWIwZWEtMDE3ZS00YmFhLWE5YWMtODFlZWEzNTU1ODNiIiwidCI6IjZjMGE1YjljLTA4OWEtNDk0ZS1iMDVlLTcxNjEwOTgyOTA0NyIsImMiOjF9 "PowerBI version of the FT poster")
+[PowerBI version of the FT poster - by SQL Jason ](https://app.powerbi.com/view?r=eyJrIjoiMDA4YWIwZWEtMDE3ZS00YmFhLWE5YWMtODFlZWEzNTU1ODNiIiwidCI6IjZjMGE1YjljLTA4OWEtNDk0ZS1iMDVlLTcxNjEwOTgyOTA0NyIsImMiOjF9 "PowerBI version of the FT poster")
 
 ------------
 https://blog.hubspot.com/agency/choose-chart-visualize-data
@@ -66,10 +66,18 @@ Set of pages by an infographics agency Ferdio </br>
 [Questions and ideas about data viz, short one paragraphs really good](https://www.ferdio.com/notebook "Questions and ideas about data viz, short one paragraphs really good")
 
 ------------
-bhv.io/graphiccontinuum
+
+https://coolinfographics.com/blog/2014/10/3/the-graphic-continuum.html
+
+---
+
+https://www.data-to-viz.com/
+
+Really nice visual way of selecting visuals teaching by example, hover over each type to see more detail.
 
 ---
 
 https://www.darkhorseanalytics.com/blog/data-looks-better-naked </br>
 https://www.darkhorseanalytics.com/blog/data-looks-better-naked-maps-edition </br>
 https://www.darkhorseanalytics.com/blog/salvaging-the-pie </br>
+
