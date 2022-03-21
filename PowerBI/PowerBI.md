@@ -33,3 +33,9 @@ Power BI is an amazing tool there is no  doubt about that.  What about all the o
 ---
 Sub reddit for Power BI 
 https://www.reddit.com/r/PowerBI/
+
+---
+
+Lost of PowerBI blogs
+
+https://bi-survey.com/powerbimap/power-bi-blogs-overview/
