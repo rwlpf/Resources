@@ -37,4 +37,7 @@ https://www.eyeota.com/blog/data-storytelling-skills
 
 https://www.aliallage.com/gestalt-principles-and-storytelling-with-data/
 
+---
+
+https://kerrykolosko.com/
 
