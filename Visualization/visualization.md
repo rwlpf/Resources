@@ -27,10 +27,10 @@ https://informationisbeautiful.net/
 Good examples of visualization in this case its most infograhpics worth looking at though
 
 ----------------------------------------------------------------------------------------------
-Some good pratical applications of Gesulat pricncipals as applies to data Viz
+Some good pratical applications of Gestalt pricncipals as applies to data Viz
 https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/
 
----------------------------------------------------------
+---
 https://xviz.com/blogs/pie-charts-good-bad-or-ugly/
 Can Pie charts be a good idea?
 ------------------------------------------------------------------------------
@@ -143,3 +143,7 @@ The Science of Visual Data Communication: What Works
 
 https://www.mapofdatavisualization.com/
 Discussion of the different terms used within data visualization.  Good overview and explanation of the various terms.
+
+https://www.sciencedirect.com/science/article/pii/S2666389920301896
+
+https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.118.037777
