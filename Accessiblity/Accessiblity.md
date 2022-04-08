@@ -16,3 +16,16 @@ Importance of colour contrast in particular for data visualization
 ---
 https://www.microsoft.com/design/inclusive/
 ---
+
+https://www.accessibilitychecker.org/
+Excellent list of resources for checking accessibility
+
+---
+
+https://www.w3.org/WAI/
+Website accessibility advice
+
+---
+https://www.nngroup.com/reports/topic/accessibility/
+some resources for accessibility
+

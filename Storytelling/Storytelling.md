@@ -15,3 +15,13 @@ https://depictdatastudio.com/what-makes-a-useful-data-story-5-questions-to-ask/?
 ---
 
 https://nightingaledvs.com/effective-data-visualizations-should-focus-on-narrative-not-numbers/
+
+---
+http://vanseodesign.com/web-design/design-basics-contrast/
+https://vanseodesign.com/marketing/stickiness-part-ii/
+https://vanseodesign.com/marketing/stickiness-part-iii/
+https://vanseodesign.com/marketing/stickiness-part-iv/
+https://vanseodesign.com/marketing/stickiness-part-v/
+https://vanseodesign.com/marketing/stickiness-part-vi/
+Good set of articles on various techniquies for story telling
+in the context of a website design however good for reports
