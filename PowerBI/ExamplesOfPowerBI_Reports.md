@@ -4,3 +4,7 @@ Excellent of colour to hightlight current trend.  Also use of information and he
 ---
 https://digital.nhs.uk/data-and-information/data-tools-and-services/data-services/mental-health-data-hub?area=dashboards
 Some examples of Power BI 
+
+---
+https://www.youtube.com/watch?v=J0_ObklvD28
+Some really nice examples of what can be done with Power BI reports

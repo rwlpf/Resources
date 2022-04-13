@@ -16,15 +16,19 @@ Matthew Roche you wants you to know something about data flows here is another e
 https://ssbipolar.com/2018/10/23/dataflows-in-power-bi/
 
 https://ssbipolar.com/dataflows-in-power-bi/
+Fantastic list of articles and links, if you visit one page then make it this one
 
-excellent set of FAQS
 https://ssbipolar.com/2018/11/27/power-bi-dataflows-faq/
+excellent set of FAQS
 
 ---
 https://data-marc.com/2020/06/09/how-to-keep-your-power-bi-dataflows-organized-and-optimized/
+Excellent examples of best practice for dataflow, why should use them, naming conventions etc
 
 ---
 https://radacad.com/what-are-the-use-cases-of-dataflow-for-you-in-power-bi
+https://radacad.com/getting-started-with-dataflow-in-power-bi-part-2-of-dataflow-series
+Good explaination of why should use Dataflows in the PowerBI service
 
 ---
 https://blog.capacent.com/fi/microsoft-power-bi-dataflows
