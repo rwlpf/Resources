@@ -35,3 +35,7 @@ Website accessibility advice
 ---
 https://www.nngroup.com/reports/topic/accessibility/
 some resources for accessibility
+
+---
+https://speakerdeck.com/stephaniewalter/a-designers-guide-to-documenting-accessibility-and-user-interactions
+looking at how to document accessibility requirements several good ideas and thoughts
