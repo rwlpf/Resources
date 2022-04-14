@@ -1,11 +1,14 @@
 https://colorbrewer2.org/
 has various options including colourblind safe schemes
 ---
+
 https://coolors.co/
 ---
+
 https://colororacle.org/
 Tool to simulate colour blindness
 ---
+
 https://www.canva.com/colors/color-wheel/
 
 ---
@@ -16,8 +19,10 @@ Will create a colour palette from a picture.  Also has a built in visualation to
 https://medialab.github.io/iwanthue/
 Tool to create distinct colour palettes for "data scientists" no less ;-)
 ---
+
 https://www.colour-blindness.com/
 Information about colour blindness
+
 ---
 https://www.klipfolio.com/blog/dashboard-design-mistake-misuse-of-colour
 Use of colour in dashboard
