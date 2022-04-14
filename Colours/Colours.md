@@ -26,3 +26,8 @@ Use of colour in dashboard
 https://color.adobe.com/
 Colour wheel has a variety of options to create different pallettes
 Also there some excellent accessiblty tools as well
+
+---
+https://www.youtube.com/watch?v=AiD6etOB6qI
+Story Telling with Data
+Cole Nussbaumer Knaflic
