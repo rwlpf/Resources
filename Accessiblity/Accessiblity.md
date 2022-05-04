@@ -58,3 +58,6 @@ https://bighack.org/font-accessibility-and-readability-the-basics/
 ---
 https://uxdesign.cc/testing-fonts-for-accessibility-817f47011078
 Testing which fonts are best for accessibility
+
+---
+https://reciteme.com/uploads/articles/accessible_fonts_guide.pdf
