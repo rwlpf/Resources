@@ -25,8 +25,7 @@ Some good pratical applications of Gestalt pricncipals as applies to data Viz
  [](https://github.com/rwlpf/Resources/blob/master/Visualization/visualization.md#to-pie-or-not-to-pie-that-is-questionhttpswwwstorytellingwithdatacomblog201503the-great-pie-debate)To pie or not to pie that is question  [https://www.storytellingwithdata.com/blog/2015/03/the-great-pie-debate](https://www.storytellingwithdata.com/blog/2015/03/the-great-pie-debate)
 
 **Bad / awful examples**  
-https://www.reddit.com/r/dataisugly/
-https://www.reddit.com/r/dataisugly/
+https://www.reddit.com/r/dataisugly/ </br>
 https://viz.wtf/
 
 Hans Rosling books and ted talks
