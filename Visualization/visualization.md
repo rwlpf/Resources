@@ -31,8 +31,11 @@ https://viz.wtf/
 
 Hans Rosling books and ted talks
 
-[https://en.wikipedia.org/wiki/Gestalt_psychology](https://en.wikipedia.org/wiki/Gestalt_psychology)
- [https://atrowpoole.wordpress.com/2014/07/15/gestalt-principles-of-visual-perception/](https://atrowpoole.wordpress.com/2014/07/15/gestalt-principles-of-visual-perception/)  [https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/](https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/)  [https://www.customerinsightleader.com/opinion/gestalt-design-principles/](https://www.customerinsightleader.com/opinion/gestalt-design-principles/)  [https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/)  [https://lawsofux.com/](https://lawsofux.com/)
+
+[https://en.wikipedia.org/wiki/Gestalt_psychology](https://en.wikipedia.org/wiki/Gestalt_psychology)</br>
+ [https://atrowpoole.wordpress.com/2014/07/15/gestalt-principles-of-visual-perception/](https://atrowpoole.wordpress.com/2014/07/15/gestalt-principles-of-visual-perception/)</br>
+ [https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/](https://www.webfx.com/blog/web-design/data-visualization-gestalt-laws/)</br>  [https://www.customerinsightleader.com/opinion/gestalt-design-principles/](https://www.customerinsightleader.com/opinion/gestalt-design-principles/)</br>  [https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/](https://www.smashingmagazine.com/2014/03/design-principles-visual-perception-and-the-principles-of-gestalt/)</br>
+ [https://lawsofux.com/](https://lawsofux.com/)
 
 **Preattenative attributes**  
 [http://daydreamingnumbers.com/blog/preattentive-attributes-example/](http://daydreamingnumbers.com/blog/preattentive-attributes-example/)
