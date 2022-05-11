@@ -21,6 +21,9 @@ Fantastic list of articles and links, if you visit one page then make it this on
 https://ssbipolar.com/2018/11/27/power-bi-dataflows-faq/
 excellent set of FAQS
 
+https://whitepages.tygraph.com/2019/06/connect-to-power-bi-dataflows-and-datasets-using-power-bi-desktop-with-multiple-accounts/
+Connect to data flows using multiple acoounts in multiple tenants. NO this is NOT in anywhere in Microsoft docmentation !
+
 ---
 https://data-marc.com/2020/06/09/how-to-keep-your-power-bi-dataflows-organized-and-optimized/
 Excellent examples of best practice for dataflow, why should use them, naming conventions etc
