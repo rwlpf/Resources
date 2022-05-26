@@ -61,3 +61,15 @@ Testing which fonts are best for accessibility
 
 ---
 https://reciteme.com/uploads/articles/accessible_fonts_guide.pdf
+
+--
+
+https://medium.com/san-francisco-digital-services/a-template-for-accessible-data-visualizations-ca2ed52f945b
+Example of reporting for Covid data decisions made to make the data more accessible
+
+---
+https://www.youtube.com/watch?v=RDgCRgsKYT0
+Everything on (Power BI) Accessibility with Meagan Longoria
+
+---
+https://accessibilityinsights.io/
