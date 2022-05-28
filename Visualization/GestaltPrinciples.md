@@ -11,3 +11,4 @@ https://www.aliallage.com/gestalt-principles-and-storytelling-with-data/</br>
 
 https://en.wikipedia.org/wiki/Illusory_contours</br>
 https://en.wikipedia.org/wiki/Necker_cube</br>
+https://atrowpoole.wordpress.com/2014/07/15/gestalt-principles-of-visual-perception/
