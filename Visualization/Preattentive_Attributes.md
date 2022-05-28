@@ -14,3 +14,5 @@ http://www.perceptualedge.com/articles/ie/visual_perception.pdf
 
 https://www.csc2.ncsu.edu/faculty/healey/PP/
 More references to other material, excellent java script applet demostrating target detection.
+
+https://infovis-wiki.net/wiki/Preattentive_processing
