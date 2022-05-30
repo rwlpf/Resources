@@ -85,3 +85,9 @@ https://www.csgpro.com/blog/the-ultimate-power-bi-licensing-guide/
 ---
 
 https://rigorousthemes.com/blog/power-bi-pro-vs-premium-whats-the-difference/
+
+---
+https://exceleratorbi.com.au/affordable-power-bi-premium-for-small-business/
+
+---
+https://exceleratorbi.com.au/power-bi-licences-changes-good-bad/

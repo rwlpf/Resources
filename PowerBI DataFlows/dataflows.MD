@@ -45,6 +45,12 @@ https://hatfullofdata.blog/refreshing-datasets-automatically-with-dataflows/
 Refresh dataflows automatically using PowerAutomate</br>
 https://powerbi.microsoft.com/en-us/blog/announcing-dataflows-power-automate-connector-public-preview/
 
+---
+https://exceleratorbi.com.au/blog/dataflows/
+Three articles by from Matt Allingtons blog
+
+---
+
 Videos
 ---
 Power BI Dataflows [Full Course]
