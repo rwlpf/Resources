@@ -2,6 +2,10 @@ https://docs.microsoft.com/en-us/power-bi/transform-model/datamarts/datamarts-ov
 Offical microsoft documentation
 
 ---
+https://www.youtube.com/watch?v=QxrUJCbcGy4
+Introduction video from Microsoft
+
+---
 https://ssbipolar.com/2022/05/25/dataflows-with-benefits/
 
 ---

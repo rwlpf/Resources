@@ -23,3 +23,6 @@ Ruth gives a nice explanation of how datamarts fit in to the data ecosystem
 ---
 https://www.youtube.com/watch?v=nsxeKPgUABs
 What is Power BI Datamarts?
+
+---
+https://www.red-gate.com/simple-talk/databases/sql-server/bi-sql-server/datamarts-and-exploratory-analysis-using-power-bi/
