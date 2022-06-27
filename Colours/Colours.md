@@ -36,3 +36,8 @@ Also there some excellent accessiblty tools as well
 https://www.youtube.com/watch?v=AiD6etOB6qI
 Story Telling with Data
 Cole Nussbaumer Knaflic
+
+---
+https://www.khanacademy.org/computing/pixar/color/color-101/v/color-science-1
+https://www.khanacademy.org/computing/pixar/color#color-space
+Pixar film makers about colour theory as appplied to movie making
