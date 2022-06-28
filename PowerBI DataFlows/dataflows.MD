@@ -31,7 +31,14 @@ Excellent examples of best practice for dataflow, why should use them, naming co
 ---
 https://radacad.com/what-are-the-use-cases-of-dataflow-for-you-in-power-bi
 https://radacad.com/getting-started-with-dataflow-in-power-bi-part-2-of-dataflow-series
-Good explaination of why should use Dataflows in the PowerBI service
+Good explanation of why should use Dataflows in the PowerBI service
+
+Excellent set of you tube videos on Power BI Datamarts
+1) https://www.youtube.com/watch?v=BQHB-MpIKpQ
+2) https://www.youtube.com/watch?v=rSDNWv4ck3k
+3) https://www.youtube.com/watch?v=eizc2cxuioQ
+4) https://www.youtube.com/watch?v=qkbVNOaJR_4
+
 
 ---
 https://blog.capacent.com/fi/microsoft-power-bi-dataflows
