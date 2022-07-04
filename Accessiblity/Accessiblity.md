@@ -73,3 +73,7 @@ Everything on (Power BI) Accessibility with Meagan Longoria
 
 ---
 https://accessibilityinsights.io/
+
+---
+https://www.interaction-design.org/literature/topics/accessibility
+

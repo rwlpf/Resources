@@ -41,3 +41,21 @@ Cole Nussbaumer Knaflic
 https://www.khanacademy.org/computing/pixar/color/color-101/v/color-science-1
 https://www.khanacademy.org/computing/pixar/color#color-space
 Pixar film makers about colour theory as appplied to movie making
+
+---
+http://eyetracking.upol.cz/color/
+Creating sequential color schemes give it a start colour and ending colour, and number of steps.
+
+---
+https://www.youtube.com/watch?v=AvgCkHrcj90
+Color Theory for Noobs | Beginner Guide
+
+---
+https://www.youtube.com/watch?v=5m4YjFFHxRo
+Color Theory for Digital Artists & Beginners
+
+---
+https://www.videomaker.com/article/f06/17674-color-theory-for-video/
+
+--
+https://www.datacolor.com/business-solutions/webinar-series-color-theory/
