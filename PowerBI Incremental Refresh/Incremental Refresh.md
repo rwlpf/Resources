@@ -8,3 +8,7 @@ http://biinsight.com/implementing-incremental-refresh-in-power-bi-part-1/
 --
 https://www.fourmoo.com/2020/06/10/how-you-can-incrementally-refresh-any-power-bi-data-source-this-example-is-a-csv-file/
 Incremental refresh on a CSV file :-) 
+
+---
+https://sqlserverbi.blog/2021/12/27/hybrid-tables-incremental-refresh-and-table-partitioning-in-power-bi/
+Incremental refresh with hybrid tables

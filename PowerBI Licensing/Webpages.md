@@ -2,7 +2,8 @@ https://duckduckgo.com/?q=power+bi+licensing&atb=v227-1&ia=web
 
 ------------
 
-https://www.csgpro.com/blog/the-ultimate-power-bi-licensing-guide/
+https://www.csgpro.com/blog/the-ultimate-power-bi-licensing-guide/</br>
+Good summary of the differences between the A,EM and P SKU's
 
 ------------
 
@@ -23,7 +24,7 @@ https://docs.microsoft.com/en-us/power-bi/consumer/end-user-features
 
 ------------
 
-https://www.burningsuit.co.uk/blog/2018/02/power-bi-free-vs-pro/
+https://www.burningsuit.co.uk/blog/2018/02/power-bi-free-vs-pro/</br>
 Better than most
 
 ------------
@@ -80,9 +81,6 @@ If you have an Office 365 E5 or Microsoft 365 E5 then it is *assumed* you have a
 
 ---
 
-https://www.csgpro.com/blog/the-ultimate-power-bi-licensing-guide/
-
----
 
 https://rigorousthemes.com/blog/power-bi-pro-vs-premium-whats-the-difference/
 
