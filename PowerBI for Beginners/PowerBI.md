@@ -4,6 +4,7 @@ Shows you how to install PowerBI desktop, next how to get data from speadsheet a
 
 ---
 
+Guy In A Cube
 I cannot recommend this channel highly enough so much good information. Short videos are easy to digest, and many concepts are explained easily.
 
 https://www.youtube.com/c/GuyinaCube
