@@ -43,4 +43,6 @@ https://www.youtube.com/watch?v=5X5LWcLtkzg
 
 ---
 
+Excllent set of resources including all those that I would recommend :-)
 https://www.thebiccountant.com/learning-resources/
+
