@@ -8,6 +8,7 @@ I cannot recommend this channel highly enough so much good information. Short vi
 
 https://www.youtube.com/c/GuyinaCube
 
+---
 
 New to Power BI? - Youtube playlist - Curbal<br/>
 This is worth watching Ruth is really good job explaining the concepts.<br/>
