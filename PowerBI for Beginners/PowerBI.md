@@ -45,11 +45,11 @@ https://www.edx.org/learn/power-bi
 
 ---
 
-Power BI Beginner to Pro [Full Course] - Free Course from Pragmatic Works - 3 hours 
+Power BI Beginner to Pro [Full Course] - Free Course from Pragmatic Works - 3 hours <br/>
 https://www.youtube.com/watch?v=5X5LWcLtkzg
 
 ---
 
-Excllent set of resources including all those that I would recommend :-)
+Excllent set of resources including all those that I would recommend :-)<br/>
 https://www.thebiccountant.com/learning-resources/
 
