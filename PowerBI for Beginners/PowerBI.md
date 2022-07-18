@@ -4,6 +4,11 @@ Shows you how to install PowerBI desktop, next how to get data from speadsheet a
 
 ---
 
+I cannot recommend this channel highly enough so much good information. Short videos are easy to digest, and many concepts are explained easily.
+
+https://www.youtube.com/c/GuyinaCube
+
+
 New to Power BI? - Youtube playlist - Curbal<br/>
 This is worth watching Ruth is really good job explaining the concepts.<br/>
 https://www.youtube.com/playlist?list=PLDz00l_jz6zx0wwS5HKFz5u-dEoAuRQMW
