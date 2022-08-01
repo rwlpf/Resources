@@ -36,3 +36,7 @@ https://www.red-gate.com/simple-talk/databases/sql-server/bi-sql-server/datamart
 ---
 https://www.jamesserra.com/archive/2022/06/power-bi-datamarts/
 Some nice comparisons and analogies used to epxlain the concept, and a list of other links to visit.
+
+---
+https://www.coatesdatastrategies.com/blog/diagram-power-bi-datamart-overview 
+Fantastic summary of this feature and an excellent diagram
