@@ -1,4 +1,4 @@
-https://duckduckgo.com/?q=power+bi+licensing&atb=v227-1&ia=web
+https://duckduckgo.com/?q=power+bi+licensing&atb=v227-1&ia=web</br>
 
 ------------
 
@@ -7,7 +7,7 @@ Good summary of the differences between the A,EM and P SKU's
 
 ------------
 
-https://radacad.com/power-bi-licensing-walk-through-guide
+https://radacad.com/power-bi-licensing-walk-through-guide</br>
 
 ------------
 
@@ -89,3 +89,8 @@ https://exceleratorbi.com.au/affordable-power-bi-premium-for-small-business/
 
 ---
 https://exceleratorbi.com.au/power-bi-licences-changes-good-bad/
+
+---
+
+https://www.youtube.com/watch?v=7cO5FsIUgo0
+Power BI licencing made simple session delveried at Scottish Summit 2022

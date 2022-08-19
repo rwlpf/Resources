@@ -19,10 +19,6 @@ The tool will examine a Power BI file to see there any unused fields in the mode
 
 ---
 https://bravo.bi/ - Bravo 
-Analyse the data model to see where the most memory is used
-Format DAX in the model 
-Manage Dates can create a sustom date table in DAX and add most common time intellgence calcuations
-Export Data to excel spreadsheets and CSV files
 
 ---
 
