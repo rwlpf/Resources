@@ -110,3 +110,9 @@ Discussion of the different terms used within data visualization. Good overview 
 [https://www.sciencedirect.com/science/article/pii/S2666389920301896](https://www.sciencedirect.com/science/article/pii/S2666389920301896)
 
 [https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.118.037777](https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.118.037777)
+
+---
+
+https://www.youtube.com/playlist?list=PLfv89tPxlTiVIrwuSBCISiBaGSH1CJR5-
+One chart a time playlist by Jon Schwabish
+Different types of charts are explained and examined in short videos. Each chart is considered in short video, discussing how to interpate it, how to use it, a discussion on how to use them, and examples of they have been used.  Some excellent people from the Data Viz world also worth viewing if considering a particular type of chart.
