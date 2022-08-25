@@ -24,5 +24,19 @@ https://medium.com/microsoftazure/on-premises-data-gateway-monitoring-series-par
 https://docs.microsoft.com/en-us/azure/service-bus-messaging/service-bus-messaging-overview
 Bit more indepth detail on Azure Serivce Bus archticture and how it works
 
+---
+https://www.linkedin.com/pulse/power-bi-gateway-monitoring-troubleshooting-solution-rui-romano/
+Way to visualise usage of Power BI gateways
+
+---
+https://www.biinsight.com/definitive-guide-to-implement-on-premises-data-gateway-enterprise-mode-in-organisations/
+
+---
+https://natechamberlain.com/2019/12/09/restrict-who-can-install-on-premises-data-gateways-for-the-power-platform/
+Find out which accounts are able to install On premise data gateways
+
+---
+https://natechamberlain.com/2019/12/09/on-premises-data-gateway-for-power-bi-power-automate-flow-and-power-apps/
+
 
 
