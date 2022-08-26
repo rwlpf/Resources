@@ -11,6 +11,10 @@ https://community.dynamics.com/365/mbas/f/microsoft-business-applications-summit
 
 https://powerapps.microsoft.com/en-us/blog/gateway-high-availability-for-powerapps-and-flow/
 
+https://docs.microsoft.com/en-us/data-integration/gateway/plan-scale-maintain
+
+https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-performance?source=recommendations
+
 ---
 
 https://www.netwoven.com/2019/07/03/installation-and-configuration-of-microsoft-data-gateway-server/
@@ -38,5 +42,8 @@ Find out which accounts are able to install On premise data gateways
 ---
 https://natechamberlain.com/2019/12/09/on-premises-data-gateway-for-power-bi-power-automate-flow-and-power-apps/
 
+
+---
+https://blog.pragmaticworks.com/power-bi-and-data-security-on-premises-data-gateway
 
 
