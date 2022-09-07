@@ -116,8 +116,10 @@ Discussion of the different terms used within data visualization. Good overview 
 https://www.youtube.com/playlist?list=PLfv89tPxlTiVIrwuSBCISiBaGSH1CJR5-
 One chart a time playlist by Jon Schwabish
 Different types of charts are explained and examined in short videos. Each chart is considered in short video, discussing how to interpate it, how to use it, a discussion on how to use them, and examples of they have been used.  Some excellent people from the Data Viz world also worth viewing if considering a particular type of chart.
-Visualizations that can be used to compare different categories 1  to 13
-Visualizations that show changes over time 						14 to 22
+Visualizations that can be used to compare different categories 	1  to 13
+Visualizations that show changes over time 				14 to 22
+Visualizations that show distrubtions or uncertainity in data		23 to 33
+Visualizations that are used to show geospatail data (maps) 34 to ??
 
 ---
 https://infonewt.com/circles

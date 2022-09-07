@@ -14,6 +14,7 @@ https://powerapps.microsoft.com/en-us/blog/gateway-high-availability-for-powerap
 https://docs.microsoft.com/en-us/data-integration/gateway/plan-scale-maintain
 
 https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-performance?source=recommendations
+This includes a link to Power BI template file
 
 ---
 
