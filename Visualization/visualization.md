@@ -120,7 +120,8 @@ Visualizations that can be used to compare different categories 	1  to 13
 Visualizations that show changes over time 				14 to 22
 Visualizations that show distrubtions or uncertainity in data		23 to 33
 Visualizations that are used to show geospatail data (maps) 		34 to 39
-Visualizations that are used to show correlations or relationships	40 to ??
+Visualizations that are used to show correlations or relationshipsor assoications	40 to ??
+
 
 ---
 https://infonewt.com/circles
