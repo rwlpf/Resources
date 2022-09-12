@@ -119,10 +119,10 @@ Different types of charts are explained and examined in short videos. Each chart
 Visualizations that can be used to compare different categories 	1  to 13
 Visualizations that show changes over time 				14 to 22
 Visualizations that show distrubtions or uncertainity in data		23 to 33
-Visualizations that are used to show geospatail data (maps) 		34 to 39
+Visualizations that are used to show geospatail data (maps) 		34 to 39 and 49
 Visualizations that are used to show correlations or relationships or associations	40 to 44
-Visualizations that are used to show part to whole		        45 to ??
-
+Visualizations that are used to show part to whole		        45 to 47
+Visualizations for qualiative data					50 to 56
 
 
 ---
