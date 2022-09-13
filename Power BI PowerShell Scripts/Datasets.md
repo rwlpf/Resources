@@ -1,0 +1,8 @@
+https://docs.microsoft.com/en-us/samples/azure-samples/powerbi-powershell/microsoft-power-bi-powershell-samples/
+
+https://www.fourmoo.com/2018/06/05/using-the-power-bi-api-with-powershell-scripts-refreshing-your-dataset/
+
+https://dataap.org/blog/2019/12/04/power-bi-rest-api-in-powershell-with-no-user-credentials-pop-up/
+
+https://www.datalineo.com/post/power-bi-rest-api-with-python-and-microsoft-authentication-library-msal
+
