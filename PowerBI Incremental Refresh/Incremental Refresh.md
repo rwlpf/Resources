@@ -12,3 +12,11 @@ Incremental refresh on a CSV file :-)
 ---
 https://sqlserverbi.blog/2021/12/27/hybrid-tables-incremental-refresh-and-table-partitioning-in-power-bi/
 Incremental refresh with hybrid tables
+
+---
+https://www.youtube.com/watch?v=JsJWBr1_ktQ
+Using soft delete with Incremental refresh in Power BI - Patrica Le Blanc
+
+---
+https://www.youtube.com/watch?v=Kui_1G6kQIQ
+BI Gorilla
