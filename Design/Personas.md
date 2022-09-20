@@ -16,3 +16,7 @@ https://articles.uie.com/perfecting_personas/
 
 ---
 https://interactions.acm.org/archive/view/november-december-2013/user-stories-dont-help-users-Introducing-persona-stories
+
+---
+https://skillsmatter.com/skillscasts/14226-london-powerbi-user-group-with-will-thompson
+Personas in Power Platform - Will Smith
