@@ -15,3 +15,7 @@ Ensure relevant accounts are added to AAD groups
 Creatation of datatflows, datasets, and reports to allow greater reuse and collabrate working practices
 Discussion on use of Development Pipelines
 
+
+https://www.kasperonbi.com/building-a-power-bi-center-of-excellence-with-alex-garcia/
+
+https://github.com/pbiaf/powerbiadoption
