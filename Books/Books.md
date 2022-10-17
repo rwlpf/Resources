@@ -11,3 +11,5 @@ How to create interactive data stories from scratch
 https://www.duarte.com/resonate/
 Free ebook well worth reading
 
+---
+The Infographic: A History of Data Graphics in News and Communications
