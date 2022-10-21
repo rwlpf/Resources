@@ -48,3 +48,7 @@ https://www.artisconsulting.com/pbi-coe
 
 ---
 https://www.computerweekly.com/tip/Business-intelligence-center-of-excellence-BI-CoE-A-handy-reference
+
+---
+https://iterationinsights.com/article/how-to-implement-a-power-bi-center-of-excellence-using-microsoft-teams/
+Using MS Teams to create a central team and respostory of 
