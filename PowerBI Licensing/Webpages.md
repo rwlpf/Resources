@@ -33,7 +33,10 @@ Power BI Pro / Premiums License Decision Table
 https://community.powerbi.com/t5/Data-Stories-Gallery/Power-BI-Pro-Premiums-License-Decision-Table/m-p/286102
 
 ---
-There are points which need to be addressed if considering embedded vs premium
+There are points which need to be addressed if considering embedded vs premium.
+Some really good guidance on which SKU (licence type) to consider depending on
+what type of users that are targeting.
+THE ONLY PLACE that talks about app owns data
 https://www.bluegranite.com/blog/choosing-between-pbi-premium-or-embedded
 
 ---
