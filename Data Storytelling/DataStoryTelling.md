@@ -67,6 +67,3 @@ https://bibrainz.com/
 ---
 https://www.effectivedatastorytelling.com/
 
----
-https://www.youtube.com/watch?v=xOOstdlShQ4
-Explaination of what is a data story, and various terms used in the context of telling a data story
