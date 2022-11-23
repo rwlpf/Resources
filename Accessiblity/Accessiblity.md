@@ -77,3 +77,6 @@ https://accessibilityinsights.io/
 ---
 https://www.interaction-design.org/literature/topics/accessibility
 
+---
+https://depictdatastudio.com/big-a-accessibility-and-little-a-accessibility-tips-for-data-visualization/
+
