@@ -42,3 +42,9 @@ https://bi-survey.com/powerbimap/power-bi-blogs-overview/
 
 Lots of other links both power bi and others
 jam.powerbi.tips
+
+---
+
+Set of check lists for use with various types of objects in Power BI
+https://data-goblins.com/checklists
+

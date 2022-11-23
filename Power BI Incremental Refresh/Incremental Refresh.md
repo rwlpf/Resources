@@ -20,3 +20,7 @@ Using soft delete with Incremental refresh in Power BI - Patrica Le Blanc
 ---
 https://www.youtube.com/watch?v=Kui_1G6kQIQ
 BI Gorilla
+
+---
+Article about incremental refresh by Nikola IIic (Data Mozart)
+https://towardsdatascience.com/incremental-refresh-in-power-bi-everything-you-need-to-know-857183895464
