@@ -59,3 +59,4 @@ https://www.videomaker.com/article/f06/17674-color-theory-for-video/
 
 --
 https://www.datacolor.com/business-solutions/webinar-series-color-theory/
+
