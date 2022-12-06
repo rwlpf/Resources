@@ -31,3 +31,6 @@ Excellent set of resources and so much information cannot recommend highly enoug
 ---
 https://twitter.com/mjskay/status/1571556827225280514?s=20&t=h12JNaYl9-6nG-x087KGrA
 nice set of tweets started to about static vs animation and has some really good points about storytelling
+
+---
+https://evolytics.com/blog/insight-framework-tell-story/

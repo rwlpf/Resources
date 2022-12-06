@@ -14,4 +14,8 @@ Beginner guide for DAX - https://www.sqlbi.com/guides/dax/
 Video courses both free and paid for - https://www.sqlbi.com/training/
 Articles - https://www.sqlbi.com/articles/
 Free tools - https://www.sqlbi.com/tools/ 
+
 ---
+One of the best website for a list of all DAX functions, DataTypes, Operators, Statements. In essence most things you might be required to work with when using DAX. Most have a page with short explanation, syntax guide, examples and in most cases a short video on them.
+https://dax.guide/
+
