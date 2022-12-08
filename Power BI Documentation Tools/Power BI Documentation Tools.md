@@ -24,3 +24,7 @@ DAX Editor Pro
 
 ---
 Power BI Sentinel
+https://www.powerbisentinel.com/
+
+
+https://datasavvy.me/2016/10/04/documenting-your-tabular-or-power-bi-model/
