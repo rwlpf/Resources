@@ -60,3 +60,6 @@ https://www.videomaker.com/article/f06/17674-color-theory-for-video/
 --
 https://www.datacolor.com/business-solutions/webinar-series-color-theory/
 
+---
+http://blog.rismedia.com/2022/the-psychology-of-color-in-the-home-and-beyond/#.Y5nyvDdxLlk.twitter
+
