@@ -34,3 +34,8 @@ nice set of tweets started to about static vs animation and has some really good
 
 ---
 https://evolytics.com/blog/insight-framework-tell-story/
+
+---
+https://nightingaledvs.com/the-greatest-library-youve-never-heard-of-the-visual-telling-of-stories/
+https://www.fulltable.com/vts/index2.htm
+

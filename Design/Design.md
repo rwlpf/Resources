@@ -8,4 +8,8 @@ information Gutenberg, Z pattern and F pattern
 
 ---
 https://www.nngroup.com/articles/f-shaped-pattern-reading-web-content/
-challaning the use of F pattern worth reading
+challenging the use of F pattern worth reading
+
+---
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2657600/
+What are the differences between long-term, short-term, and working memory?

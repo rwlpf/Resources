@@ -131,3 +131,7 @@ calcuation used to correctly size bubbles for visualization
 
 ---
 https://medium.com/multiple-views-visualization-research-explained
+
+---
+https://www.psychologicalscience.org/publications/visual-data-communication.html
+What works and what does not work !

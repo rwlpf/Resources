@@ -80,3 +80,7 @@ https://www.interaction-design.org/literature/topics/accessibility
 ---
 https://depictdatastudio.com/big-a-accessibility-and-little-a-accessibility-tips-for-data-visualization/
 
+---
+https://chartability.fizz.studio/
+Set of testable standards to apply to charts to confirm if they are accessible
+
