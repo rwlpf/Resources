@@ -84,3 +84,11 @@ https://depictdatastudio.com/big-a-accessibility-and-little-a-accessibility-tips
 https://chartability.fizz.studio/
 Set of testable standards to apply to charts to confirm if they are accessible
 
+---
+https://analysisfunction.civilservice.gov.uk/support/communicating-analysis/making-charts-accessible-dataconnect22/
+Making charts accessible
+
+---
+https://analysisfunction.civilservice.gov.uk/support/communicating-analysis/plain-text-version-of-slides-from-session-on-data-visualisation-and-accessibility-for-analysis-in-government-month-2022/
+Data Visualization and Accessbility
+

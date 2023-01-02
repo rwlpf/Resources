@@ -47,4 +47,9 @@ https://natechamberlain.com/2019/12/09/on-premises-data-gateway-for-power-bi-pow
 ---
 https://blog.pragmaticworks.com/power-bi-and-data-security-on-premises-data-gateway
 
+---
+https://blog.crossjoin.co.uk/category/on-premises-data-gateway/
+Speed Up Power BI Refresh By Increasing The Amount Of Memory On Your On-Premises Data Gateway Machine
+
+
 
