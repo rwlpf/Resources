@@ -24,3 +24,6 @@ BI Gorilla
 ---
 Article about incremental refresh by Nikola IIic (Data Mozart)
 https://towardsdatascience.com/incremental-refresh-in-power-bi-everything-you-need-to-know-857183895464
+
+---
+https://pbi-guy.com/2022/07/14/how-to-use-incremental-refresh-on-any-data-source/

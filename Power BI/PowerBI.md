@@ -48,3 +48,6 @@ jam.powerbi.tips
 Set of check lists for use with various types of objects in Power BI
 https://data-goblins.com/checklists
 
+---
+https://gorilla.bi/power-bi/best-learning-resources/
+Learning resources for all aspects of PowerBI
