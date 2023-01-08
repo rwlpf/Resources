@@ -18,6 +18,10 @@ https://www.youtube.com/watch?v=JsJWBr1_ktQ
 Using soft delete with Incremental refresh in Power BI - Patrica Le Blanc
 
 ---
+https://www.youtube.com/watch?v=5AWt6ijJG94
+Avoiding time outs when refreshing data model / set with incremental refresh
+
+---
 https://www.youtube.com/watch?v=Kui_1G6kQIQ
 BI Gorilla
 
