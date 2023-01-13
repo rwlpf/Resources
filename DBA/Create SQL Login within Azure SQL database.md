@@ -30,8 +30,8 @@ In the **Master** Database run following script
 
 In the **Target** database run the following code (NB do this for Master DB if want to grant access to multiple databases on the server)
 
-    CREATE LOGIN [bob@contoso.com] FROM EXTERNAL PROVIDER 
-
+    ***CREATE LOGIN [bob@contoso.com] FROM EXTERNAL PROVIDER***
+    CREATE USER [bob@contoso.com] FROM EXTERNAL PROVIDER 
 In the **Target** database run the following code 
 
     SP_ADDROLEMEMBER 'db_datareader', [bob@contoso.com]
