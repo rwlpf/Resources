@@ -14,3 +14,11 @@ https://blogs.lse.ac.uk/impactofsocialsciences/2017/07/31/its-time-designing-for
 ---
 Colourbliness is forcing designers to use cues other than colour
 https://www.wsj.com/articles/colorblind-users-push-technology-designers-to-use-signals-beyond-color-11591351201?fbclid=IwAR18_GHdAQD3IssgqjyrXejWLVHuAlUiubvrExGAGivIL4NU0xIqeRDviqQ
+
+---
+https://blog.datawrapper.de/colorblindness-part1/
+How your colorblind and colorweak readers see your colors
+https://blog.datawrapper.de/colorblindness-part2/
+What to consider when visualizing data for colorblind readers
+https://blog.datawrapper.de/colorblindness-part3/
+What’s it like to be colorblind
