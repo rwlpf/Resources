@@ -35,3 +35,7 @@ https://pbi-guy.com/2022/07/14/how-to-use-incremental-refresh-on-any-data-source
 ---
 https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#partitions
 https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#prevent-timeouts-on-initial-full-refresh
+
+---
+
+https://dax.tips/2021/02/15/visualise-your-power-bi-refresh/
