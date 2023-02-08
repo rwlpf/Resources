@@ -39,3 +39,10 @@ https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla
 ---
 
 https://dax.tips/2021/02/15/visualise-your-power-bi-refresh/
+
+---
+https://exceed.hr/blog/incremental-refresh-using-powerbi-pro-and-dataflows/
+https://debbiesmspowerbiazureblog.home.blog/2020/05/29/quick-incremental-refresh-check-list/
+this could be an approach, that does not involve incremental refresh via Permium capacity
+
+---
