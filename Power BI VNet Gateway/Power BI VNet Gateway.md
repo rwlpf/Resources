@@ -7,3 +7,6 @@ https://microsoft-bitools.blogspot.com/2021/09/virtual-network-data-gateway-for-
 ---
 https://learn.microsoft.com/en-us/data-integration/vnet/create-data-gateways
 Setting up Vnet Gateways
+
+---
+https://www.serverlesssql.com/connecting-power-bi-to-azure-sql-database-using-private-endpoints/
