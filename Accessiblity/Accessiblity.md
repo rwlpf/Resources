@@ -92,3 +92,7 @@ Making charts accessible
 https://analysisfunction.civilservice.gov.uk/support/communicating-analysis/plain-text-version-of-slides-from-session-on-data-visualisation-and-accessibility-for-analysis-in-government-month-2022/
 Data Visualization and Accessbility
 
+---
+https://home.vizlib.com/accessible-data-dashboard-designing/
+How to build an accessible data dashboard
+

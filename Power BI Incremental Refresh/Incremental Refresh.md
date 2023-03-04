@@ -18,9 +18,31 @@ https://www.youtube.com/watch?v=JsJWBr1_ktQ
 Using soft delete with Incremental refresh in Power BI - Patrica Le Blanc
 
 ---
+https://www.youtube.com/watch?v=5AWt6ijJG94
+Avoiding time outs when refreshing data model / set with incremental refresh
+
+---
 https://www.youtube.com/watch?v=Kui_1G6kQIQ
 BI Gorilla
 
 ---
 Article about incremental refresh by Nikola IIic (Data Mozart)
 https://towardsdatascience.com/incremental-refresh-in-power-bi-everything-you-need-to-know-857183895464
+
+---
+https://pbi-guy.com/2022/07/14/how-to-use-incremental-refresh-on-any-data-source/
+
+---
+https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#partitions
+https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-xmla#prevent-timeouts-on-initial-full-refresh
+
+---
+
+https://dax.tips/2021/02/15/visualise-your-power-bi-refresh/
+
+---
+https://exceed.hr/blog/incremental-refresh-using-powerbi-pro-and-dataflows/
+https://debbiesmspowerbiazureblog.home.blog/2020/05/29/quick-incremental-refresh-check-list/
+this could be an approach, that does not involve incremental refresh via Permium capacity
+
+---

@@ -14,6 +14,3 @@ https://blogs.lse.ac.uk/impactofsocialsciences/2017/07/31/its-time-designing-for
 ---
 Colourbliness is forcing designers to use cues other than colour
 https://www.wsj.com/articles/colorblind-users-push-technology-designers-to-use-signals-beyond-color-11591351201?fbclid=IwAR18_GHdAQD3IssgqjyrXejWLVHuAlUiubvrExGAGivIL4NU0xIqeRDviqQ
-
----
-https://yellowchalk.com/blog/designing-for-color-blindness/

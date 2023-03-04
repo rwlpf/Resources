@@ -67,3 +67,5 @@ https://bibrainz.com/
 ---
 https://www.effectivedatastorytelling.com/
 
+---
+https://www.analyticsfordecisions.com/data-visualization-and-storytelling/

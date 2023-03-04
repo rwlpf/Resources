@@ -18,6 +18,8 @@ https://datasavvy.me/2018/06/06/power-bi-report-accessibility-checklist/
 
 https://datasavvy.me/2018/02/06/power-bi-screen-reader-accessibility/
 
+https://www.youtube.com/watch?v=VAvkyGGX8IE
+
 
 
 
