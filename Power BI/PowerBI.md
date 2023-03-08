@@ -51,3 +51,15 @@ https://data-goblins.com/checklists
 ---
 https://gorilla.bi/power-bi/best-learning-resources/
 Learning resources for all aspects of PowerBI
+
+---
+Free Power BI Intro Training From Microsoft
+https://ssbipolar.com/2021/06/07/free-power-bi-intro-training-from-microsoft/
+
+---
+Power BI instructor-led training
+https://powerbi.microsoft.com/en-gb/instructor-led-training/
+
+---
+Free Microsoft Power BI Training Courses
+https://learn.microsoft.com/en-gb/training/powerplatform/power-bi

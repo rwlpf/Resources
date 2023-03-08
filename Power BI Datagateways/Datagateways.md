@@ -62,3 +62,6 @@ https://youtu.be/fejSQmshwrE
 ---
 The Power BI Gateway All You Need to Know - Radacad
 https://www.youtube.com/watch?v=87SQLWdKdvE
+
+---
+https://blog.crossjoin.co.uk/2022/02/13/speed-up-power-bi-refresh-by-increasing-the-amount-of-memory-on-your-on-premises-data-gateway-machine/

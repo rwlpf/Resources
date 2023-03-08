@@ -50,6 +50,9 @@ https://exceleratorbi.com.au/blog/dataflows/<br/>
 Three articles by from Matt Allingtons blog
 
 ---
+https://data-marc.com/2019/04/16/pimp-the-dataflows-connector-in-power-bi/
+
+---
 
 Videos
 ---
