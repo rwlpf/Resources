@@ -12,7 +12,7 @@ SET QUOTED_IDENTIFIER ON
 GO
 
 CREATE TABLE [dbo].[FactCallsHandled](
-	[ID] [INT] NOT NULL,
+	[RowID] [INT] NOT NULL,
 	[CallDate] [DATETIME] NULL,
 	[AgentId] [INT] NULL,
 	[AnsweredCall] [INT] NOT NULL,
