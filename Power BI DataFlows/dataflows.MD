@@ -63,3 +63,12 @@ https://www.youtube.com/watch?v=GuU6_cqu8FE
 
 ---
 https://sqlbits.com/Sessions/Event18/Introduction_To_Dataflows_In_Power_BI
+
+---
+Power BI dataflows vs datamarts: What's the difference???
+https://www.youtube.com/watch?v=-ZAPAk_ANbk
+
+---
+The PERFECT Power BI dataflows use case
+https://www.youtube.com/watch?v=7L4bTbj6fM8
+
