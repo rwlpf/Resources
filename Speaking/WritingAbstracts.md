@@ -7,3 +7,8 @@ https://youtu.be/kZfO3PhWmLM
 ---
 
 https://medium.com/@dormaindrewitz/how-to-write-an-abstract-for-your-conference-talk-or-webinar-66ae959be2e6
+
+---
+
+https://www.youtube.com/watch?v=kZfO3PhWmLM&list=PLLq_tkpMFDU63GZOmvaMkhfN2pNXPwZ7T&index=3
+
