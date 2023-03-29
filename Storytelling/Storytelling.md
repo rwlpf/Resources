@@ -39,3 +39,6 @@ https://evolytics.com/blog/insight-framework-tell-story/
 https://nightingaledvs.com/the-greatest-library-youve-never-heard-of-the-visual-telling-of-stories/
 https://www.fulltable.com/vts/index2.htm
 
+---
+
+https://www.effectivedatastorytelling.com/post/a-deeper-dive-into-lego-bricks-and-data-stories

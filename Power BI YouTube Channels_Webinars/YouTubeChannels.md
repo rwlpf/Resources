@@ -13,3 +13,6 @@ https://www.youtube.com/channel/UCPpDCRBSjwlx0bJHdLXB5tg
 ---
 https://learn.microsoft.com/en-gb/power-bi/fundamentals/webinars
 A huge number of webinars and videos. Covers a number of topics worth reviewing.
+
+---
+https://www.kratosbi.com/
