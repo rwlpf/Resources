@@ -10,5 +10,8 @@ https://medium.com/@dormaindrewitz/how-to-write-an-abstract-for-your-conference-
 
 ---
 
+Johan Ludvig Brattås - How to write the abstract that catches everyones attention.
 https://www.youtube.com/watch?v=kZfO3PhWmLM&list=PLLq_tkpMFDU63GZOmvaMkhfN2pNXPwZ7T&index=3
+
+
 
