@@ -1,0 +1,1 @@
+https://datavolume.xyz/2023/04/02/DataDojo-PowerBI-CommunityOfPractice-01.html
