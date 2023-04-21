@@ -34,6 +34,7 @@ https://exceleratorbi.com.au/measure-killer-for-power-bi/
 SQL BI tools 
 
 Bravo 
+https://bravo.bi/
 
 Dax Studio  
 https://daxstudio.org/
@@ -61,3 +62,8 @@ https://enterprisedna.co/tech/power-tools/
 ---
 This is a tool which will install many of the free power bi tools. Main advantage is that it will install them all, so you do not have to download and install them one by one
 https://powerbi.tips/2020/08/one-tool-to-install-them-all/
+
+
+---
+M-Code (Power Query Code Formatter)
+https://www.powerqueryformatter.com/
