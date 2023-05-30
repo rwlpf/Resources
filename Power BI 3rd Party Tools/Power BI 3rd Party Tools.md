@@ -48,9 +48,13 @@ https://www.daxformatter.com/
 
 Tabular Editor 
 
-V2 
+V2 - https://tabulareditor.github.io/TabularEditor/
 
-V3 
+Video on how to use Tabluar Editor V 2 - https://www.youtube.com/watch?v=c-jZMzsvKnM
+
+V3 - https://tabulareditor.com/
+
+Video on the features of Tabular Editor V 3 - https://www.youtube.com/watch?v=pt3DdcjfImY
 
 --- 
 
@@ -62,8 +66,3 @@ https://enterprisedna.co/tech/power-tools/
 ---
 This is a tool which will install many of the free power bi tools. Main advantage is that it will install them all, so you do not have to download and install them one by one
 https://powerbi.tips/2020/08/one-tool-to-install-them-all/
-
-
----
-M-Code (Power Query Code Formatter)
-https://www.powerqueryformatter.com/
