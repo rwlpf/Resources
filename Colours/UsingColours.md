@@ -9,3 +9,8 @@ Dubble designs, themes, templates and downloadable graphic elements on Dribbble
 
 https://www.darkhorseanalytics.com/blog/data-looks-better-naked
 Data looks better naked — Darkhorse Analytics | Edmonton, AB
+
+
+---
+Creating an organisational colour palette
+https://blog.datawrapper.de/colors-for-data-vis-style-guides/
