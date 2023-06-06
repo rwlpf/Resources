@@ -9,6 +9,9 @@ Good summary of the differences between the A,EM and P SKU's
 
 https://radacad.com/power-bi-licensing-walk-through-guide</br>
 
+Fabric licensing
+https://youtu.be/Gvt8oesGa3E
+
 ------------
 
 https://blog.coeo.com/power-bi-licensing-deployment-options</br>
