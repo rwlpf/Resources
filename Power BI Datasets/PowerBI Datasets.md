@@ -6,3 +6,7 @@ https://dax.tips/2021/02/15/visualise-your-power-bi-refresh/
 
 https://greyskullanalytics.com/power-query-duplicate-v-reference-queries/
 Difference between reference and duplicate for PowerQuery Editor
+
+---
+
+https://github.com/microsoft/powerbi-desktop-samples/tree/main

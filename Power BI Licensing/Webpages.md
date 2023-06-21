@@ -91,7 +91,6 @@ If you have an Office 365 E5 or Microsoft 365 E5 then it is *assumed* you have a
 
 ---
 
-
 https://rigorousthemes.com/blog/power-bi-pro-vs-premium-whats-the-difference/
 
 ---
@@ -101,6 +100,13 @@ https://exceleratorbi.com.au/affordable-power-bi-premium-for-small-business/
 https://exceleratorbi.com.au/power-bi-licences-changes-good-bad/
 
 ---
+
+BiFocal Show - John White (the author IMHO of the best summary of Power BI licencing) and Jason Himmelstein member of the Fabric (Power BI) CAT team discuss new Fabric licening. A digestable summary of the licening landscape.
+https://bifocal.show/2023/06/16/episode-259-fabric-licensing-for-power-bi/
+
+---
+
+Fabric licencing - the awesome Adam Saxton does good explination of the differences.
 
 https://www.youtube.com/watch?v=7cO5FsIUgo0
 Power BI licencing made simple session delveried at Scottish Summit 2022
