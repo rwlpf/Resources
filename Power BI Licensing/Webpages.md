@@ -110,3 +110,7 @@ Fabric licencing - the awesome Adam Saxton does good explination of the differen
 
 https://www.youtube.com/watch?v=7cO5FsIUgo0
 Power BI licencing made simple session delveried at Scottish Summit 2022
+
+
+---
+https://microsoft.github.io/fabricnotes/images/notes/13-fabric-licensing.png
