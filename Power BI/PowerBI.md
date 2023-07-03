@@ -53,6 +53,10 @@ https://gorilla.bi/power-bi/best-learning-resources/
 Learning resources for all aspects of PowerBI
 
 ---
+https://pbi.guide/resources/
+More resources for all aspects of PowerBI
+
+---
 Free Power BI Intro Training From Microsoft
 https://ssbipolar.com/2021/06/07/free-power-bi-intro-training-from-microsoft/
 
