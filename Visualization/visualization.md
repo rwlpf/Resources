@@ -135,3 +135,9 @@ https://medium.com/multiple-views-visualization-research-explained
 ---
 https://www.psychologicalscience.org/publications/visual-data-communication.html
 What works and what does not work !
+
+---
+Design guidelines
+https://xdgov.github.io/data-design-standards/
+
+https://www.eea.europa.eu/data-and-maps/daviz/learn-more/chart-dos-and-donts
