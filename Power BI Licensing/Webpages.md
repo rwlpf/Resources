@@ -94,6 +94,10 @@ If you have an Office 365 E5 or Microsoft 365 E5 then it is *assumed* you have a
 https://rigorousthemes.com/blog/power-bi-pro-vs-premium-whats-the-difference/
 
 ---
+
+https://podiumbi.com/blog/power-bi-pro-vs-premium-vs-ppu-licensing/
+
+---
 https://exceleratorbi.com.au/affordable-power-bi-premium-for-small-business/
 
 ---
