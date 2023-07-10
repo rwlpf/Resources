@@ -1,9 +1,6 @@
 
-# You Tube Channels
-**[GuyInCube](https://guyinacube.com/)**
-This started with just Adam Saxton
 
----
+# You Tube Channels
 **[GuyInCube](https://guyinacube.com/)**
 This started with just Adam Saxton
 
@@ -11,12 +8,14 @@ Website - [https://guyinacube.com/](https://guyinacube.com/)
 YouTube - [https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w](https://www.youtube.com/channel/UCFp1vaKzpfvoGai0vE5VJ0w)
 
 ---
-
 Ruth Pozuelo Martinez - Curbal
 Website - [https://curbal.com/](https://curbal.com/)
 You Tube - [https://www.youtube.com/channel/UCJ7UhloHSA4wAqPzyi6TOkw](https://www.youtube.com/channel/UCJ7UhloHSA4wAqPzyi6TOkw)
-
 Have to say some one who can product three videos per week is amazing.  Really worth taking time to review.
+
+---
+SQL Bits is a data conference they have been recording the hour long sessions. These are some of the best sessions you will see on just about any Microsoft Data. 
+https://www.youtube.com/@SQLBits
 
 ---
 
@@ -34,8 +33,44 @@ Power BI is an amazing tool there is no  doubt about that.  What about all the o
 Sub reddit for Power BI 
 https://www.reddit.com/r/PowerBI/
 
+Sub reddit for Microsoft Fabric
+https://www.reddit.com/r/MicrosoftFabric/
+
 ---
 
-Lost of PowerBI blogs
+A number of PowerBI blogs ranked in technical complexity vs business oriented
 
 https://bi-survey.com/powerbimap/power-bi-blogs-overview/
+
+Lots of other links both power bi and others
+jam.powerbi.tips
+
+---
+
+Set of check lists for use with various types of objects in Power BI
+https://data-goblins.com/checklists
+
+---
+Learning resources for all aspects of PowerBI. Fantastic listof you tube channels, books, blogs etc
+https://gorilla.bi/power-bi/best-learning-resources/
+
+---
+https://pbi.guide/resources/
+More resources for all aspects of PowerBI
+
+---
+Free Power BI Intro Training From Microsoft
+https://ssbipolar.com/2021/06/07/free-power-bi-intro-training-from-microsoft/
+
+---
+Power BI instructor-led training
+https://powerbi.microsoft.com/en-gb/instructor-led-training/
+
+---
+Free Microsoft Power BI Training Courses
+https://learn.microsoft.com/en-gb/training/powerplatform/power-bi
+
+---
+Fabric Known issues
+https://support.fabric.microsoft.com/en-us/known-issues
+
