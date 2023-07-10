@@ -1,0 +1,12 @@
+let
+    FilePath = Path,  //External reference to text query = FilePath
+    FileName = Actuals_File,  /*  Wrapping */
+   
+    PathSlash = if Text.StartsWith(FilePath,"http") then "/" else "\",
+    FullPath = FilePath & (if Text.EndsWith(FilePath, PathSlash) then "" else PathSlash) & FileName,
+
+    Source = if Text.StartsWith(FilePath,"http")
+           then Excel.Workbook(Web.Contents(FullPath), null, true)
+           else Excel.Workbook(File.Contents(FullPath), null, true)
+in
+    Source
