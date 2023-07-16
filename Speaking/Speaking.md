@@ -8,3 +8,11 @@ Speaker improvement libary from New Stars of data.
 https://www.newstarsofdata.com/speaker-improvement/
 
 ---
+
+Filler words 
+https://www.youtube.com/watch?v=mlDAO7DgJNk
+
+---
+
+5 wasy to improve your professional voice
+https://www.youtube.com/watch?v=YyWZmdkPfDM

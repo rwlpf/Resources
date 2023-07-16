@@ -1,0 +1,13 @@
+let
+    FilePath = Path,  //External reference to text query = FilePath
+    BudgetFilename= Budget_File,  /*  Wrapping comment line */
+   
+    PathSlash = if Text.StartsWith(FilePath,"http") then "/" else "\",
+    FullPath = FilePath & (if Text.EndsWith(FilePath, PathSlash) then "" else PathSlash) & BudgetFilename,
+
+
+    Source = if Text.StartsWith(FilePath,"http")
+             then Csv.Document(Web.Contents(FullPath ),[Delimiter=",", Encoding=1252, QuoteStyle=QuoteStyle.None])
+             else Csv.Document(File.Contents(FullPath),[Delimiter=",", Encoding=1252, QuoteStyle=QuoteStyle.None])							
+in
+    Source

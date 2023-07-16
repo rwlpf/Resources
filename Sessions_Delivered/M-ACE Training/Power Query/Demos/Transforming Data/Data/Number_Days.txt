@@ -1,0 +1,9 @@
+let
+    Source = (TransactionDate as date) => let
+        YearStart = #date(Date.Year(TransactionDate),1,1),
+        #"DateDiff" = Duration.From(TransactionDate-YearStart),
+        #"NumberDays" = Duration.Days(#"DateDiff")+1
+    in
+        #"NumberDays"
+in
+    Source
