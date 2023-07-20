@@ -18,13 +18,21 @@ https://radacad.com/dynamic-row-level-security-with-power-bi-made-simple
 
 Some of the other articles by Reza Cad
 https://radacad.com/row-level-security-configuration-in-power-bi-desktop
+
 https://radacad.com/dynamic-row-level-security-with-power-bi-made-simple
+
 https://radacad.com/dynamic-row-level-security-with-profiles-and-users-in-power-bi
+
 https://radacad.com/dynamic-row-level-security-with-organizational-hierarchy-power-bi
+
 https://radacad.com/row-level-security-with-ssas-tabular-live-connection-in-power-bi
+
 https://radacad.com/dynamic-row-level-security-in-power-bi-with-organizational-hierarchy-and-multiple-positions-in-many-to-many-relationship-part-1
+
 https://radacad.com/calculating-total-and-percentages-in-a-row-level-security-power-bi-model
+
 https://radacad.com/show-the-information-but-not-the-details-power-bi-data-masking
+
 https://radacad.com/secure-the-sensitive-data-in-power-bi-data-masking-better-with-row-level-security
 
 https://radacad.com/tag/row-level-security
@@ -38,7 +46,7 @@ Power BI Desktop Dynamic security cheat sheet
 https://www.kasperonbi.com/power-bi-desktop-dynamic-security-cheat-sheet/
 
 ---
-A nice short explanation of the two types of Row Level Security Static and Dynamic 
+A nice short explanation of the two types of Row Level Security, Static and Dynamic 
 https://www.phdata.io/blog/power-bi-row-level-security/
 
 ---
