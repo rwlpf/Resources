@@ -17,6 +17,7 @@ Dynamic Row Level Security
 https://radacad.com/dynamic-row-level-security-with-power-bi-made-simple
 
 Some of the other articles by Reza Cad
+
 https://radacad.com/row-level-security-configuration-in-power-bi-desktop
 
 https://radacad.com/dynamic-row-level-security-with-power-bi-made-simple
