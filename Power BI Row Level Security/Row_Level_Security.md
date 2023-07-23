@@ -71,3 +71,7 @@ https://blog.pragmaticworks.com/dynamic-row-level-security-in-power-bi
 ---
 Nice explanation of the two different types of Row Level Security and walk-through with pictures
 https://hevodata.com/learn/power-bi-row-level-security/
+
+---
+I Can See Your Salary from Here! Implement Row-Level Security to Restrict Data Access in Power BI Reports
+https://www.linkedin.com/pulse/i-can-see-your-salary-from-here-implement-row-level-security-romano
