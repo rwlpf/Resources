@@ -1,0 +1,2 @@
+Object Level Security using Field Parameters
+https://blog.crossjoin.co.uk/2022/05/22/stopping-some-users-seeing-certain-columns-or-measures-in-your-power-bi-report-with-object-level-security-and-field-parameters/
