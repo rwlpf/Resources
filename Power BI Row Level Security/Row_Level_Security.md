@@ -75,3 +75,8 @@ https://hevodata.com/learn/power-bi-row-level-security/
 ---
 I Can See Your Salary from Here! Implement Row-Level Security to Restrict Data Access in Power BI Reports
 https://www.linkedin.com/pulse/i-can-see-your-salary-from-here-implement-row-level-security-romano
+
+---
+Row Level Security & Beyond in Business Intelligence Applications: A Practical Overview
+A few topics and technquies which I have not considered. Some details on usig RLS with other reporting tools
+https://www.oliviertravers.com/row-level-security-rls-business-intelligence/
