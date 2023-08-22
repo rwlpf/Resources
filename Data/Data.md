@@ -10,3 +10,7 @@ http://Data.police.uk
 ---
 
 The Data Lifecycle: Decision making with data in Power BI - Jennifer Stirrup - https://www.youtube.com/watch?v=orGS_xZHn6A&t=1s
+
+---
+
+https://hackernoon.com/13-best-datasets-for-power-bi-practice
