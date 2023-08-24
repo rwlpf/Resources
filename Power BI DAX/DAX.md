@@ -19,3 +19,6 @@ Free tools - https://www.sqlbi.com/tools/
 One of the best website for a list of all DAX functions, DataTypes, Operators, Statements. In essence most things you might be required to work with when using DAX. Most have a page with short explanation, syntax guide, examples and in most cases a short video on them.
 https://dax.guide/
 
+---
+Getting values from slicers on Power BI report
+https://www.enjoysharepoint.com/power-bi-get-selected-value-from-slicer/
