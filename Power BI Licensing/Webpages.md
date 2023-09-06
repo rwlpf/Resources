@@ -111,10 +111,12 @@ https://bifocal.show/2023/06/16/episode-259-fabric-licensing-for-power-bi/
 ---
 
 Fabric licencing - the awesome Adam Saxton does good explination of the differences.
+https://www.youtube.com/watch?v=6AAeV3bSMso
 
-https://www.youtube.com/watch?v=7cO5FsIUgo0
+---
+
 Power BI licencing made simple session delveried at Scottish Summit 2022
-
+https://www.youtube.com/watch?v=7cO5FsIUgo0
 
 ---
 https://microsoft.github.io/fabricnotes/images/notes/13-fabric-licensing.png
