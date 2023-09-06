@@ -13,3 +13,19 @@ challenging the use of F pattern worth reading
 ---
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2657600/
 What are the differences between long-term, short-term, and working memory?
+
+---
+6 Fundamental Principles of Design
+https://www.quickreviewer.com/principles-of-design/
+
+---
+Leveraging principles of art theory for visual design
+https://www.td.org/insights/leveraging-principles-of-art-theory-for-visual-design
+
+---
+The 6 Principles of Design
+https://visual.ly/community/Infographics/education/6-principles-design
+
+---
+The designer's guide to grid theory
+https://www.creativebloq.com/web-design/grid-theory-41411345

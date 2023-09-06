@@ -67,3 +67,14 @@ http://blog.rismedia.com/2022/the-psychology-of-color-in-the-home-and-beyond/#.Y
 https://colorandcontrast.com/#/
 Just a really nice explaination of various topics and subjects all in the one site
 
+---
+The fundamentals of understanding color theory 
+https://99designs.com/blog/tips/the-7-step-guide-to-understanding-color-theory/
+
+---
+Learn the Basics of Color Theory to Know What Looks Good
+https://lifehacker.com/learn-the-basics-of-color-theory-to-know-what-looks-goo-1608972072
+
+https://en.wikipedia.org/wiki/Color_theory
+
+
