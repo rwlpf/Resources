@@ -42,3 +42,7 @@ https://www.fulltable.com/vts/index2.htm
 ---
 
 https://www.effectivedatastorytelling.com/post/a-deeper-dive-into-lego-bricks-and-data-stories
+
+---
+
+https://www.valeriejunk.nl/en/storytelling-and-power-bi/?s=03 

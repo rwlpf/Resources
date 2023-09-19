@@ -23,3 +23,6 @@ https://powerquery.how/
 ---
 
 https://www.powerqueryformatter.com/
+
+---
+https://greyskullanalytics.com/power-query-duplicate-v-reference-queries/
