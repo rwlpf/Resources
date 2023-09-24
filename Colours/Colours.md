@@ -77,4 +77,8 @@ https://lifehacker.com/learn-the-basics-of-color-theory-to-know-what-looks-goo-1
 
 https://en.wikipedia.org/wiki/Color_theory
 
+---
+Colour Theory for Report Designers and Data Analysts
+https://www.youtube.com/watch?v=3saNcUA7Org
+
 
