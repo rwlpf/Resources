@@ -15,3 +15,7 @@ https://pbi.tools/
 ---
 https://pbi.tools/devops/community-resources.html
 This page contains a curated collection of Power BI DevOps community resources.
+
+---
+https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-build-pipelines
+Implementing Power BI Dev Ops with Azure DevOps
