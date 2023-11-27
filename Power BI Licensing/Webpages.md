@@ -128,3 +128,7 @@ https://microsoft.github.io/fabricnotes/images/notes/13-fabric-licensing.png
 Power BI Licening with Pictures
 https://community.fabric.microsoft.com/t5/Community-Blog/Power-BI-Licensing-in-Pictures-Updated/bc-p/3303863#M3928
 https://www.linkedin.com/pulse/power-bi-licensing-pictures-greg-deckler-microsoft-mvp-/
+
+---
+Pricing including a Licening report
+https://www.ilink-digital.com/insights/blog/microsoft-fabric-pricing-scenarios/
