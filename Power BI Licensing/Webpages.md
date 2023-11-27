@@ -12,6 +12,9 @@ https://radacad.com/power-bi-licensing-walk-through-guide</br>
 Fabric licensing
 https://youtu.be/Gvt8oesGa3E
 
+Reserved Instances - Fabric
+https://learn.microsoft.com/en-gb/azure/cost-management-billing/reservations/fabric-capacity
+
 ------------
 
 https://blog.coeo.com/power-bi-licensing-deployment-options</br>
