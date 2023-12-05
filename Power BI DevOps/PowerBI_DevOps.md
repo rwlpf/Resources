@@ -19,3 +19,6 @@ This page contains a curated collection of Power BI DevOps community resources.
 ---
 https://learn.microsoft.com/en-us/power-bi/developer/projects/projects-build-pipelines
 Implementing Power BI Dev Ops with Azure DevOps
+
+---
+https://www.reddit.com/r/PowerBI/comments/184t7hp/getting_started_with_gitversion_control/

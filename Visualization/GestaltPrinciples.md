@@ -17,3 +17,9 @@ https://atrowpoole.wordpress.com/2014/07/15/gestalt-principles-of-visual-percept
 https://www.youtube.com/watch?v=FryaH599ec0
 The Gestalt Principles | Basics for Beginners
 The Gestalt Principles are a series of hypothesis defined by German Psychologists in the 1920s. They state that 'the whole is something else than the sum of it's parts' and break down how relationships between design elements are formed and interpreted by the human mind.
+
+---
+https://www.simplypsychology.org/what-is-gestalt-psychology.html
+
+---
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482144/
