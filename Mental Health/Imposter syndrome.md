@@ -4,3 +4,14 @@ https://twitter.com/SQLSaurus/status/1460214977743237120
 
 Change how you think about Imposter Symdrome
 https://www.youtube.com/shorts/W1rIhpORWvs
+
+https://blog.hubspot.com/marketing/impostor-syndrome-tips
+
+https://www.verywellmind.com/imposter-syndrome-and-social-anxiety-disorder-4156469
+
+https://www.betterup.com/blog/what-is-imposter-syndrome-and-how-to-avoid-it
+
+https://time.com/5312483/how-to-deal-with-impostor-syndrome/
+
+
+
