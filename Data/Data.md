@@ -14,3 +14,12 @@ The Data Lifecycle: Decision making with data in Power BI - Jennifer Stirrup - h
 ---
 
 https://hackernoon.com/13-best-datasets-for-power-bi-practice
+
+---
+
+https://github.com/rfordatascience/tidytuesday/tree/master
+Contains a list of datasets from previous Tidy Tuesday sessions
+
+---
+https://github.com/microsoft/powerbi-desktop-samples/tree/main/powerbi-service-samples
+set of example datasets from Microsoft for use with Power BI
