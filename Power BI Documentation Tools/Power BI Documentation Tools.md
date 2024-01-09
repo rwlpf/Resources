@@ -19,6 +19,10 @@ https://data-marc.com/model-documenter/
 Power BI Sidekick
 https://andreasjongenburger.com/introducing-power-bi-sidekick/
 
+---
+DataGoblins C# Script to document 
+https://data-goblins.com/power-bi/visualize-measure-dependencies
+
 
 ## Non-Free tools 
 Note some of these tools might a free trial or free tier
