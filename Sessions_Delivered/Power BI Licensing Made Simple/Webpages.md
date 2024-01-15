@@ -12,6 +12,9 @@ https://radacad.com/power-bi-licensing-walk-through-guide</br>
 Fabric licensing
 https://youtu.be/Gvt8oesGa3E
 
+Reserved Instances - Fabric
+https://learn.microsoft.com/en-gb/azure/cost-management-billing/reservations/fabric-capacity
+
 ------------
 
 https://blog.coeo.com/power-bi-licensing-deployment-options</br>
@@ -111,10 +114,12 @@ https://bifocal.show/2023/06/16/episode-259-fabric-licensing-for-power-bi/
 ---
 
 Fabric licencing - the awesome Adam Saxton does good explination of the differences.
+https://www.youtube.com/watch?v=6AAeV3bSMso
 
-https://www.youtube.com/watch?v=7cO5FsIUgo0
+---
+
 Power BI licencing made simple session delveried at Scottish Summit 2022
-
+https://www.youtube.com/watch?v=7cO5FsIUgo0
 
 ---
 https://microsoft.github.io/fabricnotes/images/notes/13-fabric-licensing.png
@@ -123,3 +128,7 @@ https://microsoft.github.io/fabricnotes/images/notes/13-fabric-licensing.png
 Power BI Licening with Pictures
 https://community.fabric.microsoft.com/t5/Community-Blog/Power-BI-Licensing-in-Pictures-Updated/bc-p/3303863#M3928
 https://www.linkedin.com/pulse/power-bi-licensing-pictures-greg-deckler-microsoft-mvp-/
+
+---
+Pricing including a Licening report
+https://www.ilink-digital.com/insights/blog/microsoft-fabric-pricing-scenarios/

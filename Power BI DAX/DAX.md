@@ -22,3 +22,7 @@ https://dax.guide/
 ---
 Getting values from slicers on Power BI report
 https://www.enjoysharepoint.com/power-bi-get-selected-value-from-slicer/
+
+
+Beginner Power BI DAX Functions Tutorial [Full Course] 
+https://www.youtube.com/watch?v=QJw4HkagVWc&list=LL&index=2&t=65s
