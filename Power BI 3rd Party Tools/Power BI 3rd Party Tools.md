@@ -63,3 +63,6 @@ This can be used to compare PowerBI models, Desktop files etc
 This is a tool which will install many of the free power bi tools. Main advantage is that it will install them all, so you do not have to download and install them one by one
 
 https://powerbi.tips/2020/08/one-tool-to-install-them-all/
+
+
+https://github.com/m-kovalsky/ReportAnalyzer
