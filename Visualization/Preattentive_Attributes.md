@@ -16,3 +16,7 @@ https://www.csc2.ncsu.edu/faculty/healey/PP/
 More references to other material, excellent java script applet demostrating target detection.
 
 https://infovis-wiki.net/wiki/Preattentive_processing
+
+https://www.interaction-design.org/literature/article/preattentive-visual-properties-and-how-to-use-them-in-information-visualization
+
+https://uxdesign.cc/preattentive-attributes-of-visual-perception-and-their-application-to-data-visualizations-7b0fb50e1375
