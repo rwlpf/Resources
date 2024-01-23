@@ -81,7 +81,7 @@ https://webapphuddle.com/dashboard-design-examples/
 
 ## **Books on dashboard design (to be added to)**
 
-https://dataschool.com/how-to-design-a-dashboard/
+https://dataschool.com/how-to-design-a-dashboard/what-is-a-dashboard/
 The online version of a book discussing the principles for creating a dashboard
 
 ---
@@ -90,3 +90,11 @@ http://www.bigbookofdashboards.com/index.html
 ---
 http://www.bigbookofdashboards.com/chartchat.html
 set of discussions about visuals on dashboards
+
+https://pencilandpaper.io/articles/ux-pattern-analysis-data-dashboards/
+
+https://www.linkedin.com/pulse/dashboard-design-location-anthony-radik
+
+https://blog.logrocket.com/ux-design/making-dashboard-ui/
+
+https://freshspectrum.com/how-do-people-read-reports-and-just-what-is-an-f-pattern/
