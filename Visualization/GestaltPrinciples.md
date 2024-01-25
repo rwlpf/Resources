@@ -23,3 +23,5 @@ https://www.simplypsychology.org/what-is-gestalt-psychology.html
 
 ---
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482144/
+
+https://www.toptal.com/designers/data-visualization/data-visualization-psychology
