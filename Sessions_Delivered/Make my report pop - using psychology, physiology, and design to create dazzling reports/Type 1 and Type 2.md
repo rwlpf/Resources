@@ -9,3 +9,11 @@ https://participatorymedicine.org/epatients/2012/04/system-1-system-2-elephants-
 https://www.marketingsociety.com/think-piece/system-1-and-system-2-thinking
 
 https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking
+
+https://www.shortform.com/blog/system-1-thinking-kahneman/
+
+https://thedecisionlab.com/reference-guide/philosophy/system-1-and-system-2-thinking
+
+https://treehousetechgroup.com/the-psychology-behind-data-visualization/
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6091269/

@@ -25,3 +25,18 @@ https://www.simplypsychology.org/what-is-gestalt-psychology.html
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3482144/
 
 https://www.toptal.com/designers/data-visualization/data-visualization-psychology
+
+https://emeeks.github.io/gestaltdataviz/section1.html
+https://emeeks.github.io/gestaltdataviz/section2.html
+https://emeeks.github.io/gestaltdataviz/section3.html
+https://emeeks.github.io/gestaltdataviz/section4.html
+
+https://www.thedataschool.co.uk/nayeli-jaime/introduction-to-data-visualization-gestalt-principles/
+
+https://medium.com/nightingale/how-to-apply-gestalt-psychology-principles-in-data-visualization-6242f4f1a3de
+
+https://bootcamp.uxdesign.cc/gestalt-in-visualizations-b2e35d3f701
+
+https://pressbooks.library.torontomu.ca/criticaldataliteracy/chapter/gestalts-principles/
+
+https://ucdavisdatalab.github.io/workshop_data_viz_principles/principles-of-visual-perception.html

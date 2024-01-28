@@ -98,3 +98,5 @@ https://www.linkedin.com/pulse/dashboard-design-location-anthony-radik
 https://blog.logrocket.com/ux-design/making-dashboard-ui/
 
 https://freshspectrum.com/how-do-people-read-reports-and-just-what-is-an-f-pattern/
+
+https://www.youtube.com/watch?v=3nvjjfE9BqQ
