@@ -40,3 +40,5 @@ https://bootcamp.uxdesign.cc/gestalt-in-visualizations-b2e35d3f701
 https://pressbooks.library.torontomu.ca/criticaldataliteracy/chapter/gestalts-principles/
 
 https://ucdavisdatalab.github.io/workshop_data_viz_principles/principles-of-visual-perception.html
+
+https://www.interaction-design.org/literature/topics/gestalt-principles
