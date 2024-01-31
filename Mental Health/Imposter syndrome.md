@@ -31,3 +31,6 @@ https://www.ted.com/talks/louise_curtis_how_to_turn_imposter_syndrome_into_your_
 https://www.youtube.com/watch?v=whyUPLJZljE
 https://www.google.com/search?client=firefox-b-d&q=ted+talk+imposter+syndrome#ip=1
 
+https://www.mindtools.com/pages/article/overcoming-impostor-syndrome.htm
+
+https://www.bbc.co.uk/ideas/videos/why-impostor-syndrome-can-be-a-strength/p07yh01y
