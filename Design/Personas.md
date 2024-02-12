@@ -20,3 +20,6 @@ https://interactions.acm.org/archive/view/november-december-2013/user-stories-do
 ---
 https://skillsmatter.com/skillscasts/14226-london-powerbi-user-group-with-will-thompson
 Personas in Power Platform - Will Smith
+
+---
+https://www.nngroup.com/articles/personas-study-guide/
