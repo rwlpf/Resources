@@ -12,3 +12,7 @@ See folder - BrandsFonts for some of the pictures from the twitter thread
 ---
 https://practicaltypography.com/
 online book with an excellent advice and information on this topic
+
+https://www.zekagraphic.com/font-psychology-in-graphic-design/
+
+https://www.zekagraphic.com/typographic-hierarchy-in-graphic-design/
