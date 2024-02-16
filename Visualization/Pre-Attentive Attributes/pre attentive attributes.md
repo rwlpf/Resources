@@ -16,3 +16,4 @@ https://dq-content.s3.amazonaws.com/takeaways/672/mission-672-gestalt-principles
 
 https://vizzendata.com/2019/12/18/using-preattentive-attributes-color-in-data-viz/
 
+https://www.interaction-design.org/literature/article/preattentive-visual-properties-and-how-to-use-them-in-information-visualization
