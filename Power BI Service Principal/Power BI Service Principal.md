@@ -6,3 +6,5 @@ Connect to Power BI restful API's using service principals
 
 https://www.powerbisentinel.com/creating-a-service-principal-and-connecting-to-power-bi/
 
+
+https://hatfullofdata.blog/create-a-power-bi-service-principle-profile/

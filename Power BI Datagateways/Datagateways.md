@@ -65,3 +65,7 @@ https://www.youtube.com/watch?v=87SQLWdKdvE
 
 ---
 https://blog.crossjoin.co.uk/2022/02/13/speed-up-power-bi-refresh-by-increasing-the-amount-of-memory-on-your-on-premises-data-gateway-machine/
+
+---
+https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-data-gateways
+Excellent refrence doucmenat on the key questions to be asked when considering setting up a DataGateway

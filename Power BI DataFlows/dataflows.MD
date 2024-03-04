@@ -87,3 +87,8 @@ The PERFECT Power BI dataflows use case
 https://www.youtube.com/watch?v=7L4bTbj6fM8
   
 ---
+
+
+Gotchas 
+https://www.reddit.com/r/MicrosoftFabric/comments/14zf9p2/dataflow_gen2_questions/
+Excel CANNOT use DataFlow Gen 2 as a data source.
