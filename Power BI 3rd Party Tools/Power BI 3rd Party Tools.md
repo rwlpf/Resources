@@ -66,3 +66,9 @@ https://powerbi.tips/2020/08/one-tool-to-install-them-all/
 
 
 https://github.com/m-kovalsky/ReportAnalyzer
+
+
+---
+return metata data from Power BI report
+
+https://www.tridant.com/power-bi-metadata-scanner/
