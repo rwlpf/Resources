@@ -1,3 +1,16 @@
+How to Design an Information Visualization | IxDF (interaction-design.org)
+[https://www.interaction-design.org/literature/article/how-to-design-an-information-visualization](https://www.interaction-design.org/literature/article/how-to-design-an-information-visualization)
+---
+8 Basic design principles to help you make awesome graphics (adobe.com)
+[https://www.adobe.com/express/learn/blog/8-basic-design-principles-to-help-you-create-better-graphics](https://www.adobe.com/express/learn/blog/8-basic-design-principles-to-help-you-create-better-graphics)
+---
+The basic principles of design—and how to apply them (paperform.co)
+[https://paperform.co/blog/principles-of-design/](https://paperform.co/blog/principles-of-design/)
+---
+Storytelling with Data: A Data Visualization Guide for Business Professionals by Cole Nussbaumer Knaflic (book)
+
+Introduction to Data Visualization & Storytelling: A Guide by Berengueres and Sandell (book)
+---
 https://jnd.org/stop_blaming_people_blame_inept_design/
 Often people are blamed for poor design decisions which are often compounded by each other
 ---
