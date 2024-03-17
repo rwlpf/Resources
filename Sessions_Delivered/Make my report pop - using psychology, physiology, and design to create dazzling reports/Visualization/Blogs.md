@@ -16,5 +16,6 @@ https://eagereyes.org/
 
 https://questionsindataviz.com/
 Neil Richards
-See book Questions in Dataviz - https://www.routledge.com/Questions-in-Dataviz-A-Design-Driven-Process-for-Data-Visualisation/Richards/p/book/9781032139449#
+See book Questions in Dataviz - 
+https://www.routledge.com/Questions-in-Dataviz-A-Design-Driven-Process-for-Data-Visualisation/Richards/p/book/9781032139449#
 
