@@ -23,3 +23,13 @@ Contains a list of datasets from previous Tidy Tuesday sessions
 ---
 https://github.com/microsoft/powerbi-desktop-samples/tree/main/powerbi-service-samples
 set of example datasets from Microsoft for use with Power BI
+
+---
+https://learn.microsoft.com/en-us/azure/open-datasets/dataset-catalog
+Azure Open Datasets
+
+    Transportation
+    Health and genomics
+    Labor and economics
+    Population and safety
+    Supplemental and common datasets

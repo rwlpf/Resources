@@ -11,3 +11,15 @@ Different types of memory and how to minimise cognitive overload
 
 https://www.mdpi.com/2227-9709/7/4/53
 Understanding the Role of Visualizations on Decision Making: A Study on Working Memory
+
+https://www.fondation-ipsen.org/podcast/history-of-memory/
+History of Memory
+
+http://psychclassics.yorku.ca/Miller/ (PDF also in this repo)
+The Magical Number Seven, Plus or Minus Two: Some Limits on our Capacity for Processing Information
+
+https://www.simplypsychology.org/multi-store.html
+Multi-Store Memory Model: Atkinson and Shiffrin
+How differnt types of memory how information is stored in the memory
+
+HUMAN MEMORY: A PROPOSED SYSTEM AND ITS CONTROL PROCESSES - See PDF
