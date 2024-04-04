@@ -23,3 +23,6 @@ Multi-Store Memory Model: Atkinson and Shiffrin
 How differnt types of memory how information is stored in the memory
 
 HUMAN MEMORY: A PROPOSED SYSTEM AND ITS CONTROL PROCESSES - See PDF
+
+https://www.nngroup.com/articles/recognition-and-recall/
+Memory Recognition and Recall in User Interfaces
