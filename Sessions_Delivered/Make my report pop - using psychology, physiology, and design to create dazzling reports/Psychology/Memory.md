@@ -26,3 +26,6 @@ HUMAN MEMORY: A PROPOSED SYSTEM AND ITS CONTROL PROCESSES - See PDF
 
 https://www.nngroup.com/articles/recognition-and-recall/
 Memory Recognition and Recall in User Interfaces
+
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3341652/
+Constructive memory: past and future
