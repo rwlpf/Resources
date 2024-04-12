@@ -9,16 +9,18 @@ https://jaykilleen.com/tags/m
 
 ---
 
+https://gorilla.bi/power-query/
+Power Query Language Videos 
+
 https://gorilla.bi/power-query/date-table/
+
+https://powerquery.how/
+Excellent reference for M-Code commands and synatx
 
 ---
 
 Excellent short course on how to user Power Query
 https://skillwave.training/shop/power-query-fundamentals/
-
----
-
-https://powerquery.how/
 
 ---
 
