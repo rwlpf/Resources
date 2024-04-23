@@ -96,3 +96,6 @@ Data Visualization and Accessbility
 https://home.vizlib.com/accessible-data-dashboard-designing/
 How to build an accessible data dashboard
 
+---
+https://www.valeriejunk.nl/en/improving-accessibility-in-power-bi/
+How to Improve Accessibility of Your Power BI Reports
