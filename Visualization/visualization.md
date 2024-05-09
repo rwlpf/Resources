@@ -145,3 +145,6 @@ https://www.eea.europa.eu/data-and-maps/daviz/learn-more/chart-dos-and-donts
 ---
 5 Things You Can Do to build better looking reports
 https://www.youtube.com/watch?v=CM1hXjeHZBA&t=5s
+
+Set of Power BI templates
+https://github.com/data-goblin/powerbi-macguyver-toolbox
