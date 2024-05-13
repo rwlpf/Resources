@@ -21,3 +21,7 @@ https://forum.enterprisedna.co/c/deneb-showcase/58
 ---
 https://deneb-viz.github.io/community/resources
 
+---
+Various visualations created using Deneb
+https://github.com/PBI-David/Deneb-Showcase
+
