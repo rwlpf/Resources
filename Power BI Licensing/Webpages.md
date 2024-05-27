@@ -132,3 +132,12 @@ https://www.linkedin.com/pulse/power-bi-licensing-pictures-greg-deckler-microsof
 ---
 Pricing including a Licening report
 https://www.ilink-digital.com/insights/blog/microsoft-fabric-pricing-scenarios/
+
+
+---
+Probably one of THE most comprehensive list of resources about Microsoft licensing
+https://www.directionsonmicrosoft.com/services/microsoft-licensing-ea-negotiation/
+
+---
+Competitor costs comparsion with Power BI
+https://powerbiwiki.com/is-power-bi-free-find-out-here/
