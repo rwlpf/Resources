@@ -21,3 +21,6 @@ https://www.youtube.com/watch?v=YyWZmdkPfDM
 ---
 Excellent simple practical hints and tips on speaking
 https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy56ZW5jYXN0ci5jb20vZi8tazZ5VWxNYi5yc3M/episode/OWNiZDk0N2QtNzlhNS00MTg3LWFmMzgtNjdhODA2ODA4MDFh?ep=14
+
+https://youtube.com/playlist?list=PL8EEC66CC5F02545C&si=1Z4Cvr-UlQOWAKK5
+Set of videos on speaking
