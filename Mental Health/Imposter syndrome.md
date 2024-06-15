@@ -48,6 +48,15 @@ https://www.ted.com/talks/louise_curtis_how_to_turn_imposter_syndrome_into_your_
 https://www.youtube.com/watch?v=whyUPLJZljE
 https://www.google.com/search?client=firefox-b-d&q=ted+talk+imposter+syndrome#ip=1
 
+Thinking your way out of imposter syndrome | Valerie Young
+https://www.youtube.com/watch?v=h7v-GG3SEWQ
+
+Imposter Syndrome - It's part of your journey too | Kosima Kovar | TEDxTUWien
+https://www.youtube.com/watch?v=Z5LmiF1H04Y
+
+The Surprising Solution to the Imposter Syndrome | Lou Solomon | TEDxCharlotte
+https://www.youtube.com/watch?v=whyUPLJZljE&t=16s
+
 https://www.linkedin.com/pulse/have-you-felt-like-impostor-brian-lawrence/?trackingId=28mx3QpfaPQLhMVZN9It3g%3D%3D
 
 https://www.lifeintelligence.io/blog/dunning-kruger-effect-vs-imposter-syndrome-overconfidence-opposites
@@ -57,3 +66,5 @@ https://health.clevelandclinic.org/a-psychologist-explains-how-to-deal-with-impo
 https://impostorsyndrome.com/10-steps-overcome-impostor/
 
 https://www.scienceofpeople.com/impostor-syndrome/
+
+https://staynimble.co.uk/blog/overcoming-imposter-syndrome/
