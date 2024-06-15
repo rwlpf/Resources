@@ -39,7 +39,7 @@ https://en.wikipedia.org/wiki/Impostor_syndrome
 Books 
 https://www.amazon.co.uk/Imposter-Cure-Escape-Mind-Trap-Syndrome/dp/B07P5GNP4S/ref=sr_1_1?adgrpid=67139052925&hvadid=341969670640&hvdev=c&hvlocphy=9046949&hvnetw=g&hvqmt=e&hvrand=10506829601469635282&hvtargid=kwd-745855150536&hydadcr=24403_1816058&keywords=the+imposter+cure&qid=1706705664&sr=8-1
 
-Ted Talks
+Ted Talks / You Tube Videos
 https://www.ted.com/playlists/503/fighting_impostor_syndrome
 https://www.ted.com/talks/mike_cannon_brookes_how_you_can_use_impostor_syndrome_to_your_benefit?language=en
 https://www.ted.com/talks/elizabeth_cox_what_is_imposter_syndrome_and_how_can_you_combat_it
@@ -56,6 +56,12 @@ https://www.youtube.com/watch?v=Z5LmiF1H04Y
 
 The Surprising Solution to the Imposter Syndrome | Lou Solomon | TEDxCharlotte
 https://www.youtube.com/watch?v=whyUPLJZljE&t=16s
+
+The Imposter Syndrome Paradox | Lisa and Richard Orbe'-Austin | TEDxDeerPark 
+https://www.youtube.com/watch?v=u2zbcZBI0Do
+
+Do you have Impostor Syndrome ... too? | Phil McKinney | TEDxBoulder
+https://www.youtube.com/watch?v=ewv_47rhcQI
 
 https://www.linkedin.com/pulse/have-you-felt-like-impostor-brian-lawrence/?trackingId=28mx3QpfaPQLhMVZN9It3g%3D%3D
 
