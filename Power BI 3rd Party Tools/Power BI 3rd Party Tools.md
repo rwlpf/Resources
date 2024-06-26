@@ -72,3 +72,8 @@ https://github.com/m-kovalsky/ReportAnalyzer
 return metata data from Power BI report
 
 https://www.tridant.com/power-bi-metadata-scanner/
+
+
+---
+Send PDF's automatically from Power BI
+https://docs.bihelper.tech/
