@@ -24,3 +24,8 @@ https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy56ZW5jYXN0ci5jb20vZi8tazZ5VWx
 
 https://youtube.com/playlist?list=PL8EEC66CC5F02545C&si=1Z4Cvr-UlQOWAKK5
 Set of videos on speaking
+
+---
+
+https://youtu.be/k8GvTgWtR7o?si=U5OYeDlVclptaK2_
+Public Speaking: How To Make An Audience Love You In 90 Seconds

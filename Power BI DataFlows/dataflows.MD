@@ -65,6 +65,10 @@ https://exceleratorbi.com.au/blog/dataflows/
 https://data-marc.com/2019/04/16/pimp-the-dataflows-connector-in-power-bi/
 
 ---
+Incremental Refresh and Hybrid tables in Power BI: Load Changes Only
+https://radacad.com/all-you-need-to-know-about-the-incremental-refresh-in-power-bi-load-changes-only
+
+---
 Videos
 
 ---
