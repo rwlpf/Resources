@@ -59,10 +59,6 @@ https://pbi.guide/resources/
 More resources for all aspects of PowerBI
 
 ---
-Free Power BI Intro Training From Microsoft
-https://ssbipolar.com/2021/06/07/free-power-bi-intro-training-from-microsoft/
-
----
 Power BI instructor-led training
 https://powerbi.microsoft.com/en-gb/instructor-led-training/
 
@@ -74,3 +70,6 @@ https://learn.microsoft.com/en-gb/training/powerplatform/power-bi
 Fabric Known issues
 https://support.fabric.microsoft.com/en-us/known-issues
 
+---
+Some fantastic resources
+https://github.com/itsnotaboutthecell
