@@ -99,3 +99,6 @@ How to build an accessible data dashboard
 ---
 https://www.valeriejunk.nl/en/improving-accessibility-in-power-bi/
 How to Improve Accessibility of Your Power BI Reports
+
+
+https://github.com/alphagov/wcag-primer/wiki
