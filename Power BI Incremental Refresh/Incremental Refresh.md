@@ -48,3 +48,5 @@ https://debbiesmspowerbiazureblog.home.blog/2020/05/29/quick-incremental-refresh
 this could be an approach, that does not involve incremental refresh via Permium capacity
 
 ---
+Incremental refesh in Pro Workspace
+http://excel-inside.pro/blog/2019/03/21/classical-incremental-refresh-for-cloud-data-sources-in-power-bi-service-for-pro-accounts/#more-366
