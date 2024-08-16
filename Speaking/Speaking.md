@@ -2,6 +2,8 @@ https://sqlbits.com/Sessions/Event10/Presenting_Like_Jagger
 
 Buck Woody if you have not heard this gentleman speaking about speaking you need to !
 
+https://www.youtube.com/watch?v=uDcDLpIjcFg
+Creating your best presentation: A Speaker Workshop by Buck Woody - WATCH THIS !
 ---
 
 Speaker improvement libary from New Stars of data.
