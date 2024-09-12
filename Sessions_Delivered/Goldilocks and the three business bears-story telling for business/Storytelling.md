@@ -1,9 +1,9 @@
+
 https://www.thescienceofstorytelling.com/
 The author of the Science of Storytelling 
 https://www.goodreads.com/book/show/43183121-the-science-of-storytelling
 
 ---
-
 https://www.harvardbusiness.org/the-science-behind-the-art-of-storytelling/
 https://www.harvardbusiness.org/what-makes-storytelling-so-effective-for-learning/
 
@@ -11,9 +11,7 @@ https://www.harvardbusiness.org/what-makes-storytelling-so-effective-for-learnin
 
 https://depictdatastudio.com/what-makes-a-useful-data-story-5-questions-to-ask/?ck_subscriber_id=1158608468
 
-
 ---
-
 https://nightingaledvs.com/effective-data-visualizations-should-focus-on-narrative-not-numbers/
 
 ---
@@ -29,3 +27,25 @@ in the context of a website design however good for reports
 ---
 https://www.storytellingwithdata.com/
 Excellent set of resources and so much information cannot recommend highly enough
+
+---
+https://twitter.com/mjskay/status/1571556827225280514?s=20&t=h12JNaYl9-6nG-x087KGrA
+nice set of tweets started to about static vs animation and has some really good points about storytelling
+
+---
+https://evolytics.com/blog/insight-framework-tell-story/
+
+---
+https://nightingaledvs.com/the-greatest-library-youve-never-heard-of-the-visual-telling-of-stories/
+https://www.fulltable.com/vts/index2.htm
+
+---
+
+https://www.effectivedatastorytelling.com/post/a-deeper-dive-into-lego-bricks-and-data-stories
+
+---
+
+https://www.valeriejunk.nl/en/storytelling-and-power-bi/?s=03 
+
+https://onlinedegrees.sandiego.edu/storytelling-with-data-part-1/
+https://onlinedegrees.sandiego.edu/storytelling-with-data-part-2/
