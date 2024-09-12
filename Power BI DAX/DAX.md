@@ -1,7 +1,7 @@
 DAX - Data Analysis Expressions
 
 ---
-Microsoft offical documentation page </br>
+Microsoft official documentation page </br>
 https://docs.microsoft.com/en-us/dax/
 
 ---
