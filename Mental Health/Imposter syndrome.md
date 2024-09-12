@@ -74,3 +74,5 @@ https://impostorsyndrome.com/10-steps-overcome-impostor/
 https://www.scienceofpeople.com/impostor-syndrome/
 
 https://staynimble.co.uk/blog/overcoming-imposter-syndrome/
+
+https://www.deloitte.com/uk/en/our-thinking/content/green-room-podcasts/episode-5.html?id=gb:2ps:3gl:4business:6brand:imposter%20syndrome%20and%20mental%20health-711772583018&gad_source=1&gclid=CjwKCAjwooq3BhB3EiwAYqYoEkIXhraYpngZ35A_wHR7aglP23-hEJW6zyieKbB9ObuvRUGLDuBDYxoCX_kQAvD_BwE
