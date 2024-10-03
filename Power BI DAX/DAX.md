@@ -32,4 +32,3 @@ DAX For Humnans
 https://www.youtube.com/playlist?list=PL-pfHAlWLrbTXJrmu9bpD2rSzzGxf5gWY
 GitHubRepo
 https://github.com/gdeckler/DAX-For-Humans
-
