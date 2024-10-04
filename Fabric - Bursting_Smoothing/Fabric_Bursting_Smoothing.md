@@ -6,6 +6,14 @@ Data Warehouse SKU Guardrails for Burstable Capacity - Oct 2023
 https://blog.fabric.microsoft.com/en-US/blog/data-warehouse-sku-guardrails-for-burstable-capacity/
 
 ---
+Fabric operations - Background, Interactive
+https://learn.microsoft.com/en-us/fabric/enterprise/fabric-operations
+
+---
+Understand the metrics app compute page
+https://learn.microsoft.com/en-us/fabric/enterprise/metrics-app-compute-page
+
+---
 Smoothing and throttling in Fabric Data Warehousing - Offical microsoft documentation
 https://learn.microsoft.com/en-us/fabric/data-warehouse/compute-capacity-smoothing-throttling?wt.mc_id=MVP_345457
 https://learn.microsoft.com/en-gb/fabric/data-warehouse/burstable-capacity
