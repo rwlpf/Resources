@@ -16,7 +16,9 @@ includes links to other sources
 
 https://time.com/5312483/how-to-deal-with-impostor-syndrome/
 
-https://www.ncbi.nlm.nih.gov/books/NBK585058/
+https://www.ncbi.nlm.nih.gov/books/NBK585058/ff
+
+https://asana.com/resources/impostor-syndrome
 
 imposter phenomenon
 
@@ -47,6 +49,8 @@ https://www.ted.com/talks/christina_whittaker_the_one_thing_no_one_told_you_abou
 https://www.ted.com/talks/louise_curtis_how_to_turn_imposter_syndrome_into_your_superpower/transcript
 https://www.youtube.com/watch?v=whyUPLJZljE
 https://www.google.com/search?client=firefox-b-d&q=ted+talk+imposter+syndrome#ip=1
+https://www.youtube.com/watch?v=ZQUxL4Jm1Lo
+https://www.youtube.com/watch?v=be_DhgIVqoI&t=59s
 
 Thinking your way out of imposter syndrome | Valerie Young
 https://www.youtube.com/watch?v=h7v-GG3SEWQ
@@ -81,3 +85,8 @@ https://www.deloitte.com/uk/en/our-thinking/content/green-room-podcasts/episode-
 Robert French articles
 https://www.linkedin.com/pulse/overcoming-imposter-syndrome-robert-french-he-him-his-/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
+
+
+Inforgraphic
+https://www.thepipettepen.com/wp-content/uploads/2016/12/Impostor-Syndrome-Infographic.jpg
+https://www.discoveryinaction.com.au/wp-content/uploads/2015/08/how-to-improve-confidence.jpg
