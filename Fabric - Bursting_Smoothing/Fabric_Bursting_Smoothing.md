@@ -2,6 +2,10 @@ Microsoft post about the topic - Sept 2023
 https://blog.fabric.microsoft.com/en-us/blog/fabric-capacities-everything-you-need-to-know-about-whats-new-and-whats-coming/
 
 ---
+Data Warehouse SKU Guardrails for Burstable Capacity - Oct 2023
+https://blog.fabric.microsoft.com/en-US/blog/data-warehouse-sku-guardrails-for-burstable-capacity/
+
+---
 Smoothing and throttling in Fabric Data Warehousing - Offical microsoft documentation
 https://learn.microsoft.com/en-us/fabric/data-warehouse/compute-capacity-smoothing-throttling?wt.mc_id=MVP_345457
 https://learn.microsoft.com/en-gb/fabric/data-warehouse/burstable-capacity
