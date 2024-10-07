@@ -52,7 +52,9 @@ https://www.ted.com/talks/louise_curtis_how_to_turn_imposter_syndrome_into_your_
 https://www.youtube.com/watch?v=whyUPLJZljE
 https://www.google.com/search?client=firefox-b-d&q=ted+talk+imposter+syndrome#ip=1
 https://www.youtube.com/watch?v=ZQUxL4Jm1Lo
-https://www.youtube.com/watch?v=be_DhgIVqoI&t=59s7 Signs You Have Imposter Syndrome
+https://www.youtube.com/watch?v=be_DhgIVqoI&t=59s
+
+7 Signs You Have Imposter Syndrome
 https://www.youtube.com/watch?v=BXOWSupV0pg
 
 Thinking your way out of imposter syndrome | Valerie Young
