@@ -38,6 +38,8 @@ https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/
 
 https://en.wikipedia.org/wiki/Impostor_syndrome
 
+https://www.testgorilla.com/blog/skills-assessments-and-imposter-syndrome/?utm_term=&utm_campaign=SN+%7C+Dynamic+%7C+T1+%7C+EN&utm_source=google&utm_medium=cpc&hsa_acc=4932434860&hsa_cam=18131062749&hsa_grp=144226140870&hsa_ad=695155846982&hsa_src=g&hsa_tgt=dsa-1456167871416&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwpP63BhDYARIsAOQkATaa_AtNotiBAZ8DyJscEYrJQv5bzm7RQ-hDzWt80NzOoPW8HcDyZw4aAutTEALw_wcB
+
 Books 
 https://www.amazon.co.uk/Imposter-Cure-Escape-Mind-Trap-Syndrome/dp/B07P5GNP4S/ref=sr_1_1?adgrpid=67139052925&hvadid=341969670640&hvdev=c&hvlocphy=9046949&hvnetw=g&hvqmt=e&hvrand=10506829601469635282&hvtargid=kwd-745855150536&hydadcr=24403_1816058&keywords=the+imposter+cure&qid=1706705664&sr=8-1
 
@@ -67,6 +69,8 @@ https://www.youtube.com/watch?v=u2zbcZBI0Do
 
 Do you have Impostor Syndrome ... too? | Phil McKinney | TEDxBoulder
 https://www.youtube.com/watch?v=ewv_47rhcQI
+
+https://asana.com/resources/impostor-syndrome
 
 https://www.linkedin.com/pulse/have-you-felt-like-impostor-brian-lawrence/?trackingId=28mx3QpfaPQLhMVZN9It3g%3D%3D
 
