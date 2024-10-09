@@ -96,12 +96,17 @@ Robert French articles
 https://www.linkedin.com/pulse/overcoming-imposter-syndrome-robert-french-he-him-his-/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 
-
+---
 Inforgraphic
 https://www.thepipettepen.com/wp-content/uploads/2016/12/Impostor-Syndrome-Infographic.jpg
 https://www.discoveryinaction.com.au/wp-content/uploads/2015/08/how-to-improve-confidence.jpg
 
+---
 Ideas for IT managers
 https://nailted.com/blog/how-hr-can-help-overcome-the-imposter-syndrome/
 https://www.pinsentmasons.com/out-law/analysis/employer-support-can-help-overcome-crippling-imposter-syndrome
 https://asana.com/resources/impostor-syndrome
+
+---
+What Is Positive Self-Talk?
+https://www.verywellmind.com/how-to-use-positive-self-talk-for-stress-relief-3144816
