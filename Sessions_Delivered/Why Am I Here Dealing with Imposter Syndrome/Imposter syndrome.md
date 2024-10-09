@@ -5,6 +5,7 @@ https://twitter.com/SQLSaurus/status/1460214977743237120
 https://x.com/donasarkar/status/1751223223956762741?t=mvcSf_yq3J2UUba41OayTQ&s=03
 
 Change how you think about Imposter Symdrome
+
 https://www.youtube.com/shorts/W1rIhpORWvs
 
 https://blog.hubspot.com/marketing/impostor-syndrome-tips
@@ -40,7 +41,8 @@ https://en.wikipedia.org/wiki/Impostor_syndrome
 
 https://www.testgorilla.com/blog/skills-assessments-and-imposter-syndrome/?utm_term=&utm_campaign=SN+%7C+Dynamic+%7C+T1+%7C+EN&utm_source=google&utm_medium=cpc&hsa_acc=4932434860&hsa_cam=18131062749&hsa_grp=144226140870&hsa_ad=695155846982&hsa_src=g&hsa_tgt=dsa-1456167871416&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=Cj0KCQjwpP63BhDYARIsAOQkATaa_AtNotiBAZ8DyJscEYrJQv5bzm7RQ-hDzWt80NzOoPW8HcDyZw4aAutTEALw_wcB
 
-Books 
+Books
+
 https://www.amazon.co.uk/Imposter-Cure-Escape-Mind-Trap-Syndrome/dp/B07P5GNP4S/ref=sr_1_1?adgrpid=67139052925&hvadid=341969670640&hvdev=c&hvlocphy=9046949&hvnetw=g&hvqmt=e&hvrand=10506829601469635282&hvtargid=kwd-745855150536&hydadcr=24403_1816058&keywords=the+imposter+cure&qid=1706705664&sr=8-1
 
 Ted Talks / You Tube Videos
@@ -55,21 +57,27 @@ https://www.youtube.com/watch?v=ZQUxL4Jm1Lo
 https://www.youtube.com/watch?v=be_DhgIVqoI&t=59s
 
 7 Signs You Have Imposter Syndrome
+
 https://www.youtube.com/watch?v=BXOWSupV0pg
 
 Thinking your way out of imposter syndrome | Valerie Young
+
 https://www.youtube.com/watch?v=h7v-GG3SEWQ
 
 Imposter Syndrome - It's part of your journey too | Kosima Kovar | TEDxTUWien
+
 https://www.youtube.com/watch?v=Z5LmiF1H04Y
 
 The Surprising Solution to the Imposter Syndrome | Lou Solomon | TEDxCharlotte
+
 https://www.youtube.com/watch?v=whyUPLJZljE&t=16s
 
-The Imposter Syndrome Paradox | Lisa and Richard Orbe'-Austin | TEDxDeerPark 
+The Imposter Syndrome Paradox | Lisa and Richard Orbe'-Austin | TEDxDeerPark
+
 https://www.youtube.com/watch?v=u2zbcZBI0Do
 
 Do you have Impostor Syndrome ... too? | Phil McKinney | TEDxBoulder
+
 https://www.youtube.com/watch?v=ewv_47rhcQI
 
 https://asana.com/resources/impostor-syndrome
@@ -93,15 +101,18 @@ https://www.helpguide.org/mental-health/wellbeing/imposter-syndrome-causes-types
 https://enterprisersproject.com/article/2019/8/imposter-syndrome-5-ways-beat
 
 Robert French articles
+s
 https://www.linkedin.com/pulse/overcoming-imposter-syndrome-robert-french-he-him-his-/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 
 ---
+
 Inforgraphic
 https://www.thepipettepen.com/wp-content/uploads/2016/12/Impostor-Syndrome-Infographic.jpg
 https://www.discoveryinaction.com.au/wp-content/uploads/2015/08/how-to-improve-confidence.jpg
 
 ---
+
 Ideas for IT managers
 https://nailted.com/blog/how-hr-can-help-overcome-the-imposter-syndrome/
 https://www.pinsentmasons.com/out-law/analysis/employer-support-can-help-overcome-crippling-imposter-syndrome
