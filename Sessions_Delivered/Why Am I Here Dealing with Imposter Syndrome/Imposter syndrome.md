@@ -100,6 +100,7 @@ https://enterprisersproject.com/article/2019/8/imposter-syndrome-5-ways-beat
 Robert French articles
 
 https://www.linkedin.com/pulse/overcoming-imposter-syndrome-robert-french-he-him-his-/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
+
 https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 
 ---
