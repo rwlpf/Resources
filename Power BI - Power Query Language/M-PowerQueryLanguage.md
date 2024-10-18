@@ -37,3 +37,8 @@ https://www.classcentral.com/classroom/youtube-free-m-code-class-from-basic-to-a
 
 
 https://www.thebiccountant.com/learning-resources/
+
+
+---
+Power Query Libaries
+https://github.com/bernatagulloesbrina/PowerQuery
