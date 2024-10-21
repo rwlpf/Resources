@@ -92,6 +92,9 @@ https://www.helpguide.org/mental-health/wellbeing/imposter-syndrome-causes-types
 
 https://enterprisersproject.com/article/2019/8/imposter-syndrome-5-ways-beat
 
+Simon Sinek - talking about imposter syndrome as a speaker
+https://www.youtube.com/shorts/L7SNmceYsbM
+
 Robert French articles
 https://www.linkedin.com/pulse/overcoming-imposter-syndrome-robert-french-he-him-his-/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
