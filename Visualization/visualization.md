@@ -148,3 +148,8 @@ https://www.youtube.com/watch?v=CM1hXjeHZBA&t=5s
 
 Set of Power BI templates
 https://github.com/data-goblin/powerbi-macguyver-toolbox
+
+Urban Institute Data Visualization Style Guide
+    Chart Parts, Colour, Best Practices, Accessibilty, Examples
+https://urbaninstitute.github.io/graphics-styleguide/
+
