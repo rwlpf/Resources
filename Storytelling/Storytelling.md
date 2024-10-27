@@ -47,5 +47,12 @@ https://www.effectivedatastorytelling.com/post/a-deeper-dive-into-lego-bricks-an
 
 https://www.valeriejunk.nl/en/storytelling-and-power-bi/?s=03 
 
+---
+
 https://onlinedegrees.sandiego.edu/storytelling-with-data-part-1/
 https://onlinedegrees.sandiego.edu/storytelling-with-data-part-2/
+
+---
+
+Brent Dykes who wrote - Effective Data Storytelling excellent set of blog post
+https://www.effectivedatastorytelling.com/blog
