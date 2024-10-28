@@ -16,3 +16,7 @@ A huge number of webinars and videos. Covers a number of topics worth reviewing.
 
 ---
 https://www.kratosbi.com/
+
+---
+UK Microsoft Fabric User Group (was UK Power BI User Group)
+https://www.youtube.com/channel/UCtQLSh4rpuT4fOaXKL4HvtQ
