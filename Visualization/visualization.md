@@ -1,4 +1,5 @@
-Books  [https://handsondataviz.org/](https://handsondataviz.org/)  [https://clauswilke.com/dataviz/index.html](https://clauswilke.com/dataviz/index.html)
+Books  [https://handsondataviz.org/](https://handsondataviz.org/) 
+ [https://clauswilke.com/dataviz/index.html](https://clauswilke.com/dataviz/index.html)
 
 ---
 [https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/](https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/)
@@ -153,3 +154,9 @@ Urban Institute Data Visualization Style Guide
     Chart Parts, Colour, Best Practices, Accessibilty, Examples
 https://urbaninstitute.github.io/graphics-styleguide/
 
+
+
+https://www.opendatasoft.com/en/blog/dashboards-datastories-maps-which-data-visualization-should-you-choose/
+
+
+https://www.sportsmith.co/articles/10-step-data-viz-guide/
