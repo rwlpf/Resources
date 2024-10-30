@@ -107,3 +107,7 @@ https://github.com/alphagov/wcag-primer/wiki
 Do No Harm Guide: Centering Accessibility in Data Visualization
 (note file has been downloaded to the repo - Do No Harm Guide Centering Accessibility in Data Visualization.pdf)
 https://www.urban.org/research/publication/do-no-harm-guide-centering-accessibility-data-visualization
+
+---
+Visual Accessibility Resources
+https://nightingaledvs.com/visual-accessibility-resources/

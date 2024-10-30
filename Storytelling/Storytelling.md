@@ -56,3 +56,8 @@ https://onlinedegrees.sandiego.edu/storytelling-with-data-part-2/
 
 Brent Dykes who wrote - Effective Data Storytelling excellent set of blog post
 https://www.effectivedatastorytelling.com/blog
+
+---
+
+Finding the story before starting to tell the story
+https://coffeetableviz.wordpress.com/2024/10/10/how-to-find-stories-in-data-channelling-our-inner-journo/
