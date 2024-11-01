@@ -33,3 +33,5 @@ Azure Open Datasets
     Labor and economics
     Population and safety
     Supplemental and common datasets
+
+https://www.vahiddm.com/post/free-sample-data-sources-to-learn-and-practice-power-bi
