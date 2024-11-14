@@ -95,6 +95,8 @@ https://enterprisersproject.com/article/2019/8/imposter-syndrome-5-ways-beat
 Simon Sinek - talking about imposter syndrome as a speaker
 https://www.youtube.com/shorts/L7SNmceYsbM
 
+https://www.sqlgene.com/2020/01/14/five-ways-to-reduce-impostor-syndrome/ 
+
 Robert French articles
 https://www.linkedin.com/pulse/overcoming-imposter-syndrome-robert-french-he-him-his-/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
@@ -108,3 +110,4 @@ Ideas for IT managers
 https://nailted.com/blog/how-hr-can-help-overcome-the-imposter-syndrome/
 https://www.pinsentmasons.com/out-law/analysis/employer-support-can-help-overcome-crippling-imposter-syndrome
 https://asana.com/resources/impostor-syndrome
+
