@@ -97,6 +97,8 @@ https://www.youtube.com/shorts/L7SNmceYsbM
 
 https://www.sqlgene.com/2020/01/14/five-ways-to-reduce-impostor-syndrome/ 
 
+https://nightingaledvs.com/good-morning-data-7-false-positives/
+
 Robert French articles
 https://www.linkedin.com/pulse/overcoming-imposter-syndrome-robert-french-he-him-his-/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
