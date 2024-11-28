@@ -50,3 +50,12 @@ this could be an approach, that does not involve incremental refresh via Permium
 ---
 Incremental refesh in Pro Workspace
 http://excel-inside.pro/blog/2019/03/21/classical-incremental-refresh-for-cloud-data-sources-in-power-bi-service-for-pro-accounts/#more-366
+
+---
+Partitioning - Power BI dataset using TMSL
+https://sqlserverbi.blog/2022/11/23/developing-large-power-bi-datasets-part-2-partitioning/
+
+---
+
+https://shabnamwatson.com/2022/10/30/a-look-at-automatic-partition-maintenance-by-power-bi-service-for-datasets-with-incremental-refresh/
+https://www.youtube.com/watch?v=CDJ3s4v7Fsg
