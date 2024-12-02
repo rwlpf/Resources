@@ -88,6 +88,8 @@ https://www.podiumbi.com/
 
 https://www.powerbitiles.com/PBIPortal/
 
+https://embedsy.io/
+
 ---
 
 If you have an Office 365 E5 or Microsoft 365 E5 then it is *assumed* you have a Power BI pro licence.  Or do you https://dataveld.com/2021/12/12/microsoft-365-e5-and-the-case-of-the-missing-power-bi-pro/ notes that with the introduction of two add-ons for E5 Security and E5 Compliance. These not have Power BI Pro *sigh* see comparison sheet for details - https://go.microsoft.com/fwlink/p/?LinkID=2139145&clcid=0x409&culture=en-us&country=US
@@ -141,3 +143,7 @@ https://www.directionsonmicrosoft.com/services/microsoft-licensing-ea-negotiatio
 ---
 Competitor costs comparsion with Power BI
 https://powerbiwiki.com/is-power-bi-free-find-out-here/
+
+---
+Explanation of all the Power BI SKU's inlcuding the various limitations
+https://whitepages.bifocal.show/2023/06/understanding-licensing-for-microsoft-fabric-from-a-power-bi-perspective/
