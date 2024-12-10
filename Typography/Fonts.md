@@ -16,3 +16,7 @@ online book with an excellent advice and information on this topic
 https://www.zekagraphic.com/font-psychology-in-graphic-design/
 
 https://www.zekagraphic.com/typographic-hierarchy-in-graphic-design/
+
+---
+"Font Choice is Key | Don McMillan Comedy" on YouTube
+https://youtu.be/l6NkgMqN42E?si=Y1OsQKP-6iJNI-zz 
