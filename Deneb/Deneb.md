@@ -28,3 +28,15 @@ https://github.com/PBI-David/Deneb-Showcase
 ---
 https://deneb-viz.github.io/community/resources
 
+---
+@PowerBIFerryTales
+Videos on using Deneb
+https://www.youtube.com/playlist?list=PL6oIJxyQvMGTxh4tREeKflcKVlOfGdyim
+
+Manchester Power BI group session - 5 June 2023
+PBIMRC - Deneb: Declarative Visualization in Power BI - Ben Howard
+https://www.youtube.com/watch?v=C9km_-sxaSA
+
+---
+Deneb & Vega-Lite Walkthrough
+https://medium.com/@pbiqueryous/power-bi-deneb-vega-lite-series-ep01-marks-and-encoding-lets-learn-to-run-before-we-fly-87f4961a2fa5
