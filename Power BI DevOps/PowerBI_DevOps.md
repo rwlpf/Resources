@@ -25,3 +25,7 @@ https://www.reddit.com/r/PowerBI/comments/184t7hp/getting_started_with_gitversio
 
 ---
 https://www.kerski.tech/
+
+---
+
+https://www.youtube.com/watch?v=f5ZONMg3w_g
