@@ -80,3 +80,7 @@ https://www.linkedin.com/pulse/i-can-see-your-salary-from-here-implement-row-lev
 Row Level Security & Beyond in Business Intelligence Applications: A Practical Overview
 A few topics and technquies which I have not considered. Some details on usig RLS with other reporting tools
 https://www.oliviertravers.com/row-level-security-rls-business-intelligence/
+
+---
+Another approach to hierarchical row level security
+https://angryanalytics.com/2016/12/27/dynamic-rls-via-hierarchy-in-power-bi/
