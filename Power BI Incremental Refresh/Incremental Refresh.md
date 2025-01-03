@@ -59,3 +59,4 @@ https://sqlserverbi.blog/2022/11/23/developing-large-power-bi-datasets-part-2-pa
 
 https://shabnamwatson.com/2022/10/30/a-look-at-automatic-partition-maintenance-by-power-bi-service-for-datasets-with-incremental-refresh/
 https://www.youtube.com/watch?v=CDJ3s4v7Fsg
+
