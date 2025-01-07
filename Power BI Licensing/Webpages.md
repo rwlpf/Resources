@@ -147,3 +147,7 @@ https://powerbiwiki.com/is-power-bi-free-find-out-here/
 ---
 Explanation of all the Power BI SKU's inlcuding the various limitations
 https://whitepages.bifocal.show/2023/06/understanding-licensing-for-microsoft-fabric-from-a-power-bi-perspective/
+
+---
+
+https://powerembedded.com.br/en/#quanto-custa
