@@ -60,3 +60,14 @@ https://sqlserverbi.blog/2022/11/23/developing-large-power-bi-datasets-part-2-pa
 https://shabnamwatson.com/2022/10/30/a-look-at-automatic-partition-maintenance-by-power-bi-service-for-datasets-with-incremental-refresh/
 https://www.youtube.com/watch?v=CDJ3s4v7Fsg
 
+---
+Dynamically refreshing (historical) partitions in Power BI Incremental Refresh Semantic Models using Fabric Semantic Link
+https://data-marc.com/2024/05/28/dynamically-refreshing-historical-partitions-in-power-bi-incremental-refresh-semantic-models-using-fabric-semantic-link/
+
+---
+Custom or Weekly Partitions With Power BI Incremental Refresh
+https://www.youtube.com/watch?v=qXQZ8WIv_Lo
+
+---
+Power BI Incremental Refresh and Hybrid Tables
+https://www.youtube.com/watch?v=2husIX__ZWg
