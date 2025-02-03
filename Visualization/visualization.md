@@ -155,8 +155,17 @@ Urban Institute Data Visualization Style Guide
 https://urbaninstitute.github.io/graphics-styleguide/
 
 
-
 https://www.opendatasoft.com/en/blog/dashboards-datastories-maps-which-data-visualization-should-you-choose/
 
 
 https://www.sportsmith.co/articles/10-step-data-viz-guide/
+
+---
+DATA VISUALISATION
+A practical guide to producing effective visualisations for 
+research communication
+https://assets.publishing.service.gov.uk/media/57a089e4e5274a31e00002f8/Guide-to-data-viz.pdf
+
+---
+Visualizing Information for Advocacy: An Introduction to Information Design
+https://www.opensocietyfoundations.org/publications/visualizing-information-advocacy-introduction-information-design
