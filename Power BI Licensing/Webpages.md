@@ -88,6 +88,10 @@ https://www.podiumbi.com/
 
 https://www.powerbitiles.com/PBIPortal/
 
+https://datatako.com/
+
+https://binokula.com/
+
 https://embedsy.io/
 
 ---
