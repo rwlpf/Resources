@@ -1,3 +1,10 @@
+
+---
+Conference attendee personas
+https://www.bizzabo.com/blog/attendee-personas
+
+https://www.linkedin.com/advice/1/what-best-practices-developing-personas-inform-conference-78gzf
+
 **Good jumping-off point excellent introduction**
 
 https://www.interaction-design.org/literature/topics/personas
