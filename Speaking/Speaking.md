@@ -36,3 +36,7 @@ Public Speaking: How To Make An Audience Love You In 90 Seconds
 
 https://drive.google.com/file/d/1Wk8O7kiqc9aQ5ry6x2w1mGxit8qnY6zX/view
 Some interesting points in creating / developing a presentation
+
+---
+Nancy Duarte uncovers common structure of greatest communicators
+https://www.youtube.com/watch?v=1nYFpuc2Umk
