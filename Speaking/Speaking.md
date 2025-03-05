@@ -40,3 +40,25 @@ Some interesting points in creating / developing a presentation
 ---
 Nancy Duarte uncovers common structure of greatest communicators
 https://www.youtube.com/watch?v=1nYFpuc2Umk
+
+---
+Some scary stats on speaking!
+https://www.weshare.net/statistics/presentation-statistics/
+
+---
+How to Start your Presentation: 4 Step Formula for a Killer Intro
+https://www.youtube.com/watch?v=aGEFtRwPhE4
+
+---
+How to start a speech like a PRO
+https://www.youtube.com/watch?v=e3FOFu79M3U
+
+---
+7 Public Speaking Tips for Beginners
+https://www.youtube.com/watch?v=Ns_z4wEtdRM
+
+https://www.alexanderlyon.com/free-resources
+
+---
+How to Give An Extemporaneous Speech
+https://www.youtube.com/watch?v=Pci3VieINY8&t=0s
