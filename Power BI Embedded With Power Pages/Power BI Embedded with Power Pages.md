@@ -27,3 +27,7 @@ https://www.reddit.com/r/PowerBI/comments/1fj1n5o/sharing_power_bi_reports_to_us
 ---
 
 https://dynamicasresourcing.co.uk/displaying-power-bi-reports-in-power-pages/
+
+---
+
+https://www.serversys.com/insights/essentials-of-power-pages-licensing/
