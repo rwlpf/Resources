@@ -2,6 +2,11 @@
 Website to raise awareness of colour blindness
 https://www.colourblindawareness.org/
 
+
+---
+Checking for Colourbliness
+https://vischeck.com/
+
 ---
 
 Some pratical suggestions on addressing colour-blindness in Data Viz
