@@ -8,3 +8,6 @@ https://www.powerbisentinel.com/creating-a-service-principal-and-connecting-to-p
 
 
 https://hatfullofdata.blog/create-a-power-bi-service-principle-profile/
+
+Settting up service principals
+https://www.reddit.com/r/PowerBI/comments/1etb3nq/reporting_on_very_deep_folder_structure_from_a/
