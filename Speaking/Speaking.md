@@ -68,3 +68,12 @@ Various articles on presenting, including how to use Power Point
 https://presented.co.uk/blog/
 
 ---
+https://virtualspeech.com/blog/8-elements-of-confident-body-language
+
+
+---
+
+https://medium.com/@vvanedwards/20-hand-gestures-you-should-be-using-c8717eca02d7
+
+
+https://www.wikihow.com/Communicate-With-Body-Language

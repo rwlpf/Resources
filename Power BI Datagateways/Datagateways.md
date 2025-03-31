@@ -52,10 +52,6 @@ https://blog.crossjoin.co.uk/category/on-premises-data-gateway/
 Speed Up Power BI Refresh By Increasing The Amount Of Memory On Your On-Premises Data Gateway Machine
 
 ---
-https://www.bluegranite.com/blog/monitoring-power-bi-on-premises-data-gateway-performance
-Montioring Power BI Datagateway perfromance
-
----
 How to Set Up Power BI Gateway to Connect to On-Premise Data in Enterprise Mode  - Avi Singh
 https://youtu.be/fejSQmshwrE
 
