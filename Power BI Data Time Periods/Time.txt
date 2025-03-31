@@ -1,0 +1,172 @@
+let
+  Source = List.Times(#time(0, 0, 0), 24 * 60 * 60, #duration(0, 0, 0, 1)), 
+  #"Converted to Table" = Table.FromList(
+    Source, 
+    Splitter.SplitByNothing(), 
+    null, 
+    null, 
+    ExtraValues.Error
+  ), 
+  #"Renamed Columns" = Table.RenameColumns(#"Converted to Table", {{"Column1", "Time"}}), 
+  #"Changed Type" = Table.TransformColumnTypes(#"Renamed Columns", {{"Time", type time}}), 
+  #"Inserted Hour" = Table.AddColumn(#"Changed Type", "Hour", each Time.Hour([Time]), Int64.Type), 
+  #"Inserted Minute" = Table.AddColumn(
+    #"Inserted Hour", 
+    "Minute", 
+    each Time.Minute([Time]), 
+    Int64.Type
+  ), 
+  #"Inserted Second" = Table.AddColumn(
+    #"Inserted Minute", 
+    "Second", 
+    each Time.Second([Time]), 
+    type number
+  ), 
+  #"Added Conditional Column" = Table.AddColumn(
+    #"Inserted Second", 
+    "AM/PM", 
+    each if [Hour] < 12 then "a.m." else "p.m."
+  ), 
+  #"Changed Type1" = Table.TransformColumnTypes(#"Added Conditional Column", {{"AM/PM", type text}}), 
+  #"Duplicated Column" = Table.DuplicateColumn(#"Changed Type1", "Time", "Time - Copy"), 
+  #"Removed Columns" = Table.RemoveColumns(#"Duplicated Column", {"Time - Copy"}), 
+  #"Duplicated Column1" = Table.DuplicateColumn(#"Removed Columns", "Hour", "Hour - Copy"), 
+  #"Renamed Columns1" = Table.RenameColumns(#"Duplicated Column1", {{"Hour - Copy", "Hour label"}}), 
+  #"Changed Type2" = Table.TransformColumnTypes(#"Renamed Columns1", {{"Hour label", type text}}), 
+  #"Removed Columns1" = Table.RemoveColumns(#"Changed Type2", {"Hour label"}), 
+  #"Inserted Prefix" = Table.AddColumn(
+    #"Removed Columns1", 
+    "Prefix", 
+    each "0" & Text.From([Hour], "en-NZ"), 
+    type text
+  ), 
+  #"Renamed Columns2" = Table.RenameColumns(#"Inserted Prefix", {{"Prefix", "Hour Label"}}), 
+  #"Extracted Last Characters" = Table.TransformColumns(
+    #"Renamed Columns2", 
+    {{"Hour Label", each Text.End(_, 2), type text}}
+  ), 
+  #"Inserted Prefix1" = Table.AddColumn(
+    #"Extracted Last Characters", 
+    "Prefix", 
+    each "0" & Text.From([Minute], "en-NZ"), 
+    type text
+  ), 
+  #"Renamed Columns3" = Table.RenameColumns(#"Inserted Prefix1", {{"Prefix", "Minute Label"}}), 
+  #"Extracted Last Characters1" = Table.TransformColumns(
+    #"Renamed Columns3", 
+    {{"Minute Label", each Text.End(_, 2), type text}}
+  ), 
+  #"Inserted Prefix2" = Table.AddColumn(
+    #"Extracted Last Characters1", 
+    "Prefix", 
+    each "0" & Text.From([Second], "en-NZ"), 
+    type text
+  ), 
+  #"Renamed Columns4" = Table.RenameColumns(#"Inserted Prefix2", {{"Prefix", "Second Label"}}), 
+  #"Extracted Last Characters2" = Table.TransformColumns(
+    #"Renamed Columns4", 
+    {{"Second Label", each Text.End(_, 2), type text}}
+  ), 
+  #"Added Index" = Table.AddIndexColumn(#"Extracted Last Characters2", "Index", 0, 1), 
+  #"Renamed Columns5" = Table.RenameColumns(#"Added Index", {{"Index", "TimeKey"}}), 
+  #"Inserted Modulo" = Table.AddColumn(
+    #"Renamed Columns5", 
+    "Modulo", 
+    each Number.Mod([Hour], 12), 
+    type number
+  ), 
+  #"Renamed Columns6" = Table.RenameColumns(#"Inserted Modulo", {{"Modulo", "Hour Bin 12"}}), 
+  #"Inserted Integer-Division" = Table.AddColumn(
+    #"Renamed Columns6", 
+    "Integer-Division", 
+    each Number.IntegerDivide([Hour], 8), 
+    Int64.Type
+  ), 
+  #"Renamed Columns7" = Table.RenameColumns(
+    #"Inserted Integer-Division", 
+    {{"Integer-Division", "Hour Bin 8"}}
+  ), 
+  #"Inserted Integer-Division1" = Table.AddColumn(
+    #"Renamed Columns7", 
+    "Integer-Division", 
+    each Number.IntegerDivide([Hour], 6), 
+    Int64.Type
+  ), 
+  #"Renamed Columns8" = Table.RenameColumns(
+    #"Inserted Integer-Division1", 
+    {{"Integer-Division", "Hour Bin 6"}}
+  ), 
+  #"Inserted Integer-Division2" = Table.AddColumn(
+    #"Renamed Columns8", 
+    "Integer-Division", 
+    each Number.IntegerDivide([Hour], 4), 
+    Int64.Type
+  ), 
+  #"Renamed Columns9" = Table.RenameColumns(
+    #"Inserted Integer-Division2", 
+    {{"Integer-Division", "Hour Bin 4"}}
+  ), 
+  #"Inserted Integer-Division3" = Table.AddColumn(
+    #"Renamed Columns9", 
+    "Integer-Division", 
+    each Number.IntegerDivide([Hour], 3), 
+    Int64.Type
+  ), 
+  #"Renamed Columns10" = Table.RenameColumns(
+    #"Inserted Integer-Division3", 
+    {{"Integer-Division", "Hour Bin 3"}}
+  ), 
+  #"Inserted Integer-Division4" = Table.AddColumn(
+    #"Renamed Columns10", 
+    "Integer-Division", 
+    each Number.IntegerDivide([Hour], 2), 
+    Int64.Type
+  ), 
+  #"Renamed Columns11" = Table.RenameColumns(
+    #"Inserted Integer-Division4", 
+    {{"Integer-Division", "Hour Bin 2"}}
+  ), 
+  #"Inserted Integer-Division5" = Table.AddColumn(
+    #"Renamed Columns11", 
+    "Integer-Division", 
+    each Number.IntegerDivide([Minute], 30), 
+    Int64.Type
+  ), 
+  #"Multiplied Column" = Table.TransformColumns(
+    #"Inserted Integer-Division5", 
+    {{"Integer-Division", each _ * 30, type number}}
+  ), 
+  #"Renamed Columns12" = Table.RenameColumns(
+    #"Multiplied Column", 
+    {{"Integer-Division", "Minute Bin 30"}}
+  ), 
+  #"Inserted Integer-Division6" = Table.AddColumn(
+    #"Renamed Columns12", 
+    "Integer-Division", 
+    each Number.IntegerDivide([Minute], 15), 
+    Int64.Type
+  ), 
+  #"Multiplied Column1" = Table.TransformColumns(
+    #"Inserted Integer-Division6", 
+    {{"Integer-Division", each _ * 15, type number}}
+  ), 
+  #"Renamed Columns13" = Table.RenameColumns(
+    #"Multiplied Column1", 
+    {{"Integer-Division", "Minute Bin 15"}}
+  ), 
+  #"Inserted Integer-Division7" = Table.AddColumn(
+    #"Renamed Columns13", 
+    "Integer-Division", 
+    each Number.IntegerDivide([Minute], 10), 
+    Int64.Type
+  ), 
+  #"Multiplied Column2" = Table.TransformColumns(
+    #"Inserted Integer-Division7", 
+    {{"Integer-Division", each _ * 10, type number}}
+  ), 
+  #"Renamed Columns14" = Table.RenameColumns(
+    #"Multiplied Column2", 
+    {{"Integer-Division", "Minute Bin 10"}}
+  )
+in
+  #"Renamed Columns14"
