@@ -1,0 +1,95 @@
+table TenantSettingGroup
+	isHidden
+	lineageTag: 6975cbc6-7c5e-4e30-819e-09b3c226a98b
+	sourceLineageTag: dba85099-74d0-41cd-9665-9961b08daca8
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		isHidden
+		isNullable: false
+		lineageTag: aa8b3729-4994-4edd-a72b-4c292f2fa28c
+		sourceLineageTag: 0e1916b5-f5ab-4738-9a26-1b99703f7902
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+		sortByColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = User
+
+	column DifferentCount
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 86cce6b7-7ccd-46e3-b155-1705d124c561
+		sourceLineageTag: 9a4669e4-c563-49c8-a002-6b16ff97646f
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: DifferentCount
+
+		annotation SummarizationSetBy = User
+
+	column TenantSettingGroupOrder
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 3cb1d66d-d014-4767-87a0-ee0f9538b013
+		sourceLineageTag: 67da2a01-6af0-493a-91e1-3d85ed4dc559
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = User
+
+	column SameCount
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f4fd5160-837d-44e9-be1d-fd659cc66ce5
+		sourceLineageTag: 926a6bdd-05cc-4a27-ba9b-415031514bcc
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: SameCount
+
+		annotation SummarizationSetBy = User
+
+	column SameGroupAndCount
+		dataType: string
+		isHidden
+		lineageTag: 73c9ad91-1764-4708-99dc-8bfb7fd5d9b3
+		sourceLineageTag: e2d3de0d-fc04-4ded-a57a-ab05c1c8f230
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: SameGroupAndCount
+		sortByColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = User
+
+	column DiffGroupAndCount
+		dataType: string
+		isHidden
+		lineageTag: 11402055-a43e-4476-b7d4-fb0ba5d7fdde
+		sourceLineageTag: c5874a63-82ea-4df7-b5d7-961847fc7d9e
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: DiffGroupAndCount
+		sortByColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = User
+
+	column DifferentSettings
+		dataType: string
+		isHidden
+		lineageTag: 3a500ee9-1641-4550-bf8a-6f4bee3173a2
+		sourceLineageTag: 2414278e-5680-42d1-bfa4-37030d13fc50
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: DifferentSettings
+
+		annotation SummarizationSetBy = User
+
+	partition TenantSettingGroup = entity
+		mode: directQuery
+		source
+			entityName: TenantSettingGroup
+			expressionSource: 'DirectQuery to AS - Power BI Tenant Settings-QNRL_SM'
+

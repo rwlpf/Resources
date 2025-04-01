@@ -1,0 +1,56 @@
+table PBTS_tenantSettingGroup_DifferentSettings_Count
+	isHidden
+	lineageTag: f8037614-2a02-42de-a228-d4d5cb6d8dad
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: ce15239b-4f5e-4b49-94c0-24f7c0d466cd
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DifferentCount
+		dataType: double
+		isHidden
+		formatString: 0
+		lineageTag: 56e44630-a924-4c49-b957-0cc419c45710
+		summarizeBy: sum
+		sourceColumn: DifferentCount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SameCount
+		dataType: double
+		isHidden
+		lineageTag: 52a66551-9073-472b-a8f2-2d181c24b974
+		summarizeBy: sum
+		sourceColumn: SameCount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition PBTS_tenantSettingGroup_DifferentSettings_Count = m
+		mode: import
+		queryGroup: Dimension
+		source = ```
+				let
+				  Source = xformCurrentVsRecommendedSettings, 
+				  #"Removed Other Columns" = Table.SelectColumns(Source,{"PBTS_tenantSettingGroup", "Different", "Same"}), 
+				  #"Grouped Rows" = Table.Group(#"Removed Other Columns", {"PBTS_tenantSettingGroup"}, {{"DifferentCount", each List.Sum([Different]), type nullable number}, {"SameCount", each List.Sum([Same]), type nullable number}})
+				in
+				  #"Grouped Rows"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

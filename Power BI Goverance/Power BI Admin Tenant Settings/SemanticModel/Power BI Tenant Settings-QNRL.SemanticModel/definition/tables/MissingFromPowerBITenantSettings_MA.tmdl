@@ -1,0 +1,110 @@
+table MissingFromPowerBITenantSettings_MA
+	isHidden
+	lineageTag: 703c713b-cbf3-42c7-86f9-9fc5c3f513e6
+
+	column ID
+		dataType: string
+		isHidden
+		lineageTag: 141dfb5b-cb9b-4478-bb8f-29ffa137038a
+		summarizeBy: none
+		sourceColumn: ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SettingName
+		dataType: string
+		isHidden
+		lineageTag: f5e6d9f0-086a-4842-b4d9-beeb53bef115
+		summarizeBy: none
+		sourceColumn: SettingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Priority
+		dataType: string
+		isHidden
+		lineageTag: 53296276-88f5-4a01-b862-6f6fcf225a1f
+		summarizeBy: none
+		sourceColumn: Priority
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column AdminText
+		dataType: string
+		isHidden
+		lineageTag: fe03e103-0bc0-49ad-903f-3c1e18d80f0d
+		summarizeBy: none
+		sourceColumn: AdminText
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column MS_URL
+		dataType: string
+		isHidden
+		lineageTag: 4f377cc4-7210-4bd4-ad34-f3933e130d18
+		summarizeBy: none
+		sourceColumn: MS_URL
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Review
+		dataType: string
+		isHidden
+		lineageTag: 69e6ddfc-80c7-403b-95ac-b269499728ab
+		summarizeBy: none
+		sourceColumn: Review
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SecurityRisk
+		dataType: string
+		isHidden
+		lineageTag: b7081f3f-1a38-409a-a480-d54b63bb30e4
+		summarizeBy: none
+		sourceColumn: SecurityRisk
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'xformPowerBITenantSettings_MA.settingName'
+		dataType: string
+		isHidden
+		lineageTag: bcb2e6e8-3d1f-4d8f-b82d-3e7c053ff6ee
+		summarizeBy: none
+		sourceColumn: xformPowerBITenantSettings_MA.settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MissingFromPowerBITenantSettings_MA = m
+		mode: import
+		queryGroup: Missing_Added_Settings
+		source =
+				let
+				    Source = Table.NestedJoin(xformQuorumRecommnedSettings_MA, {"SettingName"}, xformPowerBITenantSettings_MA, {"settingName"}, "xformPowerBITenantSettings_MA", JoinKind.LeftOuter),
+				    #"Expanded xformPowerBITenantSettings_MA" = Table.ExpandTableColumn(Source, "xformPowerBITenantSettings_MA", {"settingName"}, {"xformPowerBITenantSettings_MA.settingName"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Expanded xformPowerBITenantSettings_MA", each ([xformPowerBITenantSettings_MA.settingName] = null)),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Filtered Rows",{"ID", "SettingName", "Priority", "AdminText", "MS_URL", "Review", "SecurityRisk", "xformPowerBITenantSettings_MA.settingName"})
+				in
+				    #"Removed Other Columns"
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

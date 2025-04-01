@@ -1,0 +1,30 @@
+table colours
+	lineageTag: 22c38a1c-0cd7-41c9-b372-4015a5b8e5b9
+	sourceLineageTag: 6336beed-70e9-43ff-8347-7372a24762d3
+
+	column Usage
+		dataType: string
+		lineageTag: 08426dbe-ca80-4149-a371-fb2fe9c7837c
+		sourceLineageTag: 24c95626-6931-4cae-9002-325dda2dbfc5
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Usage
+
+		annotation SummarizationSetBy = User
+
+	column HexCode
+		dataType: string
+		lineageTag: 9747c564-d46d-4bbc-9aae-af01d686fb3c
+		sourceLineageTag: 008d4adf-7dc1-495e-a840-0828ee92b8ab
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: HexCode
+
+		annotation SummarizationSetBy = User
+
+	partition colours = entity
+		mode: directQuery
+		source
+			entityName: colours
+			expressionSource: 'DirectQuery to AS - Power BI Tenant Settings-QNRL_SM'
+

@@ -1,0 +1,270 @@
+table CurrentVsRecommendedSettings
+	lineageTag: 5331b8ac-0cd0-4a73-8754-a97b3caebb88
+
+	measure NumberOfFabricSettings = ```
+			
+			//get all rows removing any current filter context
+			VAR _AllSettings =
+			    ALL ( CurrentVsRecommendedSettings[PBTS_title] ) 
+			//Count total number of rows with no filter context
+			VAR _CountRows =
+			    COUNTROWS ( _AllSettings )
+			RETURN
+			    _CountRows
+			```
+		formatString: 0
+		lineageTag: 6138b6bc-b37a-4690-9f2e-05c935518894
+
+	measure NumberOfSettingsSame = ```
+			
+			VAR _SameSettings =
+			    FILTER (
+			        CurrentVsRecommendedSettings,
+			        CurrentVsRecommendedSettings[Different] = 0
+			    )
+			VAR _CountRows =
+			    COUNTROWS ( _SameSettings )
+			RETURN
+			     _CountRows
+			
+			```
+		formatString: 0
+		lineageTag: adeb47c6-260e-4ad7-8c13-170619f5e788
+
+	measure NumberOfSettingsDifferent =
+			
+			VAR _DifferentSettings =
+			    FILTER (
+			        CurrentVsRecommendedSettings,
+			        CurrentVsRecommendedSettings[Different] = 1
+			    )
+			VAR _CountRows =
+			    COUNTROWS ( _DifferentSettings)
+			RETURN
+			     _CountRows
+		formatString: 0
+		lineageTag: a275c5ef-5cdc-4fbd-8b97-438c805157fe
+
+	column Date
+		dataType: string
+		lineageTag: f727d370-c3c3-42dc-836c-eaa12402ba46
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_title
+		dataType: string
+		lineageTag: d6d1a764-6bb0-4f51-911b-95be008064fd
+		summarizeBy: none
+		sourceColumn: PBTS_title
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Current Setting'
+		dataType: string
+		lineageTag: 0e2cea3d-b174-4af2-9b6b-9ef9e4c4d813
+		summarizeBy: none
+		sourceColumn: Current Setting
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_canSpecifySecurityGroups
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 29ab6675-ce04-49b1-90fa-dae145ac21ac
+		summarizeBy: none
+		sourceColumn: PBTS_canSpecifySecurityGroups
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		lineageTag: 4902b8f1-a546-4908-acb9-03e043dc3059
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+		sortByColumn: TenantSettingGroupOrder
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column Priority
+		dataType: int64
+		formatString: 0
+		lineageTag: c56796b9-475f-4bc9-b584-aaaa0e67c970
+		summarizeBy: none
+		sourceColumn: Priority
+
+		annotation SummarizationSetBy = Automatic
+
+	column MS_URL
+		dataType: string
+		lineageTag: 58310ea6-5065-45de-bb91-48d7cce6627f
+		summarizeBy: none
+		sourceColumn: MS_URL
+
+		annotation SummarizationSetBy = Automatic
+
+	column Scope
+		dataType: string
+		lineageTag: 53670ce4-afe0-4f69-be34-a97655e4c898
+		summarizeBy: none
+		sourceColumn: Scope
+
+		annotation SummarizationSetBy = Automatic
+
+	column Review
+		dataType: string
+		lineageTag: 0ba53979-1815-483a-8747-c11243cf6c8d
+		summarizeBy: none
+		sourceColumn: Review
+
+		annotation SummarizationSetBy = Automatic
+
+	column SecurityRisk
+		dataType: string
+		lineageTag: 781d4347-450d-4591-ab4d-d76257e51e74
+		summarizeBy: none
+		sourceColumn: SecurityRisk
+
+		annotation SummarizationSetBy = Automatic
+
+	column RecommendedSetting
+		dataType: string
+		lineageTag: 3183885c-c14d-420d-8c8a-d06a1f34859a
+		summarizeBy: none
+		sourceColumn: RecommendedSetting
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+	column Comments
+		dataType: string
+		lineageTag: 88a3e3ce-9891-44cf-920f-fb4c08c69046
+		summarizeBy: none
+		sourceColumn: Comments
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Power BI ProFeature'
+		dataType: string
+		lineageTag: 62d57a23-ba5c-4fdf-bb7c-41857b62e715
+		summarizeBy: none
+		sourceColumn: Power BI ProFeature
+
+		annotation SummarizationSetBy = Automatic
+
+	column EM-SKUFeature
+		dataType: string
+		lineageTag: 00d14291-a1c4-47b4-a9cd-cc9b6022bb17
+		summarizeBy: none
+		sourceColumn: EM-SKUFeature
+
+		annotation SummarizationSetBy = Automatic
+
+	column P-SKUFeature
+		dataType: string
+		lineageTag: b66f4dbc-b442-4e8d-816c-372197549025
+		summarizeBy: none
+		sourceColumn: P-SKUFeature
+
+		annotation SummarizationSetBy = Automatic
+
+	column F-SKUFeature
+		dataType: string
+		lineageTag: 6c0e794f-f528-4d5f-a571-7a086e5bca99
+		summarizeBy: none
+		sourceColumn: F-SKUFeature
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'F-64 SKUFeature'
+		dataType: string
+		lineageTag: 07b34fb3-d8a5-4f3f-ae35-83ae4f9feb16
+		summarizeBy: none
+		sourceColumn: F-64 SKUFeature
+
+		annotation SummarizationSetBy = Automatic
+
+	column PurviewFeature
+		dataType: string
+		lineageTag: 0890951b-ef0f-4c3c-9dbc-40747bbefeac
+		summarizeBy: none
+		sourceColumn: PurviewFeature
+
+		annotation SummarizationSetBy = Automatic
+
+	column Different
+		dataType: int64
+		formatString: 0
+		lineageTag: 9d5d5e57-2697-4da7-a6d4-47f0ac0669ec
+		summarizeBy: sum
+		sourceColumn: Different
+
+		annotation SummarizationSetBy = Automatic
+
+	column Same
+		dataType: int64
+		formatString: 0
+		lineageTag: f46b53cd-8838-4699-b9ea-17f2d60f241c
+		summarizeBy: sum
+		sourceColumn: Same
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroupOrder
+		dataType: int64
+		formatString: 0
+		lineageTag: 920f44b8-5063-4abb-b6bf-da0ef5478a3d
+		summarizeBy: sum
+		sourceColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_settingName
+		dataType: string
+		lineageTag: b554ad22-2e8f-4849-8df2-472f8efca719
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		annotation SummarizationSetBy = Automatic
+
+	column EntraGroupCount
+		dataType: double
+		isHidden
+		lineageTag: d61c0b1f-e6a3-4af3-b657-a9a812c9eefa
+		summarizeBy: sum
+		sourceColumn: EntraGroupCount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	/// Does this setting have at least one entra group associated with it?
+	column HasEntraGrp
+		dataType: string
+		lineageTag: 8201070f-4c3e-4de1-9262-e8184a4faf6a
+		summarizeBy: none
+		sourceColumn: HasEntraGrp
+
+		annotation SummarizationSetBy = Automatic
+
+	partition CurrentVsRecommendedSettings = m
+		mode: import
+		queryGroup: Presentation
+		source =
+				let
+				    Source = xformCurrentVsRecommendedSettings
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

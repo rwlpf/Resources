@@ -1,0 +1,52 @@
+How to get Power BI desktop application?
+
+
+One topic 
+Clearly stated 
+Simplely illustrated
+
+https://en.wikipedia.org/wiki/List_of_Tour_de_France_general_classification_winners
+
+
+Step 1 - Import data into Power BI
+
+Step 2 - clean the data
+	Remove rows that do not want
+	Spilt distance data into seperate columns and replace values
+
+Step 3 
+	Look at table view review country column 'Uncategroazed'
+	Drag country to report view and watch what happens
+	Look at table view review country column 'Country'
+	See world icon and how power bi changes
+
+	Import the flags table
+	look at the relationship created
+
+Step 4
+	Add the country field to report canvas
+	change to a slicer, 
+	show how easy to change to a silcer
+	"look ma I'm a Bi Dev gies a job James" 
+	Back to table view change 
+	Change the flag url to web url
+	
+	import chiclet slicer
+	(set up single selection)
+	
+Step 5
+	notice issue with USA and Great Britain
+
+	Great Britain -> United Kingdom
+
+https://en.wikipedia.org/wiki/United_States#/media/File:Flag_of_the_United_States_(DoS_ECA_Color_Standard).svg
+
+https://www.countryflags.com/wp-content/uploads/united-states-of-america-flag-png-large.png
+
+Step 6 
+
+	Create table on different page
+	notice issue with year summing 
+
+Libor fin
+

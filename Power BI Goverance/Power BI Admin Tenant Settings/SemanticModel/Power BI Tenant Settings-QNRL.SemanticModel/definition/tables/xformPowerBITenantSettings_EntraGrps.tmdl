@@ -1,0 +1,107 @@
+/// Lists all the settings where a group has been assigned to the tennat setting
+table xformPowerBITenantSettings_EntraGrps
+	isHidden
+	lineageTag: e5f25f30-c326-4299-b6dc-a08853c947f6
+
+	column PBTS_settingName
+		dataType: string
+		isHidden
+		lineageTag: ef455b26-ee40-4a0f-a192-ef74fdb9aaea
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.enabledSecurityGroups.name'
+		dataType: string
+		lineageTag: 6a4b426c-4208-41a3-b52e-d08d5847526b
+		summarizeBy: none
+		sourceColumn: tenantSettings.enabledSecurityGroups.name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xformPowerBITenantSettings_EntraGrps = m
+		mode: import
+		queryGroup: PowerBIEnvironment_ImportedSettings
+		source = ```
+				let
+				  Source = Json.Document(File.Contents(pJsonFilePath)), 
+				  #"Converted to Table" = Table.FromRecords({Source}), 
+				  #"Expanded tenantSettings" = Table.ExpandListColumn(#"Converted to Table", "tenantSettings"), 
+				  #"Expanded tenantSettings1" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings", 
+				    "tenantSettings", 
+				    {
+				      "settingName", 
+				      "title", 
+				      "enabled", 
+				      "canSpecifySecurityGroups", 
+				      "enabledSecurityGroups", 
+				      "tenantSettingGroup", 
+				      "properties"
+				    }, 
+				    {
+				      "tenantSettings.settingName", 
+				      "tenantSettings.title", 
+				      "tenantSettings.enabled", 
+				      "tenantSettings.canSpecifySecurityGroups", 
+				      "tenantSettings.enabledSecurityGroups", 
+				      "tenantSettings.tenantSettingGroup", 
+				      "tenantSettings.properties"
+				    }
+				  ), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Expanded tenantSettings1", 
+				    {
+				      {"tenantSettings.settingName", type text}, 
+				      {"tenantSettings.title", type text}, 
+				      {"tenantSettings.enabled", type logical}, 
+				      {"tenantSettings.canSpecifySecurityGroups", type logical}, 
+				      {"tenantSettings.enabledSecurityGroups", type any}, 
+				      {"tenantSettings.tenantSettingGroup", type text}, 
+				      {"tenantSettings.properties", type any}
+				    }
+				  ), 
+				  #"Removed Other Columns" = Table.SelectColumns(
+				    #"Changed Type", 
+				    {
+				      "tenantSettings.settingName", 
+				      "tenantSettings.canSpecifySecurityGroups", 
+				      "tenantSettings.enabledSecurityGroups"
+				    }
+				  ), 
+				  #"Filtered Rows- tenantSettings.canSpecifySecurityGroups is TRUE" = Table.SelectRows(
+				    #"Removed Other Columns", 
+				    each ([tenantSettings.canSpecifySecurityGroups] = true)
+				  ), 
+				  #"Expanded tenantSettings.enabledSecurityGroups" = Table.ExpandListColumn(
+				    #"Filtered Rows- tenantSettings.canSpecifySecurityGroups is TRUE", 
+				    "tenantSettings.enabledSecurityGroups"
+				  ), 
+				  #"Expanded tenantSettings.enabledSecurityGroups1" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings.enabledSecurityGroups", 
+				    "tenantSettings.enabledSecurityGroups", 
+				    {"graphId", "name"}, 
+				    {"tenantSettings.enabledSecurityGroups.graphId", "tenantSettings.enabledSecurityGroups.name"}
+				  ), 
+				  #"Filtered Rows-enabledSecurityGroups.graphId is not NULL" = Table.SelectRows(
+				    #"Expanded tenantSettings.enabledSecurityGroups1", 
+				    each ([tenantSettings.enabledSecurityGroups.graphId] <> null)
+				  ), 
+				  #"Renamed Columns - tenantSettings.settingName to PBTS_settingName" = Table.RenameColumns(
+				    #"Filtered Rows-enabledSecurityGroups.graphId is not NULL", 
+				    {{"tenantSettings.settingName", "PBTS_settingName"}}
+				  ),
+				    #"Removed Columns" = Table.RemoveColumns(#"Renamed Columns - tenantSettings.settingName to PBTS_settingName",{"tenantSettings.canSpecifySecurityGroups", "tenantSettings.enabledSecurityGroups.graphId"})
+				in
+				    #"Removed Columns"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

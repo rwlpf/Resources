@@ -1,0 +1,60 @@
+table DimTenantSettingGroup
+	lineageTag: fc1e2070-2b6e-4f42-89bc-9c2412870848
+	sourceLineageTag: 707853cc-772a-4100-91ba-6a31148081e6
+
+	measure Measure = EXTERNALMEASURE("Measure", INTEGER, "DirectQuery to AS - Power BI Tenant Settings-QNRL_SM")
+		lineageTag: d022ec1c-e788-45d5-9a99-044262415ba1
+		sourceLineageTag: 624c2d3b-9dba-4061-b6e0-0d7ed82fb208
+		dataCategory: Uncategorized
+
+	column DifferentCount
+		dataType: int64
+		formatString: 0
+		lineageTag: 01ecdd21-5871-44b1-841f-e9ec315956d1
+		sourceLineageTag: 76d1310c-06b3-4098-8407-6b594e5612d9
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: DifferentCount
+
+		annotation SummarizationSetBy = User
+
+	column TenantSettingGroupOrder
+		dataType: int64
+		formatString: 0
+		lineageTag: 7273ccec-f4c5-410b-9abd-2c4b740f8ada
+		sourceLineageTag: edf04f48-a792-4265-886a-dc91eb16389c
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = User
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		isNullable: false
+		lineageTag: 19b67df5-9b88-4bef-a6c1-af594381f2ba
+		sourceLineageTag: f0a314c5-a161-406a-9905-d1a31e3776cb
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+		sortByColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = User
+
+	column SameCount
+		dataType: int64
+		formatString: 0
+		lineageTag: 31a1cc47-f65f-444e-9ca5-358703c26539
+		sourceLineageTag: 111bc5c2-1ede-4f7a-a8ef-1cad7ef7ad22
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: SameCount
+
+		annotation SummarizationSetBy = User
+
+	partition DimTenantSettingGroup = entity
+		mode: directQuery
+		source
+			entityName: DimTenantSettingGroup
+			expressionSource: 'DirectQuery to AS - Power BI Tenant Settings-QNRL_SM'
+

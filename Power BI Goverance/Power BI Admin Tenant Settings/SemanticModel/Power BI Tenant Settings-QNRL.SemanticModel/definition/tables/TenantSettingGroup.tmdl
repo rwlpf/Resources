@@ -1,0 +1,123 @@
+table TenantSettingGroup
+	isHidden
+	lineageTag: dba85099-74d0-41cd-9665-9961b08daca8
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: 0e1916b5-f5ab-4738-9a26-1b99703f7902
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+		sortByColumn: TenantSettingGroupOrder
+
+		changedProperty = SortByColumn
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DifferentCount
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 9a4669e4-c563-49c8-a002-6b16ff97646f
+		summarizeBy: none
+		sourceColumn: DifferentCount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroupOrder
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 67da2a01-6af0-493a-91e1-3d85ed4dc559
+		summarizeBy: none
+		sourceColumn: TenantSettingGroupOrder
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SameCount
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 926a6bdd-05cc-4a27-ba9b-415031514bcc
+		summarizeBy: none
+		sourceColumn: SameCount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SameGroupAndCount =
+			
+			TenantSettingGroup[PBTS_tenantSettingGroup] & " - " & TenantSettingGroup[SameCount]
+		isHidden
+		lineageTag: e2d3de0d-fc04-4ded-a57a-ab05c1c8f230
+		summarizeBy: none
+		sortByColumn: TenantSettingGroupOrder
+
+		changedProperty = SortByColumn
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DiffGroupAndCount =
+			
+			TenantSettingGroup[PBTS_tenantSettingGroup] & " - " & TenantSettingGroup[DifferentCount]
+		isHidden
+		lineageTag: c5874a63-82ea-4df7-b5d7-961847fc7d9e
+		summarizeBy: none
+		sortByColumn: TenantSettingGroupOrder
+
+		changedProperty = SortByColumn
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column DifferentSettings = ```
+			
+			//Check to see how many rows which are marked as different in CurrentVsRecommendedSettings
+			//where the PBTS_tenantSettingGroup match in CurrentVsRecommendedSettings and TenantSettingGroup
+			VAR _CountDifferentSettings =
+			    COUNTROWS (
+			        FILTER (
+			            CurrentVsRecommendedSettings,
+			            TenantSettingGroup[PBTS_tenantSettingGroup] = CurrentVsRecommendedSettings[PBTS_tenantSettingGroup]
+			                && CurrentVsRecommendedSettings[Different] = 1
+			        )
+			    )
+			VAR _CountInString =
+			    CONCATENATE ( " - ", CONVERT ( _CountDifferentSettings, STRING ) )
+			RETURN
+			    CONCATENATE ( TenantSettingGroup[PBTS_tenantSettingGroup], _CountInString )
+			
+			```
+		isHidden
+		lineageTag: 2414278e-5680-42d1-bfa4-37030d13fc50
+		summarizeBy: none
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition TenantSettingGroup = m
+		mode: import
+		queryGroup: Presentation
+		source =
+				let
+				    Source = xformTenantSettingGroup
+				in
+				    Source
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

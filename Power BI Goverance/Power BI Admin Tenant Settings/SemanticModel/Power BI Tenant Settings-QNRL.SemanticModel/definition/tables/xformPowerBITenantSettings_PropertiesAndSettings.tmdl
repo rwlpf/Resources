@@ -1,0 +1,122 @@
+/// Lists all the settings where a group has been assigned to the tennat setting
+table xformPowerBITenantSettings_PropertiesAndSettings
+	isHidden
+	lineageTag: e0e8f12e-66e8-4a98-a0f6-4924c2a8b27c
+
+	column PBTS_settingName
+		dataType: string
+		isHidden
+		lineageTag: 7aad91cc-742b-481e-9bbd-c12ea478e6da
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column name
+		dataType: string
+		isHidden
+		lineageTag: fbfc6af0-ea4d-4609-a95b-5dfadde78ec3
+		summarizeBy: none
+		sourceColumn: name
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: string
+		isHidden
+		lineageTag: 2067b178-cf98-466b-92dd-04496fb546e1
+		summarizeBy: none
+		sourceColumn: value
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column type
+		dataType: string
+		isHidden
+		lineageTag: 712f936b-e7e4-4bbc-9549-693b57df86b1
+		summarizeBy: none
+		sourceColumn: type
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xformPowerBITenantSettings_PropertiesAndSettings = m
+		mode: import
+		queryGroup: PowerBIEnvironment_ImportedSettings
+		source = ```
+				let
+				  Source = Json.Document(File.Contents(pJsonFilePath)), 
+				  #"Converted to Table" = Table.FromRecords({Source}), 
+				  #"Expanded tenantSettings" = Table.ExpandListColumn(#"Converted to Table", "tenantSettings"), 
+				  #"Expanded tenantSettings1" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings", 
+				    "tenantSettings", 
+				    {
+				      "settingName", 
+				      "title", 
+				      "enabled", 
+				      "canSpecifySecurityGroups", 
+				      "enabledSecurityGroups", 
+				      "tenantSettingGroup", 
+				      "properties"
+				    }, 
+				    {
+				      "tenantSettings.settingName", 
+				      "tenantSettings.title", 
+				      "tenantSettings.enabled", 
+				      "tenantSettings.canSpecifySecurityGroups", 
+				      "tenantSettings.enabledSecurityGroups", 
+				      "tenantSettings.tenantSettingGroup", 
+				      "tenantSettings.properties"
+				    }
+				  ), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Expanded tenantSettings1", 
+				    {
+				      {"tenantSettings.settingName", type text}, 
+				      {"tenantSettings.title", type text}, 
+				      {"tenantSettings.enabled", type logical}, 
+				      {"tenantSettings.canSpecifySecurityGroups", type logical}, 
+				      {"tenantSettings.enabledSecurityGroups", type any}, 
+				      {"tenantSettings.tenantSettingGroup", type text}, 
+				      {"tenantSettings.properties", type any}
+				    }
+				  ), 
+				  #"Removed Other Columns" = Table.SelectColumns(
+				    #"Changed Type", 
+				    {"tenantSettings.settingName", "tenantSettings.properties"}
+				  ), 
+				  #"Expanded tenantSettings.properties" = Table.ExpandListColumn(
+				    #"Removed Other Columns", 
+				    "tenantSettings.properties"
+				  ), 
+				  #"Expanded tenantSettings.properties1" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings.properties", 
+				    "tenantSettings.properties", 
+				    {"name", "value", "type"}, 
+				    {"name", "value", "type"}
+				  ), 
+				  #"Filtered Rows" = Table.SelectRows(#"Expanded tenantSettings.properties1", each ([name] <> null)), 
+				  #"Reordered Columns" = Table.ReorderColumns(
+				    #"Filtered Rows", 
+				    {"tenantSettings.settingName", "name", "type", "value"}
+				  ), 
+				  #"Renamed settingName - > PBTS_settingName" = Table.RenameColumns(
+				    #"Reordered Columns", 
+				    {{"tenantSettings.settingName", "PBTS_settingName"}}
+				  )
+				in
+				  #"Renamed settingName - > PBTS_settingName"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

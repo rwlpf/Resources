@@ -1,0 +1,251 @@
+cultureInfo en-GB
+
+	linguisticMetadata =
+			{
+			  "Version": "2.0.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "currentvsrecommendedsettings.pbts_title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CurrentVsRecommendedSettings",
+			          "ConceptualProperty": "PBTS_title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Title": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "currentvsrecommendedsettings.numberoffabricsettings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CurrentVsRecommendedSettings",
+			          "ConceptualProperty": "NumberOfFabricSettings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "No of Tennat Admin Settings": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "currentvsrecommendedsettings.numberofsettingssame": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CurrentVsRecommendedSettings",
+			          "ConceptualProperty": "NumberOfSettingsSame"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Settings same as recommended": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "currentvsrecommendedsettings.numberofsettingsdifferent": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CurrentVsRecommendedSettings",
+			          "ConceptualProperty": "NumberOfSettingsDifferent"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Settings different from recommended": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "missingfrompowerbitenantsettings_ma.settingname": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MissingFromPowerBITenantSettings_MA",
+			          "ConceptualProperty": "SettingName"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Setting Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "missingfrompowerbitenantsettings_ma.admintext": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MissingFromPowerBITenantSettings_MA",
+			          "ConceptualProperty": "AdminText"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Tenant Admin Text": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "missingfrompowerbitenantsettings_ma.securityrisk": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MissingFromPowerBITenantSettings_MA",
+			          "ConceptualProperty": "SecurityRisk"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Security Risk": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "missingfromquorumrecommended_ma.tenantsettinggroup": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MissingFromQuorumRecommended_MA",
+			          "ConceptualProperty": "tenantSettingGroup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Tenant Setting Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "missingfromquorumrecommended_ma.title": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "MissingFromQuorumRecommended_MA",
+			          "ConceptualProperty": "title"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Title": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tenantsettings_entragrps.tenantsettings_enabledsecuritygroups_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TenantSettings_EntraGrps",
+			          "ConceptualProperty": "tenantSettings.enabledSecurityGroups.name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Entra Group Name": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "tenantsettings_entragrps.pbts_settingname": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "TenantSettings_EntraGrps",
+			          "ConceptualProperty": "PBTS_settingName"
+			        }
+			      },
+			      "State": "Generated"
+			    },
+			    "currentvsrecommendedsettings.pbts_tenantsettinggroup": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "CurrentVsRecommendedSettings",
+			          "ConceptualProperty": "PBTS_tenantSettingGroup"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    }
+			  }
+			}
+		contentType: json
+

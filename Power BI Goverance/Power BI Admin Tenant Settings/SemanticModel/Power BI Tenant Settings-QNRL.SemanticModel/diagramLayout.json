@@ -1,0 +1,389 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 1222.0746069132572,
+        "y": 1065.1108959335727
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 3650,
+            "y": 2598.17822265625
+          },
+          "nodeIndex": "PropertyTypes",
+          "nodeLineageTag": "9806c68d-f306-4bb9-8068-58dc1255bc5e",
+          "size": {
+            "height": 420,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 2990,
+            "y": 2407.67822265625
+          },
+          "nodeIndex": "PowerBITenantSettings (2)",
+          "nodeLineageTag": "68daa5ed-a20c-474f-b878-f62a7dd00289",
+          "size": {
+            "height": 358,
+            "width": 347
+          },
+          "zIndex": 5
+        },
+        {
+          "location": {
+            "x": 5764.4171275144372,
+            "y": 1935.5316239949525
+          },
+          "nodeIndex": "xformPowerBITenantSettings",
+          "nodeLineageTag": "572cef1b-1127-422b-ae21-bb53022b2461",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3429,
+            "y": 2018.17822265625
+          },
+          "nodeIndex": "RawPowerBITenantSettings",
+          "size": {
+            "height": 431,
+            "width": 343
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 1440.06689453125
+          },
+          "nodeIndex": "PBTS_tenantSettingGroup_DifferentSettings_Count",
+          "nodeLineageTag": "f8037614-2a02-42de-a228-d4d5cb6d8dad",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 284,
+            "y": 1404.06689453125
+          },
+          "nodeIndex": "xformPowerBITenantSettings_MA",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 568,
+            "y": 1368.06689453125
+          },
+          "nodeIndex": "MissingFromPowerBITenantSettings_MA",
+          "nodeLineageTag": "703c713b-cbf3-42c7-86f9-9fc5c3f513e6",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 852,
+            "y": 1416.06689453125
+          },
+          "nodeIndex": "MissingFromQuorumRecommended_MA",
+          "nodeLineageTag": "42c922db-4fdb-40fe-81f1-c99cf4bc36f3",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1136,
+            "y": 1354.06689453125
+          },
+          "nodeIndex": "xformQuorumRecommnedSettings_MA",
+          "nodeLineageTag": "af0040ee-8c2a-47e3-9551-04dd97377644",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4009.8186662944777,
+            "y": 1907.7115652943053
+          },
+          "nodeIndex": "RawQuorumRecommendSettings",
+          "size": {
+            "height": 706,
+            "width": 427
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1420,
+            "y": 1354.06689453125
+          },
+          "nodeIndex": "xformCurrentVsRecommendedSettings",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1704,
+            "y": 1428.06689453125
+          },
+          "nodeIndex": "DimTenantSettingGroup",
+          "nodeLineageTag": "707853cc-772a-4100-91ba-6a31148081e6",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2272,
+            "y": 1428.06689453125
+          },
+          "nodeIndex": "xformTenantSettingGroup",
+          "nodeLineageTag": "e51c2e77-3da4-4c7d-9336-7b7f39612ca5",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2556,
+            "y": 1440.06689453125
+          },
+          "nodeIndex": "xfromTenantSettingsGroupOrder",
+          "nodeLineageTag": "57efad56-f24b-4e46-b298-117e59510764",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6342.6018786950672,
+            "y": 1126.74462890625
+          },
+          "nodeIndex": "CurrentVsRecommendedSettings",
+          "nodeLineageTag": "5331b8ac-0cd0-4a73-8754-a97b3caebb88",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6626.7787669297968,
+            "y": 1202.0696215386845
+          },
+          "nodeIndex": "TenantSettingGroup",
+          "nodeLineageTag": "dba85099-74d0-41cd-9665-9961b08daca8",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6058.4171275144372,
+            "y": 1205.809738083592
+          },
+          "nodeIndex": "DimPriority",
+          "nodeLineageTag": "89fef7d2-e446-4ad4-9ae9-0982fb2cc556",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 6900.7787669297968,
+            "y": 1234.74462890625
+          },
+          "nodeIndex": "xfromPriority",
+          "nodeLineageTag": "9c22ccbf-ef13-49a4-97b8-a98ad7539b69",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 7184.7787669297968,
+            "y": 1222.74462890625
+          },
+          "nodeIndex": "colours",
+          "nodeLineageTag": "6336beed-70e9-43ff-8347-7372a24762d3",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 7468.7787669297968,
+            "y": 1186.74462890625
+          },
+          "nodeIndex": "xformPowerBITenantSettings_PropertiesAndSettings",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2841,
+            "y": 2056.17822265625
+          },
+          "nodeIndex": "xformPowerBITenantSettings_EntraGrps",
+          "size": {
+            "height": 207,
+            "width": 449
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "TenantSettings_EntraGrps",
+          "nodeLineageTag": "31c28301-3bfb-47da-93b1-c4443ea7667f",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {},
+          "nodeIndex": "xformPowerBITenantSettings_EntraGrpsCount",
+          "nodeLineageTag": "2089c91c-410d-439b-b928-74be93da1929",
+          "size": {
+            "height": 128,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 89.192590520569439,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 0,
+        "y": 13.356783919597991
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 718.07035175879389,
+            "y": 72.206030150753762
+          },
+          "nodeIndex": "DimTenantSettingGroup",
+          "nodeLineageTag": "707853cc-772a-4100-91ba-6a31148081e6",
+          "size": {
+            "height": 209.03517587939697,
+            "width": 348.645728643216
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 324.462311557789,
+            "y": 76.412060301507552
+          },
+          "nodeIndex": "CurrentVsRecommendedSettings",
+          "nodeLineageTag": "5331b8ac-0cd0-4a73-8754-a97b3caebb88",
+          "size": {
+            "height": 668.42462311557824,
+            "width": 234
+          },
+          "zIndex": 4
+        },
+        {
+          "location": {
+            "x": 651.70351758793981,
+            "y": 562.82160804020111
+          },
+          "nodeIndex": "TenantSettingGroup",
+          "nodeLineageTag": "dba85099-74d0-41cd-9665-9961b08daca8",
+          "size": {
+            "height": 272.83668341708551,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": -22.814070351758772,
+            "y": 209.97989949748745
+          },
+          "nodeIndex": "DimPriority",
+          "nodeLineageTag": "89fef7d2-e446-4ad4-9ae9-0982fb2cc556",
+          "size": {
+            "height": 104,
+            "width": 234
+          },
+          "zIndex": 3
+        },
+        {
+          "location": {
+            "x": 1054.6331658291458,
+            "y": 518.2989949748744
+          },
+          "nodeIndex": "TenantSettings_EntraGrps",
+          "nodeLineageTag": "31c28301-3bfb-47da-93b1-c4443ea7667f",
+          "size": {
+            "height": 163.6180904522613,
+            "width": 326.3844221105528
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Layout 1",
+      "zoomValue": 89.841986455981939,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Layout 1",
+  "defaultDiagram": "All tables"
+}

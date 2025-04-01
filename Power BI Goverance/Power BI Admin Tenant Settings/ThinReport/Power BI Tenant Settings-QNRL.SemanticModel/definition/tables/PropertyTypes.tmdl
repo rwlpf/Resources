@@ -1,0 +1,77 @@
+table PropertyTypes
+	isHidden
+	lineageTag: a617a57d-7062-46df-a96b-474fb4db33d6
+	sourceLineageTag: 9806c68d-f306-4bb9-8068-58dc1255bc5e
+
+	column 'tenantSettings.settingName'
+		dataType: string
+		isHidden
+		lineageTag: 8c874052-2c4d-473f-aacb-bc42404b0e25
+		sourceLineageTag: dbb3b842-d478-4b37-bd18-0201cc6cf061
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: tenantSettings.settingName
+
+		annotation SummarizationSetBy = User
+
+	column 'tenantSettings.tenantSettingGroup'
+		dataType: string
+		isHidden
+		lineageTag: b76df591-1013-482d-ad44-02319928855e
+		sourceLineageTag: ea30b0a0-26e5-4440-9d61-0eb0aef3052f
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: tenantSettings.tenantSettingGroup
+
+		annotation SummarizationSetBy = User
+
+	column 'tenantSettings.properties.name'
+		dataType: string
+		isHidden
+		lineageTag: b3b4eb75-7852-40f7-af4f-0300ed4bea35
+		sourceLineageTag: 94b94f8d-b721-4701-97b0-38e75a2948d3
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.name
+
+		annotation SummarizationSetBy = User
+
+	column 'tenantSettings.properties.value'
+		dataType: string
+		isHidden
+		lineageTag: bf1c71d3-bef7-45a9-a61a-ee22c04ff553
+		sourceLineageTag: 81a046dd-9d9e-417b-8af5-3dcf9fab95e0
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.value
+
+		annotation SummarizationSetBy = User
+
+	column 'tenantSettings.properties.type'
+		dataType: string
+		isHidden
+		lineageTag: ca69241e-3dc6-4504-89bf-b023f6d0b3f1
+		sourceLineageTag: a4749112-868a-40ae-9eae-97ff4aee95cb
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.type
+
+		annotation SummarizationSetBy = User
+
+	column Date
+		dataType: string
+		isHidden
+		lineageTag: 12356d57-e4c7-41e9-ad50-cc6f53c58719
+		sourceLineageTag: ae45bd2d-ac15-490a-a8d3-002917285798
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = User
+
+	partition PropertyTypes = entity
+		mode: directQuery
+		source
+			entityName: PropertyTypes
+			expressionSource: 'DirectQuery to AS - Power BI Tenant Settings-QNRL_SM'
+

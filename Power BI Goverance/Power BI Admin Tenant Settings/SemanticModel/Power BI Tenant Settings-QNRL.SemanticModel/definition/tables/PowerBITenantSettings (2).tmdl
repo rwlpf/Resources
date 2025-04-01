@@ -1,0 +1,177 @@
+table 'PowerBITenantSettings (2)'
+	isHidden
+	lineageTag: 68daa5ed-a20c-474f-b878-f62a7dd00289
+
+	column 'tenantSettings.settingName'
+		dataType: string
+		isHidden
+		lineageTag: 0c9fa1ef-70d5-4782-aa74-c9cfadc0b910
+		summarizeBy: none
+		sourceColumn: tenantSettings.settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.title'
+		dataType: string
+		isHidden
+		lineageTag: 32f76718-b599-4310-8d39-4142b17ff6dc
+		summarizeBy: none
+		sourceColumn: tenantSettings.title
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.enabled'
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 6d0ffc54-b2fd-440c-8fd6-00abfdc00253
+		summarizeBy: none
+		sourceColumn: tenantSettings.enabled
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.tenantSettingGroup'
+		dataType: string
+		isHidden
+		lineageTag: 0e44daea-d4ae-43e7-892e-4fa9dc6e6a2b
+		summarizeBy: none
+		sourceColumn: tenantSettings.tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.enabledSecurityGroups.graphId'
+		dataType: string
+		isHidden
+		lineageTag: de615260-51cc-41f3-90eb-243999014900
+		summarizeBy: none
+		sourceColumn: tenantSettings.enabledSecurityGroups.graphId
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.enabledSecurityGroups.name'
+		dataType: string
+		isHidden
+		lineageTag: 856c4989-fce5-40a8-99aa-4b9881959f36
+		summarizeBy: none
+		sourceColumn: tenantSettings.enabledSecurityGroups.name
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.properties.name'
+		dataType: string
+		isHidden
+		lineageTag: 0eb21bcb-3fb3-42b4-bd90-2fe703efb0e8
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.name
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.properties.value'
+		dataType: string
+		isHidden
+		lineageTag: eee3c1eb-7c45-4659-8df2-0c0d141f6307
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.value
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.properties.type'
+		dataType: string
+		isHidden
+		lineageTag: 5552cd2c-5a1f-42c0-a007-145dd33ac320
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.type
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: string
+		isHidden
+		lineageTag: 499e6d0e-eda8-4546-aff5-ca576192fac8
+		summarizeBy: none
+		sourceColumn: Date
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'PowerBITenantSettings (2)' = m
+		mode: import
+		source = ```
+				let
+				  Source = Json.Document(
+				    //  File.Contents(
+				      // "C:\Users\Robert.French\OneDrive - Quorum\BI Team\General\Power BI Admin Tenant Settings\2024-01-18-TenantSettings.json"
+				      // "C:\Users\Robert.French\OneDrive - Quorum\BI Team\General\Power BI Admin Tenant Settings - Enable\2024-02-23-TenantSettings.json"
+				    // )
+				   File.Contents(pJsonFilePath)
+				  ), 
+				  #"Converted to Table" = Table.FromRecords({Source}), 
+				  #"Expanded tenantSettings" = Table.ExpandListColumn(#"Converted to Table", "tenantSettings"), 
+				  #"Expanded tenantSettings1" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings", 
+				    "tenantSettings", 
+				    {
+				      "settingName", 
+				      "title", 
+				      "enabled", 
+				      "canSpecifySecurityGroups", 
+				      "enabledSecurityGroups", 
+				      "tenantSettingGroup", 
+				      "properties"
+				    }, 
+				    {
+				      "tenantSettings.settingName", 
+				      "tenantSettings.title", 
+				      "tenantSettings.enabled", 
+				      "tenantSettings.canSpecifySecurityGroups", 
+				      "tenantSettings.enabledSecurityGroups", 
+				      "tenantSettings.tenantSettingGroup", 
+				      "tenantSettings.properties"
+				    }
+				  ), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Expanded tenantSettings1", 
+				    {
+				      {"tenantSettings.settingName", type text}, 
+				      {"tenantSettings.title", type text}, 
+				      {"tenantSettings.enabled", type logical}, 
+				      {"tenantSettings.canSpecifySecurityGroups", type logical}, 
+				      {"tenantSettings.enabledSecurityGroups", type any}, 
+				      {"tenantSettings.tenantSettingGroup", type text}, 
+				      {"tenantSettings.properties", type any}
+				    }
+				  ),
+				    #"Filtered Rows" = Table.SelectRows(#"Changed Type", each true),
+				    #"Reordered Columns" = Table.ReorderColumns(#"Filtered Rows",{"tenantSettings.tenantSettingGroup", "tenantSettings.canSpecifySecurityGroups", "tenantSettings.enabledSecurityGroups", "tenantSettings.properties"}),
+				    #"Removed Columns1" = Table.RemoveColumns(#"Reordered Columns",{"tenantSettings.canSpecifySecurityGroups"}),
+				    #"Expanded tenantSettings.enabledSecurityGroups" = Table.ExpandListColumn(#"Removed Columns1", "tenantSettings.enabledSecurityGroups"),
+				    #"Expanded tenantSettings.enabledSecurityGroups1" = Table.ExpandRecordColumn(#"Expanded tenantSettings.enabledSecurityGroups", "tenantSettings.enabledSecurityGroups", {"graphId", "name"}, {"tenantSettings.enabledSecurityGroups.graphId", "tenantSettings.enabledSecurityGroups.name"}),
+				    #"Expanded tenantSettings.properties" = Table.ExpandListColumn(#"Expanded tenantSettings.enabledSecurityGroups1", "tenantSettings.properties"),
+				    #"Expanded tenantSettings.properties1" = Table.ExpandRecordColumn(#"Expanded tenantSettings.properties", "tenantSettings.properties", {"name", "value", "type"}, {"tenantSettings.properties.name", "tenantSettings.properties.value", "tenantSettings.properties.type"})
+				in
+				    #"Expanded tenantSettings.properties1"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

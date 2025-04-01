@@ -1,0 +1,8 @@
+https://chargepoints.dft.gov.uk/api/help
+
+
+http://chargepoints.dft.gov.uk/api/retrieve/{option1}/{value1}/{option2}/{value2}/
+
+http://chargepoints.dft.gov.uk/api/retrieve/registry/glasgow/format/json/
+registry
+post-town 

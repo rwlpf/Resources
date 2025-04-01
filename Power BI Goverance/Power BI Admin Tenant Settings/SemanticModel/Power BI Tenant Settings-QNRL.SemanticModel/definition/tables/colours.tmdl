@@ -1,0 +1,36 @@
+table colours
+	lineageTag: 6336beed-70e9-43ff-8347-7372a24762d3
+
+	column Usage
+		dataType: string
+		lineageTag: 24c95626-6931-4cae-9002-325dda2dbfc5
+		summarizeBy: none
+		sourceColumn: Usage
+
+		annotation SummarizationSetBy = Automatic
+
+	column HexCode
+		dataType: string
+		lineageTag: 008d4adf-7dc1-495e-a840-0828ee92b8ab
+		summarizeBy: none
+		sourceColumn: HexCode
+
+		annotation SummarizationSetBy = Automatic
+
+	partition colours = m
+		mode: import
+		source =
+				#table(
+				type table
+				[
+				#"Usage"=text,
+				#"HexCode"=text
+				],
+				{
+				{"DifferentBackground","#DC3220"},
+				{"SameBackground","#FFFFFF"}
+				}
+				)
+
+	annotation PBI_ResultType = Table
+

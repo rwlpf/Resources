@@ -1,0 +1,29 @@
+expression pExcelSpreadSheetFilePath = "C:\Users\Robert.French\OneDrive - Quorum Network Resources Ltd\BI Team\General\Power BI Admin Tenant Settings\PowerBI Tenant Settings - Master.xlsx" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: ff7f82dc-1761-4d43-ae55-b63ed28ba7f8
+	queryGroup: Parameters
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navigation
+
+expression pJsonFilePath = "C:\Users\Robert.French\OneDrive - Quorum Network Resources Ltd\BI Team\General\Power BI Admin Tenant Settings\PowerBITenantAdminSettings.json" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 096e2022-b98a-4688-b661-8a5ab6c1207c
+	queryGroup: Parameters
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navigation
+
+expression 'DirectQuery to AS - Power BI Tenant Settings-QNRL_SM' =
+		let
+		    Source = AnalysisServices.Database("powerbi://api.powerbi.com/v1.0/myorg/Quorum%20-%20Client%20Power%20BI%20Reports", "Power BI Tenant Settings-QNRL_SM"),
+		    Cubes = Table.Combine(Source[Data]),
+		    Cube = Cubes{[Id="Model", Kind="Cube"]}[Data]
+		in
+		    Cube
+	lineageTag: 0e7d275b-52d9-49a4-842a-8cd90923369f
+
+	annotation PBI_IncludeFutureArtifacts = True
+
+	annotation PBI_RemovedChildren = [{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"75f7c30f-554b-44c0-a38d-d50f1f93fc9f"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"e5f25f30-c326-4299-b6dc-a08853c947f6"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"68daa5ed-a20c-474f-b878-f62a7dd00289"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"1753ec04-c2a7-4582-9012-54d0906ff3f5"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"572cef1b-1127-422b-ae21-bb53022b2461"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"f8037614-2a02-42de-a228-d4d5cb6d8dad"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"dc8c4a27-ac68-4e73-bc1d-77d1778e3c0c"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"f51df9d7-1464-4608-aede-818205812b48"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"af0040ee-8c2a-47e3-9551-04dd97377644"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"42c922db-4fdb-40fe-81f1-c99cf4bc36f3"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"703c713b-cbf3-42c7-86f9-9fc5c3f513e6"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"e51c2e77-3da4-4c7d-9336-7b7f39612ca5"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"57efad56-f24b-4e46-b298-117e59510764"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"9c22ccbf-ef13-49a4-97b8-a98ad7539b69"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"e0e8f12e-66e8-4a98-a0f6-4924c2a8b27c"}},"objectType":"Table"},{"remoteItemId":{"analysisServicesObject":{"sourceName":null,"sourceLineageTag":"2089c91c-410d-439b-b928-74be93da1929"}},"objectType":"Table"}]
+

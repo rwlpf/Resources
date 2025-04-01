@@ -1,0 +1,141 @@
+table xformPowerBITenantSettings
+	isHidden
+	lineageTag: 572cef1b-1127-422b-ae21-bb53022b2461
+
+	column PBTS_settingName
+		dataType: string
+		isHidden
+		lineageTag: 552dd8ed-068a-4dc7-90c1-8ea75816a3d6
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_title
+		dataType: string
+		isHidden
+		lineageTag: 72efb8de-8649-4164-8d6c-2406e536d138
+		summarizeBy: none
+		sourceColumn: PBTS_title
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_enabled
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 0adaee22-bdce-4461-8866-10934d1cc64f
+		summarizeBy: none
+		sourceColumn: PBTS_enabled
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_canSpecifySecurityGroups
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 4c392987-a68c-4867-a4c9-79affb33a365
+		summarizeBy: none
+		sourceColumn: PBTS_canSpecifySecurityGroups
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: ffa81f1f-0116-4788-b8fd-e112795411c4
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column enabledSecurityGroups
+		dataType: string
+		isHidden
+		lineageTag: d2a36d3b-0321-4bf7-a553-30e750e6375a
+		summarizeBy: none
+		sourceColumn: enabledSecurityGroups
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column properties
+		dataType: string
+		isHidden
+		lineageTag: 2943ec86-384b-478b-b0af-3fec361cb3e4
+		summarizeBy: none
+		sourceColumn: properties
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: string
+		isHidden
+		lineageTag: 9642fee8-7772-483e-8e96-ee79ed1d26b4
+		summarizeBy: none
+		sourceColumn: Date
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column value
+		dataType: string
+		lineageTag: 37aeef93-71cb-40f1-949d-5d89a9ef6f82
+		summarizeBy: none
+		sourceColumn: value
+
+		annotation SummarizationSetBy = Automatic
+
+	column EntraGroupCount
+		dataType: double
+		lineageTag: 8abb658a-4789-418c-80dd-84cd5cfa3f7e
+		summarizeBy: sum
+		sourceColumn: EntraGroupCount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition xformPowerBITenantSettings = m
+		mode: import
+		queryGroup: Combined
+		source = ```
+				let
+				  Source = RawPowerBITenantSettings, 
+				  #"Renamed Columns" = Table.RenameColumns(
+				    Source, 
+				    {
+				      {"settingName", "PBTS_settingName"}, 
+				      {"title", "PBTS_title"}, 
+				      {"enabled", "PBTS_enabled"}, 
+				      {"canSpecifySecurityGroups", "PBTS_canSpecifySecurityGroups"}, 
+				      {"tenantSettingGroup", "PBTS_tenantSettingGroup"}
+				    }
+				  ),
+				    #"Left Join - xformPowerBITenantSettings_GrpsCount" = Table.NestedJoin(#"Renamed Columns", {"PBTS_settingName"}, xformPowerBITenantSettings_EntraGrpsCount, {"PBTS_settingName"}, "xformPowerBITenantSettings_GrpsCount", JoinKind.LeftOuter),
+				    #"Expanded xformPowerBITenantSettings_GrpsCount" = Table.ExpandTableColumn(#"Left Join - xformPowerBITenantSettings_GrpsCount", "xformPowerBITenantSettings_GrpsCount", {"EntraGroupCount"}, {"EntraGroupCount"}),
+				    #"Replaced Null with Zero" = Table.ReplaceValue(#"Expanded xformPowerBITenantSettings_GrpsCount",null,0,Replacer.ReplaceValue,{"EntraGroupCount"})
+				in
+				    #"Replaced Null with Zero"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

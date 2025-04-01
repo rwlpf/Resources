@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Power BI Tenant Settings-QNRL.SemanticModel"
+    }
+  }
+}

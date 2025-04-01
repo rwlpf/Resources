@@ -1,0 +1,277 @@
+table CurrentVsRecommendedSettings
+	lineageTag: b99f66fc-51e8-4d31-af87-36563c2fdb80
+	sourceLineageTag: 5331b8ac-0cd0-4a73-8754-a97b3caebb88
+
+	measure NumberOfFabricSettings = EXTERNALMEASURE("NumberOfFabricSettings", INTEGER, "DirectQuery to AS - Power BI Tenant Settings-QNRL_SM")
+		formatString: 0
+		lineageTag: 9588d16c-8fdc-40bd-810d-a8cf0fa59b12
+		sourceLineageTag: 6138b6bc-b37a-4690-9f2e-05c935518894
+		dataCategory: Uncategorized
+
+	measure NumberOfSettingsSame = EXTERNALMEASURE("NumberOfSettingsSame", INTEGER, "DirectQuery to AS - Power BI Tenant Settings-QNRL_SM")
+		formatString: 0
+		lineageTag: 61971da8-d2a0-483b-af3c-6617491fd563
+		sourceLineageTag: adeb47c6-260e-4ad7-8c13-170619f5e788
+		dataCategory: Uncategorized
+
+	measure NumberOfSettingsDifferent = EXTERNALMEASURE("NumberOfSettingsDifferent", INTEGER, "DirectQuery to AS - Power BI Tenant Settings-QNRL_SM")
+		formatString: 0
+		lineageTag: 033a9c66-ff55-45b8-a332-889d00a516d4
+		sourceLineageTag: a275c5ef-5cdc-4fbd-8b97-438c805157fe
+		dataCategory: Uncategorized
+
+	column Date
+		dataType: string
+		lineageTag: 2389a4b5-6da4-4f4c-954c-d4ee4d6c0888
+		sourceLineageTag: f727d370-c3c3-42dc-836c-eaa12402ba46
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = User
+
+	column PBTS_title
+		dataType: string
+		lineageTag: bc3d86a0-66cc-4049-9e87-cc38d46a23e2
+		sourceLineageTag: d6d1a764-6bb0-4f51-911b-95be008064fd
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: PBTS_title
+
+		annotation SummarizationSetBy = User
+
+	column 'Current Setting'
+		dataType: string
+		lineageTag: 120c68b5-a3ac-40ff-8f42-d269ef9e3e70
+		sourceLineageTag: 0e2cea3d-b174-4af2-9b6b-9ef9e4c4d813
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Current Setting
+
+		annotation SummarizationSetBy = User
+
+	column PBTS_canSpecifySecurityGroups
+		dataType: boolean
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 3b8b2e8f-5f14-40ed-991a-7c135a3c391e
+		sourceLineageTag: 29ab6675-ce04-49b1-90fa-dae145ac21ac
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: PBTS_canSpecifySecurityGroups
+
+		annotation SummarizationSetBy = User
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		lineageTag: 89461b25-972b-4847-b4e9-2b9c2a47e736
+		sourceLineageTag: 4902b8f1-a546-4908-acb9-03e043dc3059
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+		sortByColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = User
+
+	column Priority
+		dataType: int64
+		formatString: 0
+		lineageTag: fe9b44c2-1e4f-4385-b681-a45f47cd5a45
+		sourceLineageTag: c56796b9-475f-4bc9-b584-aaaa0e67c970
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Priority
+
+		annotation SummarizationSetBy = User
+
+	column MS_URL
+		dataType: string
+		lineageTag: ef907c8a-d571-4533-b11e-7caab34e859c
+		sourceLineageTag: 58310ea6-5065-45de-bb91-48d7cce6627f
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: MS_URL
+
+		annotation SummarizationSetBy = User
+
+	column Scope
+		dataType: string
+		lineageTag: dd2523df-e4f1-422f-8049-53e4eb1d8778
+		sourceLineageTag: 53670ce4-afe0-4f69-be34-a97655e4c898
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Scope
+
+		annotation SummarizationSetBy = User
+
+	column Review
+		dataType: string
+		lineageTag: 8fb58d5e-d654-4e1b-b967-e85e096b57ab
+		sourceLineageTag: 0ba53979-1815-483a-8747-c11243cf6c8d
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Review
+
+		annotation SummarizationSetBy = User
+
+	column SecurityRisk
+		dataType: string
+		lineageTag: 07463ffc-e36c-4791-8d91-91537ad38f8c
+		sourceLineageTag: 781d4347-450d-4591-ab4d-d76257e51e74
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: SecurityRisk
+
+		annotation SummarizationSetBy = User
+
+	column RecommendedSetting
+		dataType: string
+		lineageTag: a25eb277-8efc-4e2e-a712-13648802ea05
+		sourceLineageTag: 3183885c-c14d-420d-8c8a-d06a1f34859a
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: RecommendedSetting
+
+		annotation SummarizationSetBy = User
+
+	column Comments
+		dataType: string
+		lineageTag: 5f056f6d-1cfd-4292-91f0-ef5c2040a27d
+		sourceLineageTag: 88a3e3ce-9891-44cf-920f-fb4c08c69046
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Comments
+
+		annotation SummarizationSetBy = User
+
+	column 'Power BI ProFeature'
+		dataType: string
+		lineageTag: 30d59275-8839-452a-a520-020cf7a0d9a8
+		sourceLineageTag: 62d57a23-ba5c-4fdf-bb7c-41857b62e715
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: Power BI ProFeature
+
+		annotation SummarizationSetBy = User
+
+	column EM-SKUFeature
+		dataType: string
+		lineageTag: b40fd2b5-2fd1-4bd4-8b37-09a61416cda7
+		sourceLineageTag: 00d14291-a1c4-47b4-a9cd-cc9b6022bb17
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: EM-SKUFeature
+
+		annotation SummarizationSetBy = User
+
+	column P-SKUFeature
+		dataType: string
+		lineageTag: 12e3ff28-62da-4554-a2ee-3676573c1c71
+		sourceLineageTag: b66f4dbc-b442-4e8d-816c-372197549025
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: P-SKUFeature
+
+		annotation SummarizationSetBy = User
+
+	column F-SKUFeature
+		dataType: string
+		lineageTag: 308440a4-8199-44bf-857f-1c29785f972f
+		sourceLineageTag: 6c0e794f-f528-4d5f-a571-7a086e5bca99
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: F-SKUFeature
+
+		annotation SummarizationSetBy = User
+
+	column 'F-64 SKUFeature'
+		dataType: string
+		lineageTag: 70526b8f-b44b-49c4-9804-c6ef0df99571
+		sourceLineageTag: 07b34fb3-d8a5-4f3f-ae35-83ae4f9feb16
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: F-64 SKUFeature
+
+		annotation SummarizationSetBy = User
+
+	column PurviewFeature
+		dataType: string
+		lineageTag: ab899da4-b107-4bb0-9dc9-1e5158a9ac23
+		sourceLineageTag: 0890951b-ef0f-4c3c-9dbc-40747bbefeac
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: PurviewFeature
+
+		annotation SummarizationSetBy = User
+
+	column Different
+		dataType: int64
+		formatString: 0
+		lineageTag: df7f274a-f82d-473f-ae65-2c3d72947dc9
+		sourceLineageTag: 9d5d5e57-2697-4da7-a6d4-47f0ac0669ec
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Different
+
+		annotation SummarizationSetBy = User
+
+	column Same
+		dataType: int64
+		formatString: 0
+		lineageTag: 0c2aada7-c4e4-4f81-9f23-ce413a970a7b
+		sourceLineageTag: f46b53cd-8838-4699-b9ea-17f2d60f241c
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: Same
+
+		annotation SummarizationSetBy = User
+
+	column TenantSettingGroupOrder
+		dataType: int64
+		formatString: 0
+		lineageTag: df4b3a7a-4f03-4bd7-98dd-d23722bf439d
+		sourceLineageTag: 920f44b8-5063-4abb-b6bf-da0ef5478a3d
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = User
+
+	column PBTS_settingName
+		dataType: string
+		isNullable: false
+		lineageTag: 380e2274-f7a6-4717-81c4-6837152c3250
+		sourceLineageTag: b554ad22-2e8f-4849-8df2-472f8efca719
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		annotation SummarizationSetBy = User
+
+	column EntraGroupCount
+		dataType: double
+		isHidden
+		lineageTag: bb271211-bad0-4f0e-aac4-593ed3a1fa7c
+		sourceLineageTag: d61c0b1f-e6a3-4af3-b657-a9a812c9eefa
+		dataCategory: Uncategorized
+		summarizeBy: sum
+		sourceColumn: EntraGroupCount
+
+		annotation SummarizationSetBy = User
+
+	/// Does this setting have at least one entra group associated with it?
+	column HasEntraGrp
+		dataType: string
+		lineageTag: c3aa96e0-1104-4d95-b2d8-91bdc6ff8055
+		sourceLineageTag: 8201070f-4c3e-4de1-9262-e8184a4faf6a
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: HasEntraGrp
+
+		annotation SummarizationSetBy = User
+
+	partition CurrentVsRecommendedSettings = entity
+		mode: directQuery
+		source
+			entityName: CurrentVsRecommendedSettings
+			expressionSource: 'DirectQuery to AS - Power BI Tenant Settings-QNRL_SM'
+

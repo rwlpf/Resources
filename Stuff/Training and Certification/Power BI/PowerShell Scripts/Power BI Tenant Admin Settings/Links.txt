@@ -1,0 +1,1 @@
+https://powerbi.microsoft.com/en-us/blog/new-tenant-setting-notifications-and-gettenantsettings-api/

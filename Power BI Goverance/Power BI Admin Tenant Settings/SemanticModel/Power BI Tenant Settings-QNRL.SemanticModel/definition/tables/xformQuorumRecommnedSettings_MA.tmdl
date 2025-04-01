@@ -1,0 +1,326 @@
+table xformQuorumRecommnedSettings_MA
+	isHidden
+	lineageTag: af0040ee-8c2a-47e3-9551-04dd97377644
+
+	column ID
+		dataType: string
+		isHidden
+		lineageTag: 42e66088-45e9-42bb-a82f-8fdcfcf257fb
+		summarizeBy: none
+		sourceColumn: ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Deleted
+		dataType: string
+		isHidden
+		lineageTag: 676de485-e0cc-4fbf-8346-1f1bd4ad7f02
+		summarizeBy: none
+		sourceColumn: Deleted
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SettingName
+		dataType: string
+		isHidden
+		lineageTag: d04af3fc-a5b9-4d86-b643-fdf0fa72d717
+		summarizeBy: none
+		sourceColumn: SettingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Priority
+		dataType: string
+		isHidden
+		lineageTag: ba7f4244-ca77-4e04-8b76-4e52142b7a3e
+		summarizeBy: none
+		sourceColumn: Priority
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column AdminText
+		dataType: string
+		isHidden
+		lineageTag: 82924c0e-7320-4ad6-b875-0e7a64bb0013
+		summarizeBy: none
+		sourceColumn: AdminText
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column MS_URL
+		dataType: string
+		isHidden
+		lineageTag: 3daa3242-ff21-4ddc-aa2a-de508cfedae7
+		summarizeBy: none
+		sourceColumn: MS_URL
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Scope
+		dataType: string
+		isHidden
+		lineageTag: 4914b547-442b-49c7-9f0a-71d1c463b019
+		summarizeBy: none
+		sourceColumn: Scope
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RoleToReview
+		dataType: string
+		isHidden
+		lineageTag: 0a4a8176-3f2b-452f-9881-4298dae1b84f
+		summarizeBy: none
+		sourceColumn: RoleToReview
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrgBenifit
+		dataType: string
+		isHidden
+		lineageTag: bccbabeb-ac41-4005-b1c4-64681601d605
+		summarizeBy: none
+		sourceColumn: OrgBenifit
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Review
+		dataType: string
+		isHidden
+		lineageTag: b1831c5c-ffb1-4623-8457-045156618a9b
+		summarizeBy: none
+		sourceColumn: Review
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SecurityRisk
+		dataType: string
+		isHidden
+		lineageTag: ddde9ca7-bcf1-4c9a-b19e-3ab053d7a7ab
+		summarizeBy: none
+		sourceColumn: SecurityRisk
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RecommendedSetting
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: c94859fb-5da8-4092-8ea7-aab6d14ba662
+		summarizeBy: none
+		sourceColumn: RecommendedSetting
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ApplyToOrg
+		dataType: string
+		isHidden
+		lineageTag: be1c28ae-a996-448b-b488-46735ea1d643
+		summarizeBy: none
+		sourceColumn: ApplyToOrg
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Comments
+		dataType: string
+		isHidden
+		lineageTag: d3f6053b-7c74-407c-a8ed-b2ea066b294b
+		summarizeBy: none
+		sourceColumn: Comments
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Caveats
+		dataType: string
+		isHidden
+		lineageTag: 93ce830f-6ebb-40ea-82eb-e23b9ab0c162
+		summarizeBy: none
+		sourceColumn: Caveats
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Power BI ProFeature'
+		dataType: string
+		isHidden
+		lineageTag: 400765f5-585b-4b70-8e1c-43a6be8ffa22
+		summarizeBy: none
+		sourceColumn: Power BI ProFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column EM-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: 95b4bd0d-23f3-4343-a187-6634c32202a5
+		summarizeBy: none
+		sourceColumn: EM-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column P-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: a2d9276d-f3c9-4e8c-bc97-5e45eef1458f
+		summarizeBy: none
+		sourceColumn: P-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column F-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: 282fb68d-c9ad-402b-8fc4-1162d299014a
+		summarizeBy: none
+		sourceColumn: F-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'F-64 SKUFeature'
+		dataType: string
+		isHidden
+		lineageTag: 84264d37-b513-43b2-949d-77f3907ac4c7
+		summarizeBy: none
+		sourceColumn: F-64 SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PurviewFeature
+		dataType: string
+		isHidden
+		lineageTag: 456beca8-0bcc-4a05-a35c-caf83e3d8fd1
+		summarizeBy: none
+		sourceColumn: PurviewFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: d25830f0-b521-4385-b91d-b69ad339781e
+		summarizeBy: none
+		sourceColumn: TenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column24
+		dataType: string
+		isHidden
+		lineageTag: 08d43e3f-01a0-41c3-a167-1e45392fa4c7
+		summarizeBy: none
+		sourceColumn: Column24
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column25
+		dataType: string
+		isHidden
+		lineageTag: 3e1e80e0-6ca5-4287-8d8d-6273b01f0a8c
+		summarizeBy: none
+		sourceColumn: Column25
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column26
+		dataType: string
+		isHidden
+		lineageTag: f1d13dea-0dfd-435c-bb2a-4a14fb22019e
+		summarizeBy: none
+		sourceColumn: Column26
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FindtenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: d175673c-b9de-4650-9ec2-82885722e335
+		summarizeBy: none
+		sourceColumn: FindtenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column28
+		dataType: string
+		isHidden
+		lineageTag: ce36f8f7-af2a-4772-9e86-b4d49faca37d
+		summarizeBy: none
+		sourceColumn: Column28
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroupOrder
+		dataType: string
+		isHidden
+		lineageTag: 8f6fdfd3-e51c-49dc-a2e1-29b2adc8180e
+		summarizeBy: none
+		sourceColumn: TenantSettingGroupOrder
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xformQuorumRecommnedSettings_MA = m
+		mode: import
+		queryGroup: Missing_Added_Settings
+		source =
+				let
+				    Source = RawQuorumRecommendSettings
+				in
+				    Source
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

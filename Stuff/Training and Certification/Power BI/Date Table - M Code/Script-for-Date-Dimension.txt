@@ -1,0 +1,303 @@
+let
+  // configurations start
+  Today = Date.From(DateTime.LocalNow()), 
+  // today's date
+  FromYear = 1988, 
+  // set the start year of the date dimension. dates start from 1st of January of this year
+  ToYear = 2030, 
+  // set the end year of the date dimension. dates end at 31st of December of this year
+  StartofFiscalYear = 6, 
+  // set the month number that is start of the financial year. example; if fiscal year start is June, value is 6
+  firstDayofWeek = Day.Monday, 
+  // set the week's start day, values: Day.Monday, Day.Sunday....
+  // configuration end
+  FromDate = #date(FromYear, 1, 1), 
+  ToDate = #date(ToYear, 12, 31), 
+  Source = List.Dates(FromDate, Duration.Days(ToDate - FromDate) + 1, #duration(1, 0, 0, 0)), 
+  #"Converted to Table" = Table.FromList(
+    Source, 
+    Splitter.SplitByNothing(), 
+    null, 
+    null, 
+    ExtraValues.Error
+  ), 
+  #"Renamed Columns" = Table.RenameColumns(#"Converted to Table", {{"Column1", "Date"}}), 
+  #"Changed Type" = Table.TransformColumnTypes(#"Renamed Columns", {{"Date", type date}}), 
+  #"Inserted Year" = Table.AddColumn(#"Changed Type", "Year", each Date.Year([Date]), Int64.Type), 
+  #"Inserted Start of Year" = Table.AddColumn(
+    #"Inserted Year", 
+    "Start of Year", 
+    each Date.StartOfYear([Date]), 
+    type date
+  ), 
+  #"Inserted End of Year" = Table.AddColumn(
+    #"Inserted Start of Year", 
+    "End of Year", 
+    each Date.EndOfYear([Date]), 
+    type date
+  ), 
+  #"Inserted Month" = Table.AddColumn(
+    #"Inserted End of Year", 
+    "Month", 
+    each Date.Month([Date]), 
+    Int64.Type
+  ), 
+  #"Inserted Start of Month" = Table.AddColumn(
+    #"Inserted Month", 
+    "Start of Month", 
+    each Date.StartOfMonth([Date]), 
+    type date
+  ), 
+  #"Inserted End of Month" = Table.AddColumn(
+    #"Inserted Start of Month", 
+    "End of Month", 
+    each Date.EndOfMonth([Date]), 
+    type date
+  ), 
+  #"Inserted Days in Month" = Table.AddColumn(
+    #"Inserted End of Month", 
+    "Days in Month", 
+    each Date.DaysInMonth([Date]), 
+    Int64.Type
+  ), 
+  #"Inserted Day" = Table.AddColumn(
+    #"Inserted Days in Month", 
+    "Day", 
+    each Date.Day([Date]), 
+    Int64.Type
+  ), 
+  #"Inserted Day Name" = Table.AddColumn(
+    #"Inserted Day", 
+    "Day Name", 
+    each Date.DayOfWeekName([Date]), 
+    type text
+  ), 
+  #"Inserted Day of Week" = Table.AddColumn(
+    #"Inserted Day Name", 
+    "Day of Week", 
+    each Date.DayOfWeek([Date], firstDayofWeek), 
+    Int64.Type
+  ), 
+  #"Inserted Day of Year" = Table.AddColumn(
+    #"Inserted Day of Week", 
+    "Day of Year", 
+    each Date.DayOfYear([Date]), 
+    Int64.Type
+  ), 
+  #"Inserted Month Name" = Table.AddColumn(
+    #"Inserted Day of Year", 
+    "Month Name", 
+    each Date.MonthName([Date]), 
+    type text
+  ), 
+  #"Inserted Quarter" = Table.AddColumn(
+    #"Inserted Month Name", 
+    "Quarter", 
+    each Date.QuarterOfYear([Date]), 
+    Int64.Type
+  ), 
+  #"Inserted Start of Quarter" = Table.AddColumn(
+    #"Inserted Quarter", 
+    "Start of Quarter", 
+    each Date.StartOfQuarter([Date]), 
+    type date
+  ), 
+  #"Inserted End of Quarter" = Table.AddColumn(
+    #"Inserted Start of Quarter", 
+    "End of Quarter", 
+    each Date.EndOfQuarter([Date]), 
+    type date
+  ), 
+  #"Inserted Week of Year" = Table.AddColumn(
+    #"Inserted End of Quarter", 
+    "Week of Year", 
+    each Date.WeekOfYear([Date], firstDayofWeek), 
+    Int64.Type
+  ), 
+  #"Inserted Week of Month" = Table.AddColumn(
+    #"Inserted Week of Year", 
+    "Week of Month", 
+    each Date.WeekOfMonth([Date], firstDayofWeek), 
+    Int64.Type
+  ), 
+  #"Inserted Start of Week" = Table.AddColumn(
+    #"Inserted Week of Month", 
+    "Start of Week", 
+    each Date.StartOfWeek([Date], firstDayofWeek), 
+    type date
+  ), 
+  #"Inserted End of Week" = Table.AddColumn(
+    #"Inserted Start of Week", 
+    "End of Week", 
+    each Date.EndOfWeek([Date], firstDayofWeek), 
+    type date
+  ), 
+  FiscalMonthBaseIndex = 13 - StartofFiscalYear, 
+  adjustedFiscalMonthBaseIndex = 
+    if (FiscalMonthBaseIndex >= 12 or FiscalMonthBaseIndex < 0) then
+      0
+    else
+      FiscalMonthBaseIndex, 
+  #"Added Custom" = Table.AddColumn(
+    #"Inserted End of Week", 
+    "FiscalBaseDate", 
+    each Date.AddMonths([Date], adjustedFiscalMonthBaseIndex)
+  ), 
+  #"Changed Type1" = Table.TransformColumnTypes(#"Added Custom", {{"FiscalBaseDate", type date}}), 
+  #"Inserted Year1" = Table.AddColumn(
+    #"Changed Type1", 
+    "Year.1", 
+    each Date.Year([FiscalBaseDate]), 
+    Int64.Type
+  ), 
+  #"Renamed Columns1" = Table.RenameColumns(#"Inserted Year1", {{"Year.1", "Fiscal Year"}}), 
+  #"Inserted Quarter1" = Table.AddColumn(
+    #"Renamed Columns1", 
+    "Quarter.1", 
+    each Date.QuarterOfYear([FiscalBaseDate]), 
+    Int64.Type
+  ), 
+  #"Renamed Columns2" = Table.RenameColumns(#"Inserted Quarter1", {{"Quarter.1", "Fiscal Quarter"}}), 
+  #"Inserted Month1" = Table.AddColumn(
+    #"Renamed Columns2", 
+    "Month.1", 
+    each Date.Month([FiscalBaseDate]), 
+    Int64.Type
+  ), 
+  #"Renamed Columns3" = Table.RenameColumns(#"Inserted Month1", {{"Month.1", "Fiscal Month"}}), 
+  #"Removed Columns" = Table.RemoveColumns(#"Renamed Columns3", {"FiscalBaseDate"}), 
+  #"Inserted Age" = Table.AddColumn(#"Removed Columns", "Age", each [Date] - Today, type duration), 
+  #"Extracted Days" = Table.TransformColumns(#"Inserted Age", {{"Age", Duration.Days, Int64.Type}}), 
+  #"Renamed Columns4" = Table.RenameColumns(#"Extracted Days", {{"Age", "Day Offset"}}), 
+  // FiscalBaseDate
+  #"Added FiscalBaseDate" = Table.AddColumn(
+    #"Renamed Columns4", 
+    "Month Offset", 
+    each (([Year] - Date.Year(Today)) * 12) + ([Month] - Date.Month(Today))
+  ), 
+  #"Changed Type2" = Table.TransformColumnTypes(
+    #"Added FiscalBaseDate", 
+    {{"Month Offset", Int64.Type}}
+  ), 
+  // Added Year Offset
+  #"Added Year Offset" = Table.AddColumn(
+    #"Changed Type2", 
+    "Year Offset", 
+    each [Year] - Date.Year(Today)
+  ), 
+  #"Changed Type3" = Table.TransformColumnTypes(#"Added Year Offset", {{"Year Offset", Int64.Type}}), 
+  #"Added Quarter Offset" = Table.AddColumn(
+    #"Changed Type3", 
+    "Quarter Offset", 
+    each (([Year] - Date.Year(Today)) * 4) + ([Quarter] - Date.QuarterOfYear(Today))
+  ), 
+  #"Changed Type4" = Table.TransformColumnTypes(
+    #"Added Quarter Offset", 
+    {{"Quarter Offset", Int64.Type}}
+  ), 
+  // Added Year-Month
+  #"Added Year-Month" = Table.AddColumn(
+    #"Changed Type4", 
+    "Year-Month", 
+    each Date.ToText([Date], "MMM yyyy")
+  ), 
+  // Added Year-Month Code
+  #"Added Year-Month Code" = Table.AddColumn(
+    #"Added Year-Month", 
+    "Year-Month Code", 
+    each Date.ToText([Date], "yyyyMM")
+  ), 
+  #"Changed Type5" = Table.TransformColumnTypes(
+    #"Added Year-Month Code", 
+    {{"Year-Month", type text}, {"Year-Month Code", Int64.Type}}
+  ), 
+  // Added MonthNameThreeLetters
+  #"Added MonthNameThreeLetters" = Table.TransformColumnTypes(
+    Table.AddColumn(#"Changed Type5", "MonthNameThreeLetters", each Date.ToText([Date], "MMM")), 
+    {{"MonthNameThreeLetters", type text}}
+  ), 
+  #"Sorted rows" = Table.Sort(#"Added MonthNameThreeLetters", {{"Date", Order.Ascending}}), 
+  #"Added custom - DayMonthThreeLettersYear" = Table.TransformColumnTypes(
+    Table.AddColumn(
+      #"Sorted rows", 
+      "DayMonthThreeLettersYear", 
+      each Text.From([Day]) & " " & [MonthNameThreeLetters] & " " & Text.From([Year])
+    ), 
+    {{"DayMonthThreeLettersYear", type text}}
+  ), 
+  // This will return Day and Month Name (Three letters)
+  #"Added custom - DayMonthThreeLetters" = Table.TransformColumnTypes(
+    Table.AddColumn(
+      #"Added custom - DayMonthThreeLettersYear", 
+      "DayMonthThreeLetters", 
+      each Text.From([Day]) & " " & [MonthNameThreeLetters]
+    ), 
+    {{"DayMonthThreeLetters", type text}}
+  ), 
+  #"Add - StartFyYear" = Table.TransformColumnTypes(
+    Table.AddColumn(
+      #"Added custom - DayMonthThreeLetters", 
+      "StartFyYear", 
+      each if [Fiscal Month] <= 12 then [Fiscal Year] - 1 else [Fiscal Year]
+    ), 
+    {{"StartFyYear", type text}}
+  ), 
+  #"Added - EndFyYear" = Table.TransformColumnTypes(
+    Table.AddColumn(
+      #"Add - StartFyYear", 
+      "EndFyYear", 
+      each if [Fiscal Month] <= 12 then [Fiscal Year] else [Fiscal Year]
+    ), 
+    {{"EndFyYear", type text}}
+  ), 
+  #"Added custom FyYear" = Table.AddColumn(
+    #"Added - EndFyYear", 
+    "FyYearNew", 
+    each Text.End([StartFyYear], 2) & "/" & Text.End([EndFyYear], 2)
+  ), 
+  #"Transform columns" = Table.TransformColumnTypes(
+    #"Added custom FyYear", 
+    {{"FyYearNew", type text}}
+  ), 
+  #"Replace errors" = Table.ReplaceErrorValues(#"Transform columns", {{"FyYearNew", null}}), 
+  #"Added - DefaultYear" = Table.TransformColumnTypes(
+    Table.AddColumn(
+      #"Replace errors", 
+      "DefaultYear", 
+      each 
+        //this expession is defaulting to 2024 for the default year on 2025-01-02
+        // if [Year] = Date.Year(Date.AddMonths(DateTime.Date(DateTime.LocalNow()), - 1)) then
+        //So updated the expression to see if can resolve this issue
+       if [Year] = Date.Year(Date.AddMonths(DateTime.Date(DateTime.LocalNow()), 0)) then        
+          "Default"
+        else
+          Text.From([Year])
+    ), 
+    {{"DefaultYear", type text}}
+  ), 
+  #"Added - Month with Current" = Table.AddColumn(
+    #"Added - DefaultYear", 
+    "Month with Current", 
+    each if [Month Offset] = 0 then "Current" else [MonthNameThreeLetters]
+  ), 
+  // this will ensure that the current month will always have a value of Zero and all other months will have the month number. Ensuring the Current month always appears as the first value in a silcer
+  #"Inserted - Sort By For Month with Current Month" = Table.AddColumn(
+    #"Added - Month with Current", 
+    "Sort By For Month with Current Month", 
+    each if [Month with Current] = "Current" then 0 else [Month]
+  ), 
+  #"Transform columns 1" = Table.TransformColumnTypes(
+    #"Inserted - Sort By For Month with Current Month", 
+    {{"Month with Current", type text}, {"Sort By For Month with Current Month", type text}}
+  ), 
+  // To ensure the sort by is as expected
+  #"Changed Sort By For Month with Current Month -> Int" = Table.TransformColumnTypes(
+    #"Transform columns 1", 
+    {{"Sort By For Month with Current Month", Int64.Type}}
+  )
+  //removed the filter that only returns current year done by RF on 2025-01-02
+  //,
+  // #"Filtered rows" = Table.SelectRows(#"Changed Sort By For Month with Current Month -> Int", each ([DefaultYear] = "Default"))
+in
+  // #"Filtered rows"
+   #"Changed Sort By For Month with Current Month -> Int"
