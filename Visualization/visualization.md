@@ -14,6 +14,9 @@ Books  [https://handsondataviz.org/](https://handsondataviz.org/)
 [https://flowingdata.com/2009/11/25/9-ways-to-visualize-proportions-a-guide/](https://flowingdata.com/2009/11/25/9-ways-to-visualize-proportions-a-guide/)  
 how to use pie charts or other visualizations instead
 
+https://eagereyes.org/pie-charts
+Excellent discussion on Pie charts
+
 ---
 [https://informationisbeautiful.net/](https://informationisbeautiful.net/)  Good examples of visualization in this case its most infograhpics worth looking at though
 
