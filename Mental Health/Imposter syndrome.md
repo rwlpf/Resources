@@ -113,3 +113,6 @@ https://nailted.com/blog/how-hr-can-help-overcome-the-imposter-syndrome/
 https://www.pinsentmasons.com/out-law/analysis/employer-support-can-help-overcome-crippling-imposter-syndrome
 https://asana.com/resources/impostor-syndrome
 
+How to Stop Imposter Syndrome with Melody Wilding
+https://www.youtube.com/watch?v=rz_c31dgDZE
+"...Dunning-Kruger is the opposite of imposter syndrome..."
