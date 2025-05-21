@@ -84,3 +84,7 @@ https://www.oliviertravers.com/row-level-security-rls-business-intelligence/
 ---
 Another approach to hierarchical row level security
 https://angryanalytics.com/2016/12/27/dynamic-rls-via-hierarchy-in-power-bi/
+
+---
+Complex access control with Row-Level Security 
+https://www.youtube.com/watch?v=FvLxvgZWC5Y
