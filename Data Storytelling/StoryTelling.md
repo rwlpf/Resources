@@ -83,4 +83,7 @@ https://www.nugit.co/what-is-data-storytelling/
 
 Types of stories - https://annettesimmons.com/ - six types of stories
 
-----
+---
+
+https://www.khanacademy.org/humanities/hass-storytelling
+Free video course on storytelling by Pixar.
