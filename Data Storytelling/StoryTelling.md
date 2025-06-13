@@ -60,10 +60,6 @@ Picard management tip: Tell good stories. The right story can persuade, inspire,
 
 ---
 
-https://www.chartr.co/ - data storytelling examples using charts
-
----
-
 https://www.visualcapitalist.com/ - excellent source of infographics
 
 ---
