@@ -17,3 +17,6 @@ Free ebook well worth reading
 
 ---
 The Infographic: A History of Data Graphics in News and Communications
+
+---
+https://www.untitledui.com/blog/ui-design-books#7-the-design-manual-by-adrian-kuleszo
