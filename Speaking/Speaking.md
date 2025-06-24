@@ -28,12 +28,10 @@ https://youtube.com/playlist?list=PL8EEC66CC5F02545C&si=1Z4Cvr-UlQOWAKK5
 Set of videos on speaking
 
 ---
-
 https://youtu.be/k8GvTgWtR7o?si=U5OYeDlVclptaK2_
 Public Speaking: How To Make An Audience Love You In 90 Seconds
 
 ---
-
 https://drive.google.com/file/d/1Wk8O7kiqc9aQ5ry6x2w1mGxit8qnY6zX/view
 Some interesting points in creating / developing a presentation
 
@@ -70,10 +68,8 @@ https://presented.co.uk/blog/
 ---
 https://virtualspeech.com/blog/8-elements-of-confident-body-language
 
-
 ---
-
 https://medium.com/@vvanedwards/20-hand-gestures-you-should-be-using-c8717eca02d7
 
-
+---
 https://www.wikihow.com/Communicate-With-Body-Language
