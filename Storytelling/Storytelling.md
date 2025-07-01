@@ -61,3 +61,7 @@ https://www.effectivedatastorytelling.com/blog
 
 Finding the story before starting to tell the story
 https://coffeetableviz.wordpress.com/2024/10/10/how-to-find-stories-in-data-channelling-our-inner-journo/
+
+---
+https://www.mindspeaking.com/datastorytelling
+Very useful tips
