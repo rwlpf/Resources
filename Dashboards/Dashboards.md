@@ -100,3 +100,7 @@ https://blog.logrocket.com/ux-design/making-dashboard-ui/
 https://freshspectrum.com/how-do-people-read-reports-and-just-what-is-an-f-pattern/
 
 https://www.youtube.com/watch?v=3nvjjfE9BqQ
+
+https://www.youtube.com/watch?v=xL7qHCy-CEE
+How to Rescue Your Failing Dashboard - Nick Desbarats interview with Rupe
+Its a bit of an overview on a broad topic. Maybe a number things which have not considered
