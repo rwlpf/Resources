@@ -20,7 +20,6 @@ https://www.yellowfinbi.com/blog/operational-strategic-or-analytical-dashboard-w
 
 https://trevor.io/blog/types-of-bi-dashboards
 
-
 ---
 https://www.displayr.com/8-types-of-online-dashboards/
 Design approaches to dashboards
