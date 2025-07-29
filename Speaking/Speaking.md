@@ -73,3 +73,6 @@ https://medium.com/@vvanedwards/20-hand-gestures-you-should-be-using-c8717eca02d
 
 ---
 https://www.wikihow.com/Communicate-With-Body-Language
+
+---
+https://seths.blog/2018/04/how-to-give-a-five-minute-presentation-/

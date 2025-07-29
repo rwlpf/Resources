@@ -65,3 +65,6 @@ https://coffeetableviz.wordpress.com/2024/10/10/how-to-find-stories-in-data-chan
 ---
 https://www.mindspeaking.com/datastorytelling
 Very useful tips
+
+---
+https://www.presentationzen.com/presentationzen/2007/03/ira_glasstips_o.html
