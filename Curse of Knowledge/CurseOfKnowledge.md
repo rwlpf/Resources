@@ -1,14 +1,14 @@
 https://effectiviology.com/curse-of-knowledge/
-===
+---
 
 https://hbr.org/2006/12/the-curse-of-knowledge
-===
+---
 
 https://en.wikipedia.org/wiki/Curse_of_knowledge
-===
+---
 
 https://cxl.com/blog/curse-of-knowledge/
-===
+---
 
 https://uxpsychology.substack.com/p/bridging-the-gap-navigating-the-curse
 
@@ -31,3 +31,7 @@ https://www.futurelearn.com/info/courses/working-health-literacy/0/steps/113464
 ---
 
 https://www.vaia.com/en-us/explanations/psychology/cognitive-psychology/curse-of-knowledge/
+
+---
+A Key to Better Leadership & Communication: How to overcome the curse of expertise ft. Ting Zhang
+https://www.youtube.com/watch?v=U4QcOXw-DYw
