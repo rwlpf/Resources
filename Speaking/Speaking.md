@@ -76,3 +76,7 @@ https://www.wikihow.com/Communicate-With-Body-Language
 
 ---
 https://seths.blog/2018/04/how-to-give-a-five-minute-presentation-/
+
+---
+Owning the Room in the Age of AI
+https://sloanreview.mit.edu/article/owning-the-room-in-the-age-of-ai/?utm_campaign=17777576-Nancy%20AI%20MIT%20Article%20-%20July%202025&utm_source=email&utm_medium=CTA%20Link%20to%20Article&utm_content=Nancy%20MIT%20Article%20Segmented%20Email
