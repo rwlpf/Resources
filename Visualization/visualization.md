@@ -172,3 +172,7 @@ https://assets.publishing.service.gov.uk/media/57a089e4e5274a31e00002f8/Guide-to
 ---
 Visualizing Information for Advocacy: An Introduction to Information Design
 https://www.opensocietyfoundations.org/publications/visualizing-information-advocacy-introduction-information-design
+
+---
+Shneiderman’s famous “𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄 𝗳𝗶𝗿𝘀𝘁, 𝘇𝗼𝗼𝗺 & 𝗳𝗶𝗹𝘁𝗲𝗿, 𝗱𝗲𝘁𝗮𝗶𝗹𝘀-𝗼𝗻-𝗱𝗲𝗺𝗮𝗻𝗱” mantra
+https://www.linkedin.com/posts/lonneke-opsteegh-statstories_information-seeking-mantra-ugcPost-7361046645054054402-_cRz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAHATzMBeJdmDWN_7jqI0va9OfpPbuAKs5A
