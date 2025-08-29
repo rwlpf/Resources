@@ -80,3 +80,12 @@ https://seths.blog/2018/04/how-to-give-a-five-minute-presentation-/
 ---
 Owning the Room in the Age of AI
 https://sloanreview.mit.edu/article/owning-the-room-in-the-age-of-ai/?utm_campaign=17777576-Nancy%20AI%20MIT%20Article%20-%20July%202025&utm_source=email&utm_medium=CTA%20Link%20to%20Article&utm_content=Nancy%20MIT%20Article%20Segmented%20Email
+
+---
+5 steps to make your audience the hero
+(And win them over in the process)
+https://www.morgandepenbusch.com/p/5-steps-to-make-your-audience-the-hero
+
+A topic not always used when using storytelling worth the time and effort that it takes.
+
+---
