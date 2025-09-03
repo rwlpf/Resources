@@ -36,6 +36,7 @@ https://www.storytellingwithdata.com/blog/2011/07/death-to-pie-charts </br>
 https://www.perceptualedge.com/articles/visual_business_intelligence/save_the_pies_for_dessert.pdf </br>
 https://www.addtwodigital.com/add-two-blog/2021/3/1/rule-1 </br>
 https://www.darkhorseanalytics.com/blog/salvaging-the-pie </br>
+https://www.edwardtufte.com/notebook/pie-charts/ </br>
 
 ------
 In defense of Pie Charts
@@ -60,7 +61,7 @@ https://act-on.com/blog/data-visualization-101-how-to-make-better-pie-charts-and
 **Futher reading** 
 
 https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results </br>
-https://eagereyes.org/techniques/pie-charts
+https://eagereyes.org/techniques/pie-charts </br>
 
 Love the title of this article
 https://policyviz.com/2018/01/11/fk-it-lets-use-pie-charts/</br>
