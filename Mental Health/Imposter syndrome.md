@@ -43,7 +43,7 @@ https://www.testgorilla.com/blog/skills-assessments-and-imposter-syndrome/?utm_t
 Books 
 https://www.amazon.co.uk/Imposter-Cure-Escape-Mind-Trap-Syndrome/dp/B07P5GNP4S/ref=sr_1_1?adgrpid=67139052925&hvadid=341969670640&hvdev=c&hvlocphy=9046949&hvnetw=g&hvqmt=e&hvrand=10506829601469635282&hvtargid=kwd-745855150536&hydadcr=24403_1816058&keywords=the+imposter+cure&qid=1706705664&sr=8-1
 
-Ted Talks / You Tube Videos
+Ted Talks / You Tube Videos</br>
 https://www.ted.com/playlists/503/fighting_impostor_syndrome
 https://www.ted.com/talks/mike_cannon_brookes_how_you_can_use_impostor_syndrome_to_your_benefit?language=en
 https://www.ted.com/talks/elizabeth_cox_what_is_imposter_syndrome_and_how_can_you_combat_it
@@ -95,24 +95,30 @@ https://enterprisersproject.com/article/2019/8/imposter-syndrome-5-ways-beat
 Simon Sinek - talking about imposter syndrome as a speaker
 https://www.youtube.com/shorts/L7SNmceYsbM
 
+How to Stop Imposter Syndrome with Melody Wilding
+https://www.youtube.com/watch?v=rz_c31dgDZE
+"...Dunning-Kruger is the opposite of imposter syndrome..."
+
+"Lean Into Imposter Syndrome, Don't Give In to It"
+https://www.youtube.com/watch?v=qGmwH6DyUjo
+
+---
+
 https://www.sqlgene.com/2020/01/14/five-ways-to-reduce-impostor-syndrome/ 
 
 https://nightingaledvs.com/good-morning-data-7-false-positives/
 
-Robert French articles
+Robert French articles</br>
 https://www.linkedin.com/pulse/overcoming-imposter-syndrome-robert-french-he-him-his-/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 https://www.linkedin.com/pulse/imposter-syndrome-contd-robert-french/?trackingId=ebo%2BXi08S5uNMqknEVIT4Q%3D%3D
 
-
-Inforgraphic
+Inforgraphic</br>
 https://www.thepipettepen.com/wp-content/uploads/2016/12/Impostor-Syndrome-Infographic.jpg
 https://www.discoveryinaction.com.au/wp-content/uploads/2015/08/how-to-improve-confidence.jpg
 
-Ideas for IT managers
+Ideas for IT managers</br>
 https://nailted.com/blog/how-hr-can-help-overcome-the-imposter-syndrome/
 https://www.pinsentmasons.com/out-law/analysis/employer-support-can-help-overcome-crippling-imposter-syndrome
 https://asana.com/resources/impostor-syndrome
 
-How to Stop Imposter Syndrome with Melody Wilding
-https://www.youtube.com/watch?v=rz_c31dgDZE
-"...Dunning-Kruger is the opposite of imposter syndrome..."
+
