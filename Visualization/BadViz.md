@@ -1,11 +1,17 @@
 
-https://www.biostat.wisc.edu/~kbroman/topten_worstgraphs/
-3d charts, tables and some other stuff
--------------------------------------------------------------
-https://viz.wtf/
----
-http://livingqlikview.com/the-9-worst-data-visualizations-ever-created/
+3d charts, tables and some other stuff</br>
+https://www.biostat.wisc.edu/~kbroman/topten_worstgraphs/</br>
 
 ---
-Six examples of poor data viz with examples
-https://www.intotheminds.com/blog/en/data-visualization-bad-examples/
+
+https://viz.wtf/</br>
+---
+
+http://livingqlikview.com/the-9-worst-data-visualizations-ever-created/</br>
+
+---
+Six examples of poor data viz with examples</br>
+https://www.intotheminds.com/blog/en/data-visualization-bad-examples/</br>
+
+---
+https://www.tempo.io/blog/good-and-bad-data-visualization</br>
