@@ -6,13 +6,22 @@ Lesson structure
 5) further material and or refernces
 
 
-##data - types of data**
+## Data - types of data
 
+-   Profile the data
+-   types of data
+-     Ordinal
+-     Categorical
+-     Time series
 -   what types of data suit what types of charts
+-   Outliers
+-   Trends
+-   Does the data have heirachies
+-   
 -   chart choosers.
 -   common data viz mistakes
 
-## design principals
+## Design principals
 
 -   layout
 -   rule of thirds
@@ -28,15 +37,14 @@ Lesson structure
 -   psychology of colour
 -   wire framing, sketching
 
-## psychology - gestalt psychology
+## Psychology - gestalt psychology
 
-fast vs slow thinking
-
+-   fast vs slow thinking
 -   priming
 -   cognitive load
-- chunking
+-   chunking
 - 
-##physiology
+## Physiology
 
 -   colour blindness
 -   pre attentive attributes
@@ -44,7 +52,7 @@ fast vs slow thinking
 -   memory, short, and long term and others
 -   illusions your eyes lie to (how your visual system lies to you)
 
-##storytelling
+## Storytelling
 
 -   why stories work
 -   building a story
