@@ -42,3 +42,7 @@ https://pressbooks.library.torontomu.ca/criticaldataliteracy/chapter/gestalts-pr
 https://ucdavisdatalab.github.io/workshop_data_viz_principles/principles-of-visual-perception.html
 
 https://www.interaction-design.org/literature/topics/gestalt-principles
+
+---
+Laws of UX do not be put off by the title. Really good useful stuff.
+https://lawsofux.com/
