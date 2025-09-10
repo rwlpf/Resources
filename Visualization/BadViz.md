@@ -15,4 +15,6 @@ Six examples of poor data viz with examples</br>
 https://www.intotheminds.com/blog/en/data-visualization-bad-examples/</br>
 
 ---
+
+When data visualization really isn’t useful (and when it is)</br>
 https://www.tempo.io/blog/good-and-bad-data-visualization</br>
