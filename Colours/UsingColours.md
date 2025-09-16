@@ -14,5 +14,5 @@ Creating an organisational colour palette</br>
 https://blog.datawrapper.de/colors-for-data-vis-style-guides/</br>
 ---
 
-How to let colour do the storytelling
+How to let colour do the storytelling</br>
 https://www.morgandepenbusch.com/p/how-to-let-color-do-the-storytelling</br>
