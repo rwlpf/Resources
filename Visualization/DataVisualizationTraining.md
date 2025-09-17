@@ -5,6 +5,12 @@ Lesson structure
 4) practical exerise (if possbile) to use the newly learned knowledge
 5) further material and or refernces
 
+Session length - aim for 30 mins with follow up tasks
+    Follow up taks
+    Read article x
+    Try with this bit of data
+    Try and create viz or story etc
+
 
 ## Data - types of data
 
@@ -17,21 +23,33 @@ Lesson structure
 -   Outliers
 -   Trends
 -   Does the data have heirachies
--   
--   chart choosers.
+-   Data literacy
+   
+-   What types of data suit what types of chart
+-   chart choosers
+        Website recommendations 
+        Add one from Swiss chap who is suggests just a couple
 -   common data viz mistakes
+    What to avoid
+    Best practice
+    Graphical literacy
+
 
 ## Design principals
 
 -   layout
 -   rule of thirds
+-   grid layout
 -   white space
 -   who is your audience
 -   typical scanning patterns
+
 -   typography, fonts
 -   visual hierarchy
 -   font hierarchy
 -   less is more.
+
+
 -   colour
 -   colour theory
 -   psychology of colour
