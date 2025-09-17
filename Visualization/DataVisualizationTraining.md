@@ -54,6 +54,10 @@ Session length - aim for 30 mins with follow up tasks
 -   colour theory
 -   psychology of colour
 -   wire framing, sketching
+        Why do it? 
+        How to do it
+        What tools to use
+        Why NOT to use the end tool
 
 ## Psychology - gestalt psychology
 
@@ -74,6 +78,7 @@ Session length - aim for 30 mins with follow up tasks
 
 -   why stories work
 -   building a story
+-   Whats the message - whats the elevator pitch?
 -   story arcs
 -   beginning, set the science
 -   middle, conflict / insight
