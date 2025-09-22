@@ -71,5 +71,10 @@ Fabric Known issues
 https://support.fabric.microsoft.com/en-us/known-issues
 
 ---
+List of recommended resources for Power BI
+https://github.com/NajiElKotob/Awesome-Power-BI
+
+
+---
 Some fantastic resources
 https://github.com/itsnotaboutthecell
