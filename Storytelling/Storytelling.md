@@ -68,3 +68,7 @@ Very useful tips
 
 ---
 https://www.presentationzen.com/presentationzen/2007/03/ira_glasstips_o.html
+
+---
+Storytelling:The Next Step for Visualization - link for the PDF in the repo
+https://kosara.net/papers/2013/Kosara-Computer-2013.pdf

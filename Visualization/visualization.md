@@ -176,3 +176,7 @@ https://www.opensocietyfoundations.org/publications/visualizing-information-advo
 ---
 Shneiderman’s famous “𝗢𝘃𝗲𝗿𝘃𝗶𝗲𝘄 𝗳𝗶𝗿𝘀𝘁, 𝘇𝗼𝗼𝗺 & 𝗳𝗶𝗹𝘁𝗲𝗿, 𝗱𝗲𝘁𝗮𝗶𝗹𝘀-𝗼𝗻-𝗱𝗲𝗺𝗮𝗻𝗱” mantra
 https://www.linkedin.com/posts/lonneke-opsteegh-statstories_information-seeking-mantra-ugcPost-7361046645054054402-_cRz?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAHATzMBeJdmDWN_7jqI0va9OfpPbuAKs5A
+
+---
+Declutter and Focus: Empirically Evaluating Design Guidelines for Effective Data Communication
+https://par.nsf.gov/servlets/purl/10350268
