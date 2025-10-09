@@ -111,3 +111,7 @@ https://www.urban.org/research/publication/do-no-harm-guide-centering-accessibil
 ---
 Visual Accessibility Resources</br>
 https://nightingaledvs.com/visual-accessibility-resources/</br>
+
+---
+Set of highlevel audit checks for data Visualization to check if accessible</br>
+https://chartability.github.io/POUR-CAF/</br>
