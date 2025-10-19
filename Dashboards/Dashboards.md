@@ -79,6 +79,13 @@ The map is quite nice; the rest of the dashboard is, in my opinion, not the way 
 ---
 https://webapphuddle.com/dashboard-design-examples/
 
+---
+https://dashboarddesignpatterns.github.io/
+Collection of a number of different dashboard patterns as the title says.
+Also links to much more material 
+Types of dashboard (Dashboard generes)
+Design tradeoffs
+
 ## **Books on dashboard design (to be added to)**
 
 https://dataschool.com/how-to-design-a-dashboard/what-is-a-dashboard/
@@ -103,4 +110,4 @@ https://www.youtube.com/watch?v=3nvjjfE9BqQ
 
 https://www.youtube.com/watch?v=xL7qHCy-CEE
 How to Rescue Your Failing Dashboard - Nick Desbarats interview with Rupe
-Its a bit of an overview on a broad topic. Maybe a number things which have not considered
+Its a bit of an overview on a broad topic. Maybe a number things which have not considered?
