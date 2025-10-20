@@ -95,3 +95,7 @@ https://scc.ms.unimelb.edu.au/resources/data-visualisation-and-exploration/no_pi
 https://www.datawrapper.de/blog/chart-types-guide
 
 A friendly guide to choosing a chart type
+
+---
+Selecting chart types only that use built in visuals in Power BI</br>
+https://app.powerbi.com/view?r=eyJrIjoiNzNjYjBiODktZjdmNS00ZjMwLTk3NWUtYTc2ZDE5ZDQyYmQyIiwidCI6IjQxYmVjZTAxLTYyNGQtNGE4YS1hNzFmLWQ1ZTQ0MmY1MTFjMSJ9</br>
