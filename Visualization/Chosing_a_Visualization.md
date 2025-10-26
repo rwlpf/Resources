@@ -99,3 +99,7 @@ A friendly guide to choosing a chart type
 ---
 Selecting chart types only that use built in visuals in Power BI</br>
 https://app.powerbi.com/view?r=eyJrIjoiNzNjYjBiODktZjdmNS00ZjMwLTk3NWUtYTc2ZDE5ZDQyYmQyIiwidCI6IjQxYmVjZTAxLTYyNGQtNGE4YS1hNzFmLWQ1ZTQ0MmY1MTFjMSJ9</br>
+
+---
+specfic to a particular product, like the way its laid out none the less
+https://www.highcharts.com/chartchooser/</br>
