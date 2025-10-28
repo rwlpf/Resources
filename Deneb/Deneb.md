@@ -40,3 +40,20 @@ https://www.youtube.com/watch?v=C9km_-sxaSA
 ---
 Deneb & Vega-Lite Walkthrough
 https://medium.com/@pbiqueryous/power-bi-deneb-vega-lite-series-ep01-marks-and-encoding-lets-learn-to-run-before-we-fly-87f4961a2fa5
+
+---
+Dedicated Denedb resource guide</br>
+https://deneb.guide/</br>
+
+---
+This is a port of the BBC ggplot2 cookbook into vega and vegalite</br>
+https://github.com/aezarebski/vegacookbook</br>
+
+---
+Vage-Lite Documentation</br>
+https://vega.github.io/vega-lite/docs/</br>
+
+---
+Deneb-Templates from PowerBI.tips</br>
+https://github.com/PowerBI-tips/Deneb-Templates/tree/main</br>
+
