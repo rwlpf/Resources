@@ -49,3 +49,7 @@ https://deneb.guide/</br>
 This is a port of the BBC ggplot2 cookbook into vega and vegalite</br>
 https://github.com/aezarebski/vegacookbook</br>
 
+---
+Vage-Lite Documentation</br>
+https://vega.github.io/vega-lite/docs/</br>
+
