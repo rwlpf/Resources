@@ -40,3 +40,8 @@ https://www.youtube.com/watch?v=C9km_-sxaSA
 ---
 Deneb & Vega-Lite Walkthrough
 https://medium.com/@pbiqueryous/power-bi-deneb-vega-lite-series-ep01-marks-and-encoding-lets-learn-to-run-before-we-fly-87f4961a2fa5
+
+---
+Dedicated Denedb resource guide
+https://deneb.guide/
+
