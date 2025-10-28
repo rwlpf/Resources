@@ -53,3 +53,7 @@ https://github.com/aezarebski/vegacookbook</br>
 Vage-Lite Documentation</br>
 https://vega.github.io/vega-lite/docs/</br>
 
+---
+Deneb-Templates from PowerBI.tips</br>
+https://github.com/PowerBI-tips/Deneb-Templates/tree/main</br>
+
