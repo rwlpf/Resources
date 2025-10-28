@@ -42,6 +42,10 @@ Deneb & Vega-Lite Walkthrough
 https://medium.com/@pbiqueryous/power-bi-deneb-vega-lite-series-ep01-marks-and-encoding-lets-learn-to-run-before-we-fly-87f4961a2fa5
 
 ---
-Dedicated Denedb resource guide
-https://deneb.guide/
+Dedicated Denedb resource guide</br>
+https://deneb.guide/</br>
+
+---
+This is a port of the BBC ggplot2 cookbook into vega and vegalite</br>
+https://github.com/aezarebski/vegacookbook</br>
 
