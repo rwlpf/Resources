@@ -1,13 +1,13 @@
-Books  [https://handsondataviz.org/](https://handsondataviz.org/) 
+Books  [https://handsondataviz.org/](https://handsondataviz.org/) </br>
  [https://clauswilke.com/dataviz/index.html](https://clauswilke.com/dataviz/index.html)
 
 ---
-[https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/](https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/)
+[https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/](https://www.fusioncharts.com/blog/how-to-use-the-gestalt-principles-for-visual-storytelling-podv/) </br>
 
 [https://treehousetechgroup.com/the-psychology-behind-data-visualization/](https://treehousetechgroup.com/the-psychology-behind-data-visualization/)</br> [https://treehousetechgroup.com/importance-of-data-visualization-for-your-business/](https://treehousetechgroup.com/importance-of-data-visualization-for-your-business/)</br>
 [https://treehousetechgroup.com/the-psychology-behind-data-visualization/](https://treehousetechgroup.com/the-psychology-behind-data-visualization/)</br>
 
-[https://research.lib.buffalo.edu/dataviz/resources](https://research.lib.buffalo.edu/dataviz/resources)
+[https://research.lib.buffalo.edu/dataviz/resources](https://research.lib.buffalo.edu/dataviz/resources) </br>
 
 **Good examples**
 
