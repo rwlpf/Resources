@@ -75,7 +75,7 @@ https://medium.com/@vvanedwards/20-hand-gestures-you-should-be-using-c8717eca02d
 https://www.wikihow.com/Communicate-With-Body-Language
 
 ---
-https://seths.blog/2018/04/how-to-give-a-five-minute-presentation-/
+https://seths.blog/2018/04/how-to-give-a-five-minute-presentation-/</br>  
 
 ---
 Owning the Room in the Age of AI
@@ -89,3 +89,11 @@ https://www.morgandepenbusch.com/p/5-steps-to-make-your-audience-the-hero
 A topic not always used when using storytelling worth the time and effort that it takes.
 
 ---
+Trick your brain iinto feeling more confident</br>  
+https://youtube.com/shorts/oYFvHPXvIp8?si=WeNk1EiYhF1cllXg</br> 
+
+---
+Learn to speak on the spot with clarity with the PREP Framework! </br> 
+https://gifts.vinhgiang.com/comm-framework-1?utm_source=ActiveCampaign&utm_medium=email&utm_content=The%20simple%20framework%20that%20fixes%20%22rambling%22%20forever&utm_campaign=BF2025_All_Email7_WarmUpPhase</br> 
+
+
