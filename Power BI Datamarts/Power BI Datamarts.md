@@ -1,3 +1,4 @@
+No new data marts can be created as of June 1, 2025: - probably a VERY good idea !
 https://docs.microsoft.com/en-us/power-bi/transform-model/datamarts/datamarts-overview
 Offical microsoft documentation
 
