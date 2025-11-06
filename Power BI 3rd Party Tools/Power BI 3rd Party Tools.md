@@ -14,6 +14,10 @@ https://exceleratorbi.com.au/measure-killer-for-power-bi/</br>
 
 ---
  SQL BI tools</br>
+ There are number of tools sponsored by SQL BI 
+ https://www.sqlbi.com/tools/</br>
+
+ There are a couple worth knowing about listed below </br>
 
 Bravo</br>
 Creates date tables, formats DAX and helps with peformance tuning of models. Very nice GUI</br>
