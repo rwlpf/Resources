@@ -73,6 +73,7 @@ https://docs.bihelper.tech/</br>
 
 ---
 MSHGQM (Microsoft Hates Greg’s Quick Measures)</br>
+Quite a few interesting tools on offer, read the doucmentiation as the author notes there are some checks which are not done
 https://github.com/gdeckler/MicrosoftHatesGregsQuickMeasures</br>
 
 ---
