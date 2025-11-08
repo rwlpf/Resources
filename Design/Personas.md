@@ -31,3 +31,8 @@ https://www.bizzabo.com/blog/attendee-personas</br>
 ---
 Summary of results from a study looking at the benifits of using personas</br>
 https://www.frontend.com/thinking/using-personas-in-product-design/?utm_source=chatgpt.com</br>
+
+---
+Why personas fail
+Good discussion on why they might fail.
+https://www.nngroup.com/articles/why-personas-fail/
