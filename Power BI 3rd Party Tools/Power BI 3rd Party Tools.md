@@ -39,6 +39,10 @@ Analyze in Excel </br>
 Allow connecting of Excel to a Power BI Desktop model</br>
 https://www.sqlbi.com/tools/analyze-in-excel-for-power-bi-desktop/</br>
 
+PBI Explorer 
+Allows comparison of two different reports. Gives code view of Power BI report.
+https://www.pbiexplorer.com/
+
 ---
 Tabular Editor
 
