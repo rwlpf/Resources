@@ -1,0 +1,153 @@
+%md
+Here’s a minimal amendment so the script profiles only one specific table instead of looping all tables. I kept the behavior the same (null counts per column + total rows), just parameterized it for a single table.
+Avoids multiple passes over the data for null counts (more efficient). Handles quoting for schemas/tables with special characters. Prints column data types too.
+3 mins to run :-(
+script based one from here - https://medium.com/@james.m.dey/databricks-a-simple-example-of-data-profiling-6e8806afd480 amended using chatgpt
+
+---
+
+%python
+
+from pyspark.sql import SparkSession
+from pyspark.sql import functions as F
+
+spark = SparkSession.builder.getOrCreate()
+
+# >>> Set these <<<
+schema = "DataBaseName"          # e.g., "eptb"
+table_name = "TableName"         # e.g., "orders"
+
+# Build a fully-qualified and quoted identifier
+def q(name: str) -> str:
+    return f"`{name}`"
+
+full_name = q(schema) + "." + q(table_name) if schema else q(table_name)
+
+df = spark.table(full_name)
+
+print(f"Table: {schema+'.' if schema else ''}{table_name}")
+
+# Print schema (column names and types)
+print("Schema:")
+for f in df.schema.fields:
+    print(f"  - {f.name}: {f.dataType.simpleString()}")
+
+# Total row count (1 pass)
+total_count = df.count()
+print(f"Total number of rows: {total_count}")
+
+# Null counts per column in a single pass (aggregation)
+exprs = [F.sum(F.col(c).isNull().cast("long")).alias(c) for c in df.columns]
+null_counts_row = df.agg(*exprs).collect()[0]
+
+print("Null values per column:")
+for c in df.columns:
+    print(f"  - {c}: {null_counts_row[c]}")
+
+print("-" * 20)
+
+---
+
+%md
+Absolutely—here’s a single-table profiler that adds min, max, and distinct count per column while keeping it efficient by computing everything in one aggregation pass.
+
+✅ Works on one specified table</br>
+✅ Computes: total rows, null counts per column, distinct counts per column, min/max for orderable types</br>
+✅ Skips min/max for complex types (arrays, maps, structs) to avoid errors</br>
+✅ Optional: switch to approximate distinct for speed on huge tables</br>
+
+---
+
+%python
+
+# Import the spark session and functions
+from pyspark.sql import SparkSession
+from pyspark.sql import functions as F
+from pyspark.sql.types import (
+    NumericType, StringType, BooleanType, DateType, TimestampType, BinaryType,
+    ArrayType, MapType, StructType
+)
+
+# Create or get the spark session
+spark = SparkSession.builder.getOrCreate()
+
+# >>> Set these <<<
+schema = "DataBaseName"          # e.g., "eptb"
+table_name = "TableName"         # e.g., "orders"
+
+# Optional: use approximate distinct (HyperLogLog++) for large tables
+use_approx_distinct = True
+
+# Build a fully-qualified and quoted identifier
+def q(name: str) -> str:
+    return f"`{name}`"
+
+full_name = q(schema) + "." + q(table_name) if schema else q(table_name)
+df = spark.table(full_name)
+
+print(f"Table: {schema+'.' if schema else ''}{table_name}")
+
+# Print schema (column names and types)
+print("Schema:")
+for f in df.schema.fields:
+    print(f"  - {f.name}: {f.dataType.simpleString()}")
+
+# Total row count (1 pass)
+total_rows = df.count()
+print(f"\nTotal number of rows: {total_rows}\n")
+
+# Helper: which types support min/max (orderable)
+def is_orderable(dt) -> bool:
+    return isinstance(dt, (NumericType, StringType, BooleanType, DateType, TimestampType))
+
+# Build aggregations in a single pass
+agg_exprs = []
+for field in df.schema.fields:
+    c = field.name
+    dt = field.dataType
+
+    # Nulls
+    agg_exprs.append(F.sum(F.col(c).isNull().cast("long")).alias(f"{c}__nulls"))
+
+    # Distinct
+    if use_approx_distinct:
+        agg_exprs.append(F.approx_count_distinct(F.col(c)).alias(f"{c}__distinct"))
+    else:
+        agg_exprs.append(F.countDistinct(F.col(c)).alias(f"{c}__distinct"))
+
+    # Min/Max for orderable types only
+    if is_orderable(dt):
+        agg_exprs.append(F.min(F.col(c)).alias(f"{c}__min"))
+        agg_exprs.append(F.max(F.col(c)).alias(f"{c}__max"))
+    else:
+        # Produce placeholders so output is uniform (optional)
+        agg_exprs.append(F.lit(None).alias(f"{c}__min"))
+        agg_exprs.append(F.lit(None).alias(f"{c}__max"))
+
+# Execute single aggregation
+result = df.agg(*agg_exprs).collect()[0]
+
+# Pretty print results
+print("Column profile:")
+for field in df.schema.fields:
+    c = field.name
+    nulls = result[f"{c}__nulls"]
+    distinct = result[f"{c}__distinct"]
+    vmin = result[f"{c}__min"]
+    vmax = result[f"{c}__max"]
+
+    # Optional: show % nulls
+    null_pct = (nulls / total_rows * 100) if total_rows else 0.0
+
+    print(f"  - {c}")
+    print(f"      type: {field.dataType.simpleString()}")
+    print(f"      nulls: {nulls} ({null_pct:.2f}%)")
+    print(f"      distinct: {distinct}")
+    if vmin is not None or vmax is not None:
+        print(f"      min: {vmin}")
+        print(f"      max: {vmax}")
+    else:
+        print(f"      min: n/a (type not orderable)")
+        print(f"      max: n/a (type not orderable)")
+
+print("\n" + "-" * 40)
