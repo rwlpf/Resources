@@ -13,7 +13,7 @@ Install-Module MicrosoftPowerBIMgmt.Workspaces
 
 # log into Azure AD user account with hard-code user name and password
 Write-Host("Step 1 : Login....")
-$User = "robert.french@travelodge.co.uk"
+$User = "robert.french@"
 
 
 
