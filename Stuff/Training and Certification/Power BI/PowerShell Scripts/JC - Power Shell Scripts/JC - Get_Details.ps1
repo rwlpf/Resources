@@ -50,7 +50,7 @@ function Export-PowerBIAPIUri {
 
 # log into Azure AD user account with hard-code user name and password
 Write-Host("Step 1 : Login....")
-# $User = "robert.french@enablegroup.org.uk"
+# $User = "robert.french@"
 
 
 # $SecPasswd = ConvertTo-SecureString $PW -AsPlainText -Force
