@@ -97,6 +97,6 @@ Learn to speak on the spot with clarity with the PREP Framework! </br>
 https://gifts.vinhgiang.com/comm-framework-1?utm_source=ActiveCampaign&utm_medium=email&utm_content=The%20simple%20framework%20that%20fixes%20%22rambling%22%20forever&utm_campaign=BF2025_All_Email7_WarmUpPhase</br> 
 
 ---
-Teaching tech topics
+Teaching tech topics</br>
 https://sqlmct.com/ten-tips-for-teaching-technical-topics/
 
