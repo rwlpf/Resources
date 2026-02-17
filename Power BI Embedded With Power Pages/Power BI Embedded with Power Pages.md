@@ -31,3 +31,8 @@ https://dynamicasresourcing.co.uk/displaying-power-bi-reports-in-power-pages/
 ---
 
 https://www.serversys.com/insights/essentials-of-power-pages-licensing/
+
+---
+
+Enable RLS with Power Pages
+https://learn.microsoft.com/en-us/power-pages/guidance/how-to-power-bi-embedded
