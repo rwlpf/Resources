@@ -36,3 +36,7 @@ https://www.serversys.com/insights/essentials-of-power-pages-licensing/
 
 Enable RLS with Power Pages
 https://learn.microsoft.com/en-us/power-pages/guidance/how-to-power-bi-embedded
+
+---
+Check this method before using.
+https://inventcrm.wordpress.com/2025/07/12/step-by-step-guide-embed-copilot-enabled-power-bi-reports-into-power-pages-for-ai-driven-insights/
