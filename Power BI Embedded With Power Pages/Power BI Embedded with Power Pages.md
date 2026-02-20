@@ -1,5 +1,5 @@
 https://medium.com/@jonvoge/do-you-ever-ask-yourself-how-can-i-display-power-bi-reports-to-people-outside-my-organization-f29496682772
-(saved as PDF)
+(saved as PDF)</br>
 
 ---
 
@@ -16,7 +16,7 @@ https://blog.crossjoin.co.uk/2022/06/05/build-web-sites-and-embed-power-bi-repor
 
 ---
 
-Power BI Integration with Power Pages Site | Embed Power BI Reports on Portal Pages
+Power BI Integration with Power Pages Site | Embed Power BI Reports on Portal Pages</br>
 https://www.youtube.com/watch?v=kZuvugr2COQ
 
 ---
@@ -34,12 +34,12 @@ https://www.serversys.com/insights/essentials-of-power-pages-licensing/
 
 ---
 
-Enable RLS with Power Pages
+Enable RLS with Power Pages</br>
 https://learn.microsoft.com/en-us/power-pages/guidance/how-to-power-bi-embedded
 
 ---
 
-Check this method before using.
+Check this method before using (not sure it is detailed enough to be a solution). </br>
 https://inventcrm.wordpress.com/2025/07/12/step-by-step-guide-embed-copilot-enabled-power-bi-reports-into-power-pages-for-ai-driven-insights/
 
 ---
