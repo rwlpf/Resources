@@ -78,7 +78,7 @@ https://www.powerbishare.com/common
 This site offers whilte label power bi reporting.  
 The company will have to purchase (minimum)
 PowerBI Pro licence
-Power BI Embedded A1 license
+Power BI Embedded A1 license or an F-SKU
 
 https://thereportinghub.com/learn-more.html
 
@@ -91,6 +91,8 @@ https://www.powerbitiles.com/PBIPortal/
 https://datatako.com/
 
 https://binokula.com/
+
+https://embedsy.io/
 
 ---
 
