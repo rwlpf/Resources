@@ -63,6 +63,8 @@ https://act-on.com/blog/data-visualization-101-how-to-make-better-pie-charts-and
 
 **Futher reading** 
 
+Excellent article with illustration, even better has some links to great articles
+https://darkhorsevisualization.com/blog/salvaging-the-pie</br>
 https://eagereyes.org/blog/2016/an-illustrated-tour-of-the-pie-chart-study-results </br>
 https://eagereyes.org/techniques/pie-charts </br>
 
