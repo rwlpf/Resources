@@ -30,7 +30,13 @@ https://www.datawrapper.de/blog/colors-for-data-vis-style-guides</br>
 
 Picking the right colors</br>
 https://www.storytellingwithdata.com/blog/2020/5/6/picking-the-right-colors</br>
+
 ---
 
-Use color to focus or to compete for attention
+Use color to focus or to compete for attention</br>
 https://www.storytellingwithdata.com/blog/use-color-to-focus-or-to-compete-for-attention</br>
+
+---
+
+How to use color in your data visualization</br>
+https://www.youtube.com/watch?v=AiD6etOB6qI
