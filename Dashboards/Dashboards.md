@@ -25,14 +25,14 @@ https://www.datapine.com/blog/dashboard-design-principles-and-best-practices/
 23 design principles to keep in mind when designing  dashboards
 
 ---
-Excellent set of articles on dashboard design and several other principals
-https://adniasolutions.com/dashboard-design-principles/introduction-to-dashboards/
-https://adniasolutions.com/dashboard-design-principles/the-principles-of-visual-design-for-dashboards/
-https://adniasolutions.com/dashboard-design-principles/colors-palettes-for-dashboards/
-https://adniasolutions.com/dashboard-design-principles/display-methods/
-https://adniasolutions.com/dashboard-design-principles/focus-on-the-users-needs/
-https://adniasolutions.com/dashboard-design-principles/getting-inspiration/
-https://adniasolutions.com/dashboard-design-principles/books-to-create-better-dashboards/
+Excellent set of articles on dashboard design and several other principals</br>
+https://adniasolutions.com/dashboard-design-principles/introduction-to-dashboards/</br>
+https://adniasolutions.com/dashboard-design-principles/the-principles-of-visual-design-for-dashboards/</br>
+https://adniasolutions.com/dashboard-design-principles/colors-palettes-for-dashboards/</br>
+https://adniasolutions.com/dashboard-design-principles/display-methods/</br>
+https://adniasolutions.com/dashboard-design-principles/focus-on-the-users-needs/</br>
+https://adniasolutions.com/dashboard-design-principles/getting-inspiration/</br>
+https://adniasolutions.com/dashboard-design-principles/books-to-create-better-dashboards/</br>
 
 ---
 https://www.interaction-design.org/literature/article/visual-hierarchy-organizing-content-to-follow-natural-eye-movement-patterns
