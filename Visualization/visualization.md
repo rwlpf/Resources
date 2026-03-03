@@ -180,3 +180,8 @@ https://www.linkedin.com/posts/lonneke-opsteegh-statstories_information-seeking-
 ---
 Declutter and Focus: Empirically Evaluating Design Guidelines for Effective Data Communication
 https://par.nsf.gov/servlets/purl/10350268
+
+---
+YOU'RE VISUALIZING YOUR DATA WRONG. And Here's Why...</br>
+10 lessons from Edward Tuffes book, really nicely illustrated and talked about</br>
+https://www.youtube.com/watch?v=5pCdw-PV0Js&t=268s
