@@ -27,3 +27,8 @@ https://www.youtube.com/watch?v=VAvkyGGX8IE
 
 
 https://duckduckgo.com/?q=power+bi+accessibility&atb=v314-1&ia=web
+
+---
+
+Power BI Accessibility & WCAG Compliance Guide
+https://powerbiconsulting.com/blog/power-bi-accessibility-wcag-compliance-guide-2026
