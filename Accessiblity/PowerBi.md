@@ -30,5 +30,5 @@ https://duckduckgo.com/?q=power+bi+accessibility&atb=v314-1&ia=web
 
 ---
 
-Power BI Accessibility & WCAG Compliance Guide
+Power BI Accessibility & WCAG Compliance Guide</br>
 https://powerbiconsulting.com/blog/power-bi-accessibility-wcag-compliance-guide-2026
