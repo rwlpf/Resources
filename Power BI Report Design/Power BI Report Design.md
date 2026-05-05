@@ -12,6 +12,6 @@ https://medium.com/microsoft-power-bi/how-to-design-attractive-power-bi-reports-
 
 ---
 Doccrs Analytics – Power BI Visual Patterns
-A public collection of free Power BI visual assets.
+A public collection of free Power BI visual assets.</br>
 Download, explore, and adapt them to level up your own Power BI projects.</br>
 https://github.com/nick-doccrs/PBIShare
