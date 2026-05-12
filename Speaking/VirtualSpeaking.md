@@ -14,3 +14,6 @@ https://www.cathrinewilhelmsen.net/presenting-a-webinar-for-the-first-time/</br>
 https://www.cathrinewilhelmsen.net/3-mistakes-made-presenting-remotely/</br>
 
 https://www.cathrinewilhelmsen.net/rehearsing-with-powerpoint-presenter-coach/</br>
+
+Stop doing video calls like this 👀</br>
+https://youtube.com/shorts/EIu6IVRaA8U?si=S5aKaNR8Dh8023Mp</br>
