@@ -100,3 +100,7 @@ https://gifts.vinhgiang.com/comm-framework-1?utm_source=ActiveCampaign&utm_mediu
 Teaching tech topics</br>
 https://sqlmct.com/ten-tips-for-teaching-technical-topics/</br>
 
+---
+The way you speak changes how people listen...</br>
+https://youtube.com/shorts/6fHoN6MR6MI?si=3zlYGggnTXtbRYS7</br>
+
