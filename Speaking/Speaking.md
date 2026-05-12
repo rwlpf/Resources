@@ -1,8 +1,8 @@
-https://sqlbits.com/Sessions/Event10/Presenting_Like_Jagger 
+https://sqlbits.com/Sessions/Event10/Presenting_Like_Jagger</br> 
 
 Buck Woody if you have not heard this gentleman speaking about speaking you need to !
 
-https://www.youtube.com/watch?v=uDcDLpIjcFg
+https://www.youtube.com/watch?v=uDcDLpIjcFg</br>
 Creating your best presentation: A Speaker Workshop by Buck Woody - WATCH THIS !
 ---
 
@@ -11,80 +11,80 @@ https://www.newstarsofdata.com/speaker-improvement/
 
 ---
 
-Filler words 
-https://www.youtube.com/watch?v=mlDAO7DgJNk
-https://youtu.be/Nj0ocruWGwk?si=i-9mK73jxt5vcfkA
+Filler words</br> 
+https://www.youtube.com/watch?v=mlDAO7DgJNk</br>
+https://youtu.be/Nj0ocruWGwk?si=i-9mK73jxt5vcfkA</br>
 
 ---
 
-5 wasy to improve your professional voice
-https://www.youtube.com/watch?v=YyWZmdkPfDM
+5 wasy to improve your professional voice</br>
+https://www.youtube.com/watch?v=YyWZmdkPfDM</br>
 
 ---
-Excellent simple practical hints and tips on speaking
-https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy56ZW5jYXN0ci5jb20vZi8tazZ5VWxNYi5yc3M/episode/OWNiZDk0N2QtNzlhNS00MTg3LWFmMzgtNjdhODA2ODA4MDFh?ep=14
+Excellent simple practical hints and tips on speaking</br>
+https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy56ZW5jYXN0ci5jb20vZi8tazZ5VWxNYi5yc3M/episode/OWNiZDk0N2QtNzlhNS00MTg3LWFmMzgtNjdhODA2ODA4MDFh?ep=14</br>
 
-https://youtube.com/playlist?list=PL8EEC66CC5F02545C&si=1Z4Cvr-UlQOWAKK5
+https://youtube.com/playlist?list=PL8EEC66CC5F02545C&si=1Z4Cvr-UlQOWAKK5</br>
 Set of videos on speaking
 
 ---
-https://youtu.be/k8GvTgWtR7o?si=U5OYeDlVclptaK2_
-Public Speaking: How To Make An Audience Love You In 90 Seconds
+https://youtu.be/k8GvTgWtR7o?si=U5OYeDlVclptaK2_</br>
+Public Speaking: How To Make An Audience Love You In 90 Seconds</br>
 
 ---
-https://drive.google.com/file/d/1Wk8O7kiqc9aQ5ry6x2w1mGxit8qnY6zX/view
-Some interesting points in creating / developing a presentation
+https://drive.google.com/file/d/1Wk8O7kiqc9aQ5ry6x2w1mGxit8qnY6zX/view</br>
+Some interesting points in creating / developing a presentation</br>
 
 ---
-Nancy Duarte uncovers common structure of greatest communicators
-https://www.youtube.com/watch?v=1nYFpuc2Umk
+Nancy Duarte uncovers common structure of greatest communicators</br>
+https://www.youtube.com/watch?v=1nYFpuc2Umk</br>
 
 ---
-Some scary stats on speaking!
-https://www.weshare.net/statistics/presentation-statistics/
+Some scary stats on speaking!</br>
+https://www.weshare.net/statistics/presentation-statistics/</br>
 
 ---
-How to Start your Presentation: 4 Step Formula for a Killer Intro
-https://www.youtube.com/watch?v=aGEFtRwPhE4
+How to Start your Presentation: 4 Step Formula for a Killer Intro</br>
+https://www.youtube.com/watch?v=aGEFtRwPhE4</br>
 
 ---
-How to start a speech like a PRO
-https://www.youtube.com/watch?v=e3FOFu79M3U
+How to start a speech like a PRO</br>
+https://www.youtube.com/watch?v=e3FOFu79M3U</br>
 
 ---
-7 Public Speaking Tips for Beginners
-https://www.youtube.com/watch?v=Ns_z4wEtdRM
+7 Public Speaking Tips for Beginners</br>
+https://www.youtube.com/watch?v=Ns_z4wEtdRM</br>
 
 https://www.alexanderlyon.com/free-resources
 
 ---
-How to Give An Extemporaneous Speech
-https://www.youtube.com/watch?v=Pci3VieINY8&t=0s
+How to Give An Extemporaneous Speech</br>
+https://www.youtube.com/watch?v=Pci3VieINY8&t=0s</br>
 
 ---
-Various articles on presenting, including how to use Power Point
-https://presented.co.uk/blog/
+Various articles on presenting, including how to use Power Point</br>
+https://presented.co.uk/blog/</br>
 
 ---
-https://virtualspeech.com/blog/8-elements-of-confident-body-language
+https://virtualspeech.com/blog/8-elements-of-confident-body-language</br>
 
 ---
-https://medium.com/@vvanedwards/20-hand-gestures-you-should-be-using-c8717eca02d7
+https://medium.com/@vvanedwards/20-hand-gestures-you-should-be-using-c8717eca02d7</br>
 
 ---
-https://www.wikihow.com/Communicate-With-Body-Language
+https://www.wikihow.com/Communicate-With-Body-Language</br>
 
 ---
 https://seths.blog/2018/04/how-to-give-a-five-minute-presentation-/</br>  
 
 ---
-Owning the Room in the Age of AI
-https://sloanreview.mit.edu/article/owning-the-room-in-the-age-of-ai/?utm_campaign=17777576-Nancy%20AI%20MIT%20Article%20-%20July%202025&utm_source=email&utm_medium=CTA%20Link%20to%20Article&utm_content=Nancy%20MIT%20Article%20Segmented%20Email
+Owning the Room in the Age of AI</br>
+https://sloanreview.mit.edu/article/owning-the-room-in-the-age-of-ai/?utm_campaign=17777576-Nancy%20AI%20MIT%20Article%20-%20July%202025&utm_source=email&utm_medium=CTA%20Link%20to%20Article&utm_content=Nancy%20MIT%20Article%20Segmented%20Email</br>
 
 ---
-5 steps to make your audience the hero
+5 steps to make your audience the hero</br>
 (And win them over in the process)
-https://www.morgandepenbusch.com/p/5-steps-to-make-your-audience-the-hero
+https://www.morgandepenbusch.com/p/5-steps-to-make-your-audience-the-hero</br>
 
 A topic not always used when using storytelling worth the time and effort that it takes.
 
@@ -98,5 +98,5 @@ https://gifts.vinhgiang.com/comm-framework-1?utm_source=ActiveCampaign&utm_mediu
 
 ---
 Teaching tech topics</br>
-https://sqlmct.com/ten-tips-for-teaching-technical-topics/
+https://sqlmct.com/ten-tips-for-teaching-technical-topics/</br>
 
