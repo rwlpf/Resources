@@ -23,3 +23,7 @@ Extracting Fabric tenant setting using an API
 
 https://data-marc.com/2023/08/21/unveiling-tenant-configuration-in-fabric-empowering-user-exploration/
 
+
+---
+Lists the tenant admin settings and the text in the portal
+https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index
