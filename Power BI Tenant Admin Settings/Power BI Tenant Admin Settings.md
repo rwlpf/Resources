@@ -27,3 +27,7 @@ https://data-marc.com/2023/08/21/unveiling-tenant-configuration-in-fabric-empowe
 ---
 Lists the tenant admin settings and the text in the portal
 https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index
+
+---
+Microsoft GitHub repo for details on the admin tenant settings
+https://github.com/MicrosoftDocs/fabric-docs/tree/main/docs/admin
