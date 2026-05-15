@@ -9,6 +9,10 @@ Using a notebook to get a list of settings this will allow versioning and tracki
 https://heidihasting.com/2025/07/12/fabric-tenant-admin-settings/
 
 ---
+Nice power bi report
+https://www.loryanstrant.com/2025/02/03/power-bi-fabric-tenant-settings-reporter/
+
+---
 
 Good advice when considering what values and how to configure fabric tenant settings
 
