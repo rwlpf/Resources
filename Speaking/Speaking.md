@@ -104,3 +104,7 @@ https://sqlmct.com/ten-tips-for-teaching-technical-topics/</br>
 The way you speak changes how people listen...</br>
 https://youtube.com/shorts/6fHoN6MR6MI?si=3zlYGggnTXtbRYS7</br>
 
+---
+Your body language introduces you before your words do..
+https://www.youtube.com/shorts/QRt-JaYtpvo
+
