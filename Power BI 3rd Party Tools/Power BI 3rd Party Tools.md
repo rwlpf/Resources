@@ -99,3 +99,7 @@ https://www.powerbisentinel.com/</br>
 ---
 Tool to allow tracking of report useage and other metrics for power bi adoption</br>
 https://bipixie.com/</br>
+
+---
+Vis Ops for reports and other things
+https://github.com/NatVanG/fab-inspector
