@@ -78,3 +78,10 @@ https://www.presentationzen.com/presentationzen/2007/03/ira_glasstips_o.html</br
 ---
 Storytelling:The Next Step for Visualization - link for the PDF in the repo</br>
 https://kosara.net/papers/2013/Kosara-Computer-2013.pdf
+
+---
+Telling Compelling Stories with Numbers</br>
+Stephen Few, Perceptual Edge</br>
+Use of graphics, storytelling and numbers, a masterclass in how to present data</br>
+
+https://www.perceptualedge.com/files/telling_compelling_stories_with_numbers.pdf
