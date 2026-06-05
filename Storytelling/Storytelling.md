@@ -28,7 +28,7 @@ https://vanseodesign.com/marketing/stickiness-part-vi/</br>
 
 
 ---
-Excellent set of resources and so much information cannot recommend highly enough
+Excellent set of resources and so much information cannot recommend highly enough</br>
 https://www.storytellingwithdata.com/</br>
 
 
@@ -59,16 +59,16 @@ https://onlinedegrees.sandiego.edu/storytelling-with-data-part-2/</br>
 
 ---
 
-Brent Dykes who wrote - Effective Data Storytelling excellent set of blog post
+Brent Dykes who wrote - Effective Data Storytelling excellent set of blog posts</br>
 https://www.effectivedatastorytelling.com/blog</br>
 
 ---
 
-Finding the story before starting to tell the story
+Finding the story before starting to tell the story</br>
 https://coffeetableviz.wordpress.com/2024/10/10/how-to-find-stories-in-data-channelling-our-inner-journo/</br>
 
 ---
-Very useful tips
+Very useful tips</br>
 https://www.mindspeaking.com/datastorytelling</br>
 
 
