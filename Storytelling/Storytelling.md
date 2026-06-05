@@ -1,6 +1,7 @@
 
+
+The author of the Science of Storytelling</br>
 https://www.thescienceofstorytelling.com/
-The author of the Science of Storytelling 
 https://www.goodreads.com/book/show/43183121-the-science-of-storytelling
 
 ---
