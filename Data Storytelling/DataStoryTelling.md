@@ -69,3 +69,6 @@ https://www.effectivedatastorytelling.com/
 
 ---
 https://www.analyticsfordecisions.com/data-visualization-and-storytelling/
+
+---
+https://www.duarte.com/resources/communication-skills/what-is-data-storytelling/
