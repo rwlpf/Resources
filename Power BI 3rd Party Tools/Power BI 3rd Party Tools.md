@@ -13,6 +13,9 @@ https://en.brunner.bi/measurekiller</br>
 https://exceleratorbi.com.au/measure-killer-for-power-bi/</br>
 
 ---
+Clean up uused columns in a semantic model - free tool only a pbix report provided
+https://github.com/RemcoVerkoeijen/PowerBiCleanTool
+---
  SQL BI tools</br>
  There are number of tools sponsored by SQL BI 
  https://www.sqlbi.com/tools/</br>
