@@ -23,7 +23,6 @@ Extracting Fabric tenant setting using an API
 
 https://data-marc.com/2023/08/21/unveiling-tenant-configuration-in-fabric-empowering-user-exploration/
 
-
 ---
 Lists the tenant admin settings and the text in the portal
 https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index
@@ -31,3 +30,8 @@ https://learn.microsoft.com/en-us/fabric/admin/tenant-settings-index
 ---
 Microsoft GitHub repo for details on the admin tenant settings
 https://github.com/MicrosoftDocs/fabric-docs/tree/main/docs/admin
+
+---
+Fabric Capacity Manager
+Creates a single page web app with details on the workspaces
+https://github.com/Andreas-bersgtedt/FabricCapacityManager/tree/main
