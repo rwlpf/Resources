@@ -32,6 +32,11 @@ Microsoft GitHub repo for details on the admin tenant settings
 https://github.com/MicrosoftDocs/fabric-docs/tree/main/docs/admin
 
 ---
+Microsoft Fabric / Power BI Tenant Admin Settings - Best Practices Guide
+Not sure who created this I would STRONGLY recommend not using this as baseline 
+https://github.com/psistla/msft-fabric/blob/main/fabric_pbi_tenant_admin_best_practices.md
+
+---
 Fabric Capacity Manager
 Creates a single page web app with details on the workspaces
 https://github.com/Andreas-bersgtedt/FabricCapacityManager/tree/main
