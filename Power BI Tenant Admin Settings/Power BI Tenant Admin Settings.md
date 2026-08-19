@@ -37,6 +37,9 @@ Not sure who created this I would STRONGLY recommend not using this as baseline
 https://github.com/psistla/msft-fabric/blob/main/fabric_pbi_tenant_admin_best_practices.md
 
 ---
+
+
+https://powerbiconsulting.com/blog/power-bi-governance-framework-implementation
 Fabric Capacity Manager
 Creates a single page web app with details on the workspaces
 https://github.com/Andreas-bersgtedt/FabricCapacityManager/tree/main
