@@ -185,3 +185,8 @@ https://par.nsf.gov/servlets/purl/10350268
 YOU'RE VISUALIZING YOUR DATA WRONG. And Here's Why...</br>
 10 lessons from Edward Tuffes book, really nicely illustrated and talked about</br>
 https://www.youtube.com/watch?v=5pCdw-PV0Js&t=268s
+
+---
+
+Data visualisation e-learning - from UK government
+https://analysisfunction.civilservice.gov.uk/support/communicating-analysis/introduction-to-data-visualisation-e-learning/
