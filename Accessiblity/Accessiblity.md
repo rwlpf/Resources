@@ -117,5 +117,5 @@ Set of highlevel audit checks for data Visualization to check if accessible</br>
 https://chartability.github.io/POUR-CAF/</br>
 
 ---
-A very nice simulator of various types of ablities
+A very nice simulator of various types of ablities</br>
 https://personas-prototype.herokuapp.com/
