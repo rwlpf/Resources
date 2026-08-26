@@ -115,3 +115,7 @@ https://nightingaledvs.com/visual-accessibility-resources/</br>
 ---
 Set of highlevel audit checks for data Visualization to check if accessible</br>
 https://chartability.github.io/POUR-CAF/</br>
+
+---
+A very nice simulator of various types of ablities
+https://personas-prototype.herokuapp.com/
