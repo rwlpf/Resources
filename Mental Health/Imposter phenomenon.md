@@ -123,4 +123,6 @@ https://nailted.com/blog/how-hr-can-help-overcome-the-imposter-syndrome/
 https://www.pinsentmasons.com/out-law/analysis/employer-support-can-help-overcome-crippling-imposter-syndrome
 https://asana.com/resources/impostor-syndrome
 
+https://www.tiktok.com/@studiesshow/video/7676518221435915551?_r=1&_t=ZN-99BXdklGGrG
+
 
