@@ -90,7 +90,7 @@ Making charts accessible</br>
 
 ---
 https://analysisfunction.civilservice.gov.uk/support/communicating-analysis/plain-text-version-of-slides-from-session-on-data-visualisation-and-accessibility-for-analysis-in-government-month-2022/</br>
-Data Visualization and Accessbility</br>
+Data Visualization and Accessibility</br>
 
 ---
 https://home.vizlib.com/accessible-data-dashboard-designing/</br>
@@ -117,5 +117,8 @@ Set of highlevel audit checks for data Visualization to check if accessible</br>
 https://chartability.github.io/POUR-CAF/</br>
 
 ---
-A very nice simulator of various types of ablities</br>
+A very nice simulator of various types of abilities</br>
+
+----
+https://www.frank.computer/chartability/
 https://personas-prototype.herokuapp.com/
