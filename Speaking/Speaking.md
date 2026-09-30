@@ -116,3 +116,7 @@ https://www.youtube.com/shorts/Cm3tqJA6KTY
 This is why you should pause when you speak...
 https://youtube.com/shorts/9dU7f3Jse20?si=By-1bwkq37RAKhJ1
 
+---
+Speaking for introverts
+https://www.forbes.com/councils/forbescoachescouncil/2024/04/29/public-speaking-for-introverts/
+
