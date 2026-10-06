@@ -104,8 +104,8 @@ How to Improve Accessibility of Your Power BI Reports</br>
 https://github.com/alphagov/wcag-primer/wiki</br>
 
 ---
-Do No Harm Guide: Centering Accessibility in Data Visualization</br>
-(note file has been downloaded to the repo - Do No Harm Guide Centering Accessibility in Data Visualization.pdf)</br>
+Do No Harm Guide: Centring Accessibility in Data Visualization</br>
+(Note: the file has been downloaded to the repo - Do No Harm Guide Centring Accessibility in Data Visualization.pdf)</br>
 https://www.urban.org/research/publication/do-no-harm-guide-centering-accessibility-data-visualization</br>
 
 ---
@@ -113,12 +113,12 @@ Visual Accessibility Resources</br>
 https://nightingaledvs.com/visual-accessibility-resources/</br>
 
 ---
-Set of highlevel audit checks for data Visualization to check if accessible</br>
+Set of high-level audit checks for data Visualization to check if accessible</br>
 https://chartability.github.io/POUR-CAF/</br>
-
----
-A very nice simulator of various types of abilities</br>
 
 ----
 https://www.frank.computer/chartability/
+
+----
+A very nice simulator of various types of abilities</br>
 https://personas-prototype.herokuapp.com/
