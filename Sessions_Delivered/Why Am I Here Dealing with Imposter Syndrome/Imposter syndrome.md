@@ -124,4 +124,12 @@ What Is Positive Self-Talk?
 https://www.verywellmind.com/how-to-use-positive-self-talk-for-stress-relief-3144816
 
 Positive Self-Talk: How Talking to Yourself Is a Good Thing
+
+---
 https://www.healthline.com/health/positive-self-talk#examples-of-positive-self--talk
+
+---
+
+SQL Bits 2026 - such a good session I wish that I seen this in person
+You will need to get a free ticket to watch the video. Its worth the time, as you get access to a lot of other videos.
+https://hub.sqlbits.com/sp/session/ebd226cf-b1db-4d84-8174-456f4564e74e
