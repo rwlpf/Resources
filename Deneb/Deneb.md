@@ -57,3 +57,8 @@ https://vega.github.io/vega-lite/docs/</br>
 Deneb-Templates from PowerBI.tips</br>
 https://github.com/PowerBI-tips/Deneb-Templates/tree/main</br>
 
+---
+
+Set of templates based on the Financial Times Visual Vocabulary. 
+https://github.com/avatorl/Deneb-Vega-Templates
+
