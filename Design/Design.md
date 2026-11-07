@@ -1,15 +1,13 @@
 
 # Design
 
-
 Often people are blamed for poor design decisions which are often compounded by each other.
 
 [Stop blaming people; blame inept design](https://jnd.org/stop_blaming_people_blame_inept_design/)
 
 ---
 
-Design layouts - scanning patterns where to put most important.
-information Gutenberg, Z pattern and F pattern.
+Design layouts - scanning patterns where to put most important information: Gutenberg, Z pattern and F pattern.
 
 [Design layouts and scanning patterns](https://vanseodesign.com/web-design/3-design-layouts/)
 
