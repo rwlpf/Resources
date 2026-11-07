@@ -1,1 +1,0 @@
-https://www.slideshare.net/PatrickEMcLean/how-to-kill-a-word

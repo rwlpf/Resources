@@ -1,1 +1,0 @@
-https://github.com/AddJam/awesome-glasgow-tech

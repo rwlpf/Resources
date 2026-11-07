@@ -1,1 +1,0 @@
-https://www.kasperonbi.com/the-rise-and-history-of-power-bi-with-amir-netz/

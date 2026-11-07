@@ -1,1 +1,0 @@
-https://zippy1981inexilium.wordpress.com/2018/09/04/listing-your-azure-ad-users-in-excel-with-power-query/
