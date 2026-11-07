@@ -1,0 +1,6 @@
+// Learn more about DAX queries at https://aka.ms/dax-queries
+
+// Here is a sample DAX query from your model, click 'Run'
+// Try other DAX queries by right clicking a table, column, or measure in the data pane and choosing one from 'Quick queries'
+EVALUATE
+    COUNTROWS(FILTER(Table, Condition))

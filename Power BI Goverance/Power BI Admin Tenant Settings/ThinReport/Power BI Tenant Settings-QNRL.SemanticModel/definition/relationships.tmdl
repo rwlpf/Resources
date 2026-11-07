@@ -1,0 +1,16 @@
+relationship 5f1fa9fb-5815-47c3-8606-a4dfda76b155
+	fromColumn: CurrentVsRecommendedSettings.PBTS_tenantSettingGroup
+	toColumn: TenantSettingGroup.PBTS_tenantSettingGroup
+
+relationship 6178765c-1264-4268-a619-520d45a8ae18
+	fromColumn: CurrentVsRecommendedSettings.Priority
+	toColumn: DimPriority.Priority
+
+relationship c0c00cb3-3cec-408f-8960-682e3e9c20df
+	fromColumn: CurrentVsRecommendedSettings.PBTS_tenantSettingGroup
+	toColumn: DimTenantSettingGroup.PBTS_tenantSettingGroup
+
+relationship 406f4572-9de3-4c8a-8365-93c6e44313ff
+	fromColumn: TenantSettings_EntraGrps.PBTS_settingName
+	toColumn: CurrentVsRecommendedSettings.PBTS_settingName
+

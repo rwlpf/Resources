@@ -1,0 +1,17 @@
+// Set postcard image based on Strava total distance covered and if the user has opened the postcard previously:
+If(
+    Lower(Text(LookUp(UserInfo, EmailAddressState = User().Email & "-" & ThisItem.State, PostcardOpened))) = "true",
+    "appres://resources/" & Substitute(ThisItem.State, " ", "") & "Front",
+    If(
+        StravaTotalDistanceKm >= Value(ThisItem.DistanceKm),
+        EnvelopeLarge,	// Unlocked.
+        EnvelopeStatic	// Locked.
+    )
+)
+
+
+// Set "<State> unlocked!" messaged to furthest state reached based on Strava total distance:
+Set(StravaTotalDistanceKm, Value(First(StravaTotalDistance).DistanceKm));
+Set(StatesAvailable, Filter(StateInfo, StravaTotalDistanceKm >= Value(DistanceKm)));
+Set(FurthestState, First(Sort(StatesAvailable, Value(DistanceKm), SortOrder.Descending)).State);
+Set(StateUnlockedMessage, If(!IsBlank(FurthestState), FurthestState & " unlocked!", "Go to states!"));

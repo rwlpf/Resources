@@ -1,0 +1,140 @@
+table xformTenantSettingGroup
+	isHidden
+	lineageTag: e51c2e77-3da4-4c7d-9336-7b7f39612ca5
+
+	column DifferentCount
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f8e111ee-b44e-4799-b09f-33bb6caa13dc
+		summarizeBy: sum
+		sourceColumn: DifferentCount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroupOrder
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 5103deec-3eab-4d7e-a5c9-abcedf3c8d55
+		summarizeBy: sum
+		sourceColumn: TenantSettingGroupOrder
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: 7473b9ba-fb41-44ad-bf45-80af5c61d758
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SameCount
+		dataType: int64
+		formatString: 0
+		lineageTag: 898dcdc0-b98b-475f-b9f3-7459fddce085
+		summarizeBy: sum
+		sourceColumn: SameCount
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xformTenantSettingGroup = m
+		mode: import
+		queryGroup: Combined
+		source =
+				let
+				  source = RawPowerBITenantSettings,
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    source,
+				    {
+				      {"settingName", type text},
+				      {"title", type text},
+				      {"enabled", type logical},
+				      {"canSpecifySecurityGroups", type logical},
+				      {"enabledSecurityGroups", type any},
+				      {"tenantSettingGroup", type text},
+				      {"properties", type any}
+				    }
+				  ),
+				  #"Filtered Rows" = Table.SelectRows(#"Changed Type", each true),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Filtered Rows", {"tenantSettingGroup"}),
+				  #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns"),
+				  // tenantSettingGroup -> PBTS_tenantSettingGroup to match the table going to link to
+				  #"Renamed PBTS_tenantSettingGroup" = Table.RenameColumns(
+				    #"Removed Duplicates",
+				    {{"tenantSettingGroup", "PBTS_tenantSettingGroup"}}
+				  ),
+				  // This is to get a total count where the settings in each PBTS_tenantSettingGroup is different. Only require a overall count not the detail.
+				  #"Left Join to - PBTS_tenantSettingGroup_DifferentSettings_Count" = Table.NestedJoin(
+				    #"Renamed PBTS_tenantSettingGroup",
+				    {"PBTS_tenantSettingGroup"},
+				    PBTS_tenantSettingGroup_DifferentSettings_Count,
+				    {"PBTS_tenantSettingGroup"},
+				    "PBTS_tenantSettingGroup_DifferentSettings_Count",
+				    JoinKind.LeftOuter
+				  ),
+				  #"Expanded PBTS_tenantSettingGroup_DifferentSettings_Count" = Table.ExpandTableColumn(
+				    #"Left Join to - PBTS_tenantSettingGroup_DifferentSettings_Count",
+				    "PBTS_tenantSettingGroup_DifferentSettings_Count",
+				    {"DifferentCount", "SameCount"},
+				    {
+				      "PBTS_tenantSettingGroup_DifferentSettings_Count.DifferentCount",
+				      "PBTS_tenantSettingGroup_DifferentSettings_Count.SameCount"
+				    }
+				  ),
+				  #"Replaced - null with Zero" = Table.ReplaceValue(
+				    #"Expanded PBTS_tenantSettingGroup_DifferentSettings_Count",
+				    null,
+				    0,
+				    Replacer.ReplaceValue,
+				    {"PBTS_tenantSettingGroup_DifferentSettings_Count.DifferentCount"}
+				  ),
+				  #"Changed Type to Integer" = Table.TransformColumnTypes(
+				    #"Replaced - null with Zero",
+				    {
+				      {"PBTS_tenantSettingGroup_DifferentSettings_Count.DifferentCount", Int64.Type},
+				      {"PBTS_tenantSettingGroup_DifferentSettings_Count.SameCount", Int64.Type}
+				    }
+				  ),
+				  // Merge with the query to get the Tenat Settings Group Order
+				  #"Merged With xfromTenantSettingsGroupOrder" = Table.NestedJoin(
+				    #"Changed Type to Integer",
+				    {"PBTS_tenantSettingGroup"},
+				    xfromTenantSettingsGroupOrder,
+				    {"TenantSettingGroup"},
+				    "xfromTenantSettingsGroupOrder",
+				    JoinKind.LeftOuter
+				  ),
+				  #"Expanded xfromTenantSettingsGroupOrder" = Table.ExpandTableColumn(
+				    #"Merged With xfromTenantSettingsGroupOrder",
+				    "xfromTenantSettingsGroupOrder",
+				    {"TenantSettingGroupOrder"},
+				    {"TenantSettingGroupOrder"}
+				  ),
+				  #"Sorted By TenantSettingGroupOrder" = Table.Sort(
+				    #"Expanded xfromTenantSettingsGroupOrder",
+				    {{"TenantSettingGroupOrder", Order.Ascending}}
+				  ),
+				  // TenantSettingGroupOrder to WholeNumber
+				  #"Changed - TenantSettingGroupOrder" = Table.TransformColumnTypes(
+				    #"Sorted By TenantSettingGroupOrder",
+				    {{"TenantSettingGroupOrder", Int64.Type}}
+				  ),
+				    #"Renamed Columns" = Table.RenameColumns(#"Changed - TenantSettingGroupOrder",{{"PBTS_tenantSettingGroup_DifferentSettings_Count.DifferentCount", "DifferentCount"}, {"PBTS_tenantSettingGroup_DifferentSettings_Count.SameCount", "SameCount"}})
+				in
+				    #"Renamed Columns"
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

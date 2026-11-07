@@ -1,0 +1,364 @@
+table xformCurrentVsRecommendedSettings
+	isHidden
+	lineageTag: dc8c4a27-ac68-4e73-bc1d-77d1778e3c0c
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: 3a4fd3a0-316e-4e93-a573-405c19f7b904
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_title
+		dataType: string
+		isHidden
+		lineageTag: fcf9b066-37be-4340-b77f-eead5ebc90a8
+		summarizeBy: none
+		sourceColumn: PBTS_title
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Current Setting'
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 463a4207-a809-44db-a18d-760127e0bf29
+		summarizeBy: none
+		sourceColumn: Current Setting
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RecommendedSetting
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: aa9fc162-ce54-417c-b432-de3548e2833c
+		summarizeBy: none
+		sourceColumn: RecommendedSetting
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Priority
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: b86c73cb-3c29-4adb-9833-325e227bb0c7
+		summarizeBy: sum
+		sourceColumn: Priority
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column MS_URL
+		dataType: string
+		isHidden
+		lineageTag: 6e60b1d3-dd74-45aa-8846-518dc1558bab
+		summarizeBy: none
+		sourceColumn: MS_URL
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SecurityRisk
+		dataType: string
+		isHidden
+		lineageTag: 9941191a-876f-4c49-a385-772d691203e2
+		summarizeBy: none
+		sourceColumn: SecurityRisk
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Comments
+		dataType: string
+		isHidden
+		lineageTag: 35e6d95d-f2bc-4f98-bb34-f88835513991
+		summarizeBy: none
+		sourceColumn: Comments
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Power BI ProFeature'
+		dataType: string
+		isHidden
+		lineageTag: 5181a002-8074-4978-afe4-955fd5659472
+		summarizeBy: none
+		sourceColumn: Power BI ProFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column P-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: 72b810ca-e836-48a5-b823-9a7d0f798759
+		summarizeBy: none
+		sourceColumn: P-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column F-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: 2fd8819c-c041-46e5-8ff8-4483cb3f6492
+		summarizeBy: none
+		sourceColumn: F-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'F-64 SKUFeature'
+		dataType: string
+		isHidden
+		lineageTag: a8e4bc61-fe2d-436b-a72e-7da6ef4887cc
+		summarizeBy: none
+		sourceColumn: F-64 SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PurviewFeature
+		dataType: string
+		isHidden
+		lineageTag: e807929f-cc66-4bde-9a30-374e2f39b290
+		summarizeBy: none
+		sourceColumn: PurviewFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: string
+		isHidden
+		lineageTag: 8d2b93df-ac67-480c-9e0e-79c5b09e093f
+		summarizeBy: none
+		sourceColumn: Date
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_canSpecifySecurityGroups
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 16e7f6af-1735-438b-b36a-0c11378e1cd6
+		summarizeBy: none
+		sourceColumn: PBTS_canSpecifySecurityGroups
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Scope
+		dataType: string
+		isHidden
+		lineageTag: 4b6ea88b-73ca-41d4-8c7f-38dc6e532596
+		summarizeBy: none
+		sourceColumn: Scope
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Review
+		dataType: string
+		isHidden
+		lineageTag: e972e2ec-8ceb-430a-b638-d9851fd3e1a1
+		summarizeBy: none
+		sourceColumn: Review
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column EM-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: e56e7a9a-7985-4a60-92ee-99d5404c0b47
+		summarizeBy: none
+		sourceColumn: EM-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Different
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 7b76ceef-4723-4cad-8331-bfe07f0dbf37
+		summarizeBy: sum
+		sourceColumn: Different
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Same
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 2ddef697-e7fd-4432-b856-5975f91d1d14
+		summarizeBy: sum
+		sourceColumn: Same
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroupOrder
+		dataType: int64
+		formatString: 0
+		lineageTag: 8f738149-3980-4f32-89eb-0ba48b4d7270
+		summarizeBy: sum
+		sourceColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_settingName
+		dataType: string
+		lineageTag: 5a7a68d4-02c0-4716-bae1-785d158de493
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		annotation SummarizationSetBy = Automatic
+
+	column EntraGroupCount
+		dataType: double
+		lineageTag: 732501a4-e575-4ef4-9492-401ae5eedb5e
+		summarizeBy: sum
+		sourceColumn: EntraGroupCount
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column HasEntraGrp
+		dataType: string
+		lineageTag: 7c7dbeb3-67cf-4ad9-9fae-4a03232e3c3d
+		summarizeBy: none
+		sourceColumn: HasEntraGrp
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xformCurrentVsRecommendedSettings = m
+		mode: import
+		queryGroup: Combined
+		source = ```
+				let
+				  Source = Table.NestedJoin(
+				    xformPowerBITenantSettings, 
+				    {"PBTS_settingName"}, 
+				    RawQuorumRecommendSettings, 
+				    {"SettingName"}, 
+				    "RecommnedSettings (3)", 
+				    JoinKind.LeftOuter
+				  ), 
+				  #"Expanded RecommnedSettings (3)" = Table.ExpandTableColumn(
+				    Source, 
+				    "RecommnedSettings (3)", 
+				    {
+				      "Priority", 
+				      "MS_URL", 
+				      "Scope", 
+				      "Review", 
+				      "SecurityRisk", 
+				      "RecommendedSetting", 
+				      "Comments", 
+				      "Power BI Pro#(lf)Feature", 
+				      "EM-SKU#(lf)Feature", 
+				      "P-SKU#(lf)Feature", 
+				      "F-SKU#(lf)Feature", 
+				      "F-64 SKU#(lf)Feature", 
+				      "Purview#(lf)Feature"
+				    }, 
+				    {
+				      "Priority", 
+				      "MS_URL", 
+				      "Scope", 
+				      "Review", 
+				      "SecurityRisk", 
+				      "RecommendedSetting", 
+				      "Comments", 
+				      "Power BI Pro#(lf)Feature", 
+				      "EM-SKU#(lf)Feature", 
+				      "P-SKU#(lf)Feature", 
+				      "F-SKU#(lf)Feature", 
+				      "F-64 SKU#(lf)Feature", 
+				      "Purview#(lf)Feature"
+				    }
+				  ), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Expanded RecommnedSettings (3)", 
+				    {{"Priority", Int64.Type}}
+				  ), 
+				  #"Renamed Columns" = Table.RenameColumns(#"Changed Type", {{"PBTS_enabled", "Current Setting"}}),
+				    #"Removed Other Columns" = Table.SelectColumns(#"Renamed Columns",{"Date", "PBTS_settingName", "PBTS_title", "Current Setting", "PBTS_canSpecifySecurityGroups", "PBTS_tenantSettingGroup", "Priority", "MS_URL", "Scope", "Review", "SecurityRisk", "RecommendedSetting", "Comments", "Power BI Pro#(lf)Feature", "EM-SKU#(lf)Feature", "P-SKU#(lf)Feature", "F-SKU#(lf)Feature", "F-64 SKU#(lf)Feature", "Purview#(lf)Feature"}), 
+				  // Added 'Different' column; this will return 1 if the recommended setting does not equal the current setting
+				  #"Added Different" = Table.AddColumn(
+				    #"Removed Other Columns", 
+				    "Different", 
+				    each if [Current Setting] <> [RecommendedSetting] then 1 else 0
+				  ), 
+				  // Added 'Different' column; this will return 1 if the recommended setting does not equal the current setting
+				  #"Added Same" = Table.AddColumn(
+				    #"Added Different", 
+				    "Same", 
+				    each if [Current Setting] = [RecommendedSetting] then 1 else 0
+				  ), 
+				  #"Changed Different and Same to Integer" = Table.TransformColumnTypes(
+				    #"Added Same", 
+				    {{"Same", Int64.Type}, {"Different", Int64.Type}}
+				  ), 
+				  // Add to get the sort order of the TenantSettings
+				  #"Merged with xfromTenantSettingsGroupOrder" = Table.NestedJoin(
+				    #"Changed Different and Same to Integer", 
+				    {"PBTS_tenantSettingGroup"}, 
+				    xfromTenantSettingsGroupOrder, 
+				    {"TenantSettingGroup"}, 
+				    "xfromTenantSettingsGroupOrder", 
+				    JoinKind.LeftOuter
+				  ), 
+				  #"Expanded xfromTenantSettingsGroupOrder" = Table.ExpandTableColumn(
+				    #"Merged with xfromTenantSettingsGroupOrder", 
+				    "xfromTenantSettingsGroupOrder", 
+				    {"TenantSettingGroupOrder"}, 
+				    {"TenantSettingGroupOrder"}
+				  ),
+				    #"Left Join to xformPowerBITenantSettings_GrpsAssignedToSetting" = Table.NestedJoin(#"Expanded xfromTenantSettingsGroupOrder", {"PBTS_settingName"}, xformPowerBITenantSettings_EntraGrpsCount, {"PBTS_settingName"}, "xformPowerBITenantSettings_GrpsAssignedToSetting", JoinKind.LeftOuter),
+				    #"Expanded xformPowerBITenantSettings_GrpsAssignedToSetting" = Table.ExpandTableColumn(#"Left Join to xformPowerBITenantSettings_GrpsAssignedToSetting", "xformPowerBITenantSettings_GrpsAssignedToSetting", {"EntraGroupCount"}, {"EntraGroupCount"}),
+				    #"Replaced Null with 0" = Table.ReplaceValue(#"Expanded xformPowerBITenantSettings_GrpsAssignedToSetting",null,0,Replacer.ReplaceValue,{"EntraGroupCount"}),
+				    #"Changed - TenantSettingGroupOrder to Integer" = Table.TransformColumnTypes(#"Replaced Null with 0",{{"TenantSettingGroupOrder", Int64.Type}}),
+				    #"Added HasEntraGrp" = Table.AddColumn(#"Changed - TenantSettingGroupOrder to Integer", "HasEntraGrp", each if [EntraGroupCount] > 0 then "Y" else null)
+				in
+				    #"Added HasEntraGrp"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

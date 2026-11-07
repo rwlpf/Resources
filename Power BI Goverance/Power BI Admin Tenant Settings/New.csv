@@ -1,0 +1,3 @@
+﻿Tenant Setting Group,Title,settingName
+Admin API settings,Service principals can access admin APIs used for updates,AllowServicePrincipalsUseWriteAdminAPIs
+Export and sharing settings,Endorse master data (preview),AllowEndorsementMasterDataSwitch

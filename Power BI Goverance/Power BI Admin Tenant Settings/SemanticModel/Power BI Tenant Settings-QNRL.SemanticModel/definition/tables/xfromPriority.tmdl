@@ -1,0 +1,33 @@
+table xfromPriority
+	isHidden
+	lineageTag: 9c22ccbf-ef13-49a4-97b8-a98ad7539b69
+
+	column Priority
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: 55f01f39-8ed4-4bf1-a974-9dec3c53273a
+		summarizeBy: sum
+		sourceColumn: Priority
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xfromPriority = m
+		mode: import
+		queryGroup: Combined
+		source =
+				let
+				    Source = RawQuorumRecommendSettings,
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"Priority"}),
+				    #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns"),
+				    #"Sorted Rows" = Table.Sort(#"Removed Duplicates",{{"Priority", Order.Ascending}}),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Sorted Rows",{{"Priority", Int64.Type}})
+				in
+				    #"Changed Type"
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

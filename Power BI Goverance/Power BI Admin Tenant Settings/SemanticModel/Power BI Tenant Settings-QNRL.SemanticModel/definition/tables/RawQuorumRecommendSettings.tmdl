@@ -1,0 +1,342 @@
+table RawQuorumRecommendSettings
+	isHidden
+	lineageTag: 1753ec04-c2a7-4582-9012-54d0906ff3f5
+
+	column ID
+		dataType: string
+		isHidden
+		lineageTag: 3b6f1319-e18b-4684-8c68-d40541501894
+		summarizeBy: none
+		sourceColumn: ID
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Priority
+		dataType: string
+		isHidden
+		lineageTag: cb9d8ea3-a981-4f79-a05e-dc557d8c314a
+		summarizeBy: none
+		sourceColumn: Priority
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Scope
+		dataType: string
+		isHidden
+		lineageTag: e017c144-1e89-47dd-a63f-948a65bed004
+		summarizeBy: none
+		sourceColumn: Scope
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Comments
+		dataType: string
+		isHidden
+		lineageTag: ce51651b-bf7c-41bd-baa6-578bd29a0212
+		summarizeBy: none
+		sourceColumn: Comments
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Deleted
+		dataType: string
+		isHidden
+		lineageTag: 55cd4a12-4b66-409c-a6ef-a936bdc002e1
+		summarizeBy: none
+		sourceColumn: Deleted
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SettingName
+		dataType: string
+		isHidden
+		lineageTag: 77c38baa-f91c-41bc-99a0-4380b3dcb070
+		summarizeBy: none
+		sourceColumn: SettingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column AdminText
+		dataType: string
+		isHidden
+		lineageTag: fddba1ce-7dbf-47c4-aba1-784443bb2ab4
+		summarizeBy: none
+		sourceColumn: AdminText
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column MS_URL
+		dataType: string
+		isHidden
+		lineageTag: 042d2608-4f4f-4d9b-9c84-8d214db3c870
+		summarizeBy: none
+		sourceColumn: MS_URL
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RoleToReview
+		dataType: string
+		isHidden
+		lineageTag: ac660e78-9071-475a-9325-1155528bad8a
+		summarizeBy: none
+		sourceColumn: RoleToReview
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column OrgBenifit
+		dataType: string
+		isHidden
+		lineageTag: b3fbb208-be1c-4667-aefe-1a7fc4e23560
+		summarizeBy: none
+		sourceColumn: OrgBenifit
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Review
+		dataType: string
+		isHidden
+		lineageTag: 5f53bac2-f164-4de9-9a8c-dc8aea4b5f64
+		summarizeBy: none
+		sourceColumn: Review
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column SecurityRisk
+		dataType: string
+		isHidden
+		lineageTag: ddfe2416-dfd4-4f59-ac35-a1d93307364f
+		summarizeBy: none
+		sourceColumn: SecurityRisk
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column RecommendedSetting
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: 8a39244e-2f00-4b70-8f84-b31ba377363b
+		summarizeBy: none
+		sourceColumn: RecommendedSetting
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column ApplyToOrg
+		dataType: string
+		isHidden
+		lineageTag: 3e1c3c83-163d-45ce-bb85-acbfb69cea4b
+		summarizeBy: none
+		sourceColumn: ApplyToOrg
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Caveats
+		dataType: string
+		isHidden
+		lineageTag: 158005b0-2934-4e3a-8410-647c610e197b
+		summarizeBy: none
+		sourceColumn: Caveats
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Power BI ProFeature'
+		dataType: string
+		isHidden
+		lineageTag: 41407cd6-a35d-483c-8e44-47e463f6f241
+		summarizeBy: none
+		sourceColumn: Power BI ProFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column EM-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: 1691063a-036d-464e-8280-db2856ccff53
+		summarizeBy: none
+		sourceColumn: EM-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column P-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: eafed8c8-149a-4a83-8db7-1fb1bdc357f5
+		summarizeBy: none
+		sourceColumn: P-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column F-SKUFeature
+		dataType: string
+		isHidden
+		lineageTag: 63ae8eac-a5e8-4dd6-b37a-9cf6c3f74d92
+		summarizeBy: none
+		sourceColumn: F-SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'F-64 SKUFeature'
+		dataType: string
+		isHidden
+		lineageTag: e08268af-c1a2-467c-a9c2-05c76ad5831f
+		summarizeBy: none
+		sourceColumn: F-64 SKUFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column PurviewFeature
+		dataType: string
+		isHidden
+		lineageTag: 86374b72-9af1-400b-9ea1-f62e6aaba28c
+		summarizeBy: none
+		sourceColumn: PurviewFeature
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: d53db3dc-7a26-49b8-9e17-325eec1da1a3
+		summarizeBy: none
+		sourceColumn: TenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column24
+		dataType: string
+		isHidden
+		lineageTag: 71581ce5-186d-496d-95e3-ba3fe6797936
+		summarizeBy: none
+		sourceColumn: Column24
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column25
+		dataType: string
+		isHidden
+		lineageTag: 8d598fbf-16e4-458f-bac5-d165fac6ba01
+		summarizeBy: none
+		sourceColumn: Column25
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column26
+		dataType: string
+		isHidden
+		lineageTag: 632fc64e-4de2-4cd0-bb06-f622237b3e97
+		summarizeBy: none
+		sourceColumn: Column26
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column FindtenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: 6ec2c604-5968-40bc-8f11-360f59dac603
+		summarizeBy: none
+		sourceColumn: FindtenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column28
+		dataType: string
+		isHidden
+		lineageTag: 36753357-062d-4553-a610-1c428b287df2
+		summarizeBy: none
+		sourceColumn: Column28
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroupOrder
+		dataType: string
+		isHidden
+		lineageTag: e7cec1fd-49f1-4533-a3c9-ca331e99f519
+		summarizeBy: none
+		sourceColumn: TenantSettingGroupOrder
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition RawQuorumRecommendSettings = m
+		mode: import
+		queryGroup: RawBaselineSettings
+		source = ```
+				let
+				  Source = Excel.Workbook(
+				    // File.Contents(
+				    //   "C:\Users\Robert.French\OneDrive - Quorum\BI Team\General\Power BI Admin Tenant Settings\PowerBI Tenant Settings - Master.xlsx"
+				    // ), 
+				   File.Contents(pExcelSpreadSheetFilePath),
+				    null, 
+				    true
+				  ), 
+				  Settings_Sheet = Source{[Item = "Settings", Kind = "Sheet"]}[Data], 
+				  #"Promoted Headers" = Table.PromoteHeaders(Settings_Sheet, [PromoteAllScalars = true]), 
+				  #"Removed Deleted Items" = Table.SelectRows(#"Promoted Headers", each ([Deleted] = null)), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Removed Deleted Items", 
+				    {{"RecommendedSetting", type logical}}
+				  ),
+				    #"Remove any values where the ID equals Null" = Table.SelectRows(#"Changed Type", each ([ID] <> null))
+				in
+				  #"Remove any values where the ID equals Null"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

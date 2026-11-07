@@ -1,0 +1,62 @@
+model Model
+	culture: en-GB
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-GB
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+queryGroup Dimension
+
+	annotation PBI_QueryGroupOrder = 1
+
+queryGroup Combined
+
+	annotation PBI_QueryGroupOrder = 2
+
+queryGroup Parameters
+
+	annotation PBI_QueryGroupOrder = 0
+
+queryGroup 'Exported Settings'
+
+	annotation PBI_QueryGroupOrder = 4
+
+queryGroup Missing_Added_Settings
+
+	annotation PBI_QueryGroupOrder = 5
+
+queryGroup RawBaselineSettings
+
+	annotation PBI_QueryGroupOrder = 6
+
+queryGroup PowerBIEnvironment_ImportedSettings
+
+	annotation PBI_QueryGroupOrder = 3
+
+queryGroup xfrom_Quorum_Recommended_Settings
+
+	annotation PBI_QueryGroupOrder = 7
+
+queryGroup Presentation
+
+	annotation PBI_QueryGroupOrder = 8
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+annotation PBIDesktopVersion = 2.140.1205.0 (25.02)+2ab3defe107764e1cf486b42122d9362df7f34ea
+
+annotation PBI_QueryOrder = ["pExcelSpreadSheetFilePath","pJsonFilePath","DirectQuery to AS - Power BI Tenant Settings-QNRL_SM"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table PropertyTypes
+ref table DimTenantSettingGroup
+ref table CurrentVsRecommendedSettings
+ref table TenantSettingGroup
+ref table DimPriority
+ref table colours
+ref table TenantSettings_EntraGrps
+
+ref cultureInfo en-GB
+

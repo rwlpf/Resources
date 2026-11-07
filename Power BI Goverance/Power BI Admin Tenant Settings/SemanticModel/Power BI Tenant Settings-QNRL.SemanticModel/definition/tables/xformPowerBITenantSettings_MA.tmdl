@@ -1,0 +1,52 @@
+/// This will be used as the basis to compare current existing Power BI Tennat admin settings
+table xformPowerBITenantSettings_MA
+	isHidden
+	lineageTag: f51df9d7-1464-4608-aede-818205812b48
+
+	column settingName
+		dataType: string
+		isHidden
+		lineageTag: f113e40f-beb2-4b91-8e48-95863f7a48c7
+		summarizeBy: none
+		sourceColumn: settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		isHidden
+		lineageTag: a41f457e-4844-41df-b1a4-fcdde6db9ff0
+		summarizeBy: none
+		sourceColumn: title
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column tenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: 5e1a6740-0640-48c5-98a7-846af04f331f
+		summarizeBy: none
+		sourceColumn: tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xformPowerBITenantSettings_MA = m
+		mode: import
+		queryGroup: Missing_Added_Settings
+		source =
+				let
+				    Source = RawPowerBITenantSettings,
+				    #"Removed Other Columns" = Table.SelectColumns(Source,{"settingName", "title", "tenantSettingGroup"})
+				in
+				    #"Removed Other Columns"
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

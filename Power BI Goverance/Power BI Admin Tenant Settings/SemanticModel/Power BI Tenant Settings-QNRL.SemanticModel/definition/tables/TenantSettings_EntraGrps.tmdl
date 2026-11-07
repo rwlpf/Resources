@@ -1,0 +1,32 @@
+table TenantSettings_EntraGrps
+	lineageTag: 31c28301-3bfb-47da-93b1-c4443ea7667f
+
+	column PBTS_settingName
+		dataType: string
+		lineageTag: f8482fff-bdc5-469c-9340-fa2783f6d369
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.enabledSecurityGroups.name'
+		dataType: string
+		lineageTag: c71aedac-5d44-4f13-965b-4f64b9cfb873
+		summarizeBy: none
+		sourceColumn: tenantSettings.enabledSecurityGroups.name
+
+		annotation SummarizationSetBy = Automatic
+
+	partition TenantSettings_EntraGrps = m
+		mode: import
+		queryGroup: Presentation
+		source =
+				let
+				    Source = xformPowerBITenantSettings_EntraGrps
+				in
+				    Source
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

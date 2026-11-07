@@ -1,0 +1,2 @@
+ServerName - rf-sandbox.database.windows.net
+DatabaseName - Incremental_Refresh_Demo

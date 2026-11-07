@@ -1,0 +1,112 @@
+table xformPowerBITenantSettings_EntraGrpsCount
+	isHidden
+	lineageTag: 2089c91c-410d-439b-b928-74be93da1929
+
+	column PBTS_settingName
+		dataType: string
+		isHidden
+		lineageTag: 3b159d46-5798-477c-aa9d-7de33fb1723d
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column EntraGroupCount
+		dataType: int64
+		isHidden
+		formatString: 0
+		lineageTag: f47a401b-0f95-4ace-8c90-a1f8e4584016
+		summarizeBy: sum
+		sourceColumn: EntraGroupCount
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xformPowerBITenantSettings_EntraGrpsCount = m
+		mode: import
+		queryGroup: PowerBIEnvironment_ImportedSettings
+		source = ```
+				let
+				  Source = Json.Document(File.Contents(pJsonFilePath)), 
+				  #"Converted to Table" = Table.FromRecords({Source}), 
+				  #"Expanded tenantSettings" = Table.ExpandListColumn(#"Converted to Table", "tenantSettings"), 
+				  #"Expanded tenantSettings1" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings", 
+				    "tenantSettings", 
+				    {
+				      "settingName", 
+				      "title", 
+				      "enabled", 
+				      "canSpecifySecurityGroups", 
+				      "enabledSecurityGroups", 
+				      "tenantSettingGroup", 
+				      "properties"
+				    }, 
+				    {
+				      "tenantSettings.settingName", 
+				      "tenantSettings.title", 
+				      "tenantSettings.enabled", 
+				      "tenantSettings.canSpecifySecurityGroups", 
+				      "tenantSettings.enabledSecurityGroups", 
+				      "tenantSettings.tenantSettingGroup", 
+				      "tenantSettings.properties"
+				    }
+				  ), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Expanded tenantSettings1", 
+				    {
+				      {"tenantSettings.settingName", type text}, 
+				      {"tenantSettings.title", type text}, 
+				      {"tenantSettings.enabled", type logical}, 
+				      {"tenantSettings.canSpecifySecurityGroups", type logical}, 
+				      {"tenantSettings.enabledSecurityGroups", type any}, 
+				      {"tenantSettings.tenantSettingGroup", type text}, 
+				      {"tenantSettings.properties", type any}
+				    }
+				  ), 
+				  #"Removed Other Columns" = Table.SelectColumns(
+				    #"Changed Type", 
+				    {
+				      "tenantSettings.settingName", 
+				      "tenantSettings.canSpecifySecurityGroups", 
+				      "tenantSettings.enabledSecurityGroups"
+				    }
+				  ), 
+				  #"Filtered Rows- tenantSettings.canSpecifySecurityGroups is TRUE" = Table.SelectRows(
+				    #"Removed Other Columns", 
+				    each ([tenantSettings.canSpecifySecurityGroups] = true)
+				  ), 
+				  #"Expanded tenantSettings.enabledSecurityGroups" = Table.ExpandListColumn(
+				    #"Filtered Rows- tenantSettings.canSpecifySecurityGroups is TRUE", 
+				    "tenantSettings.enabledSecurityGroups"
+				  ), 
+				  #"Expanded tenantSettings.enabledSecurityGroups1" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings.enabledSecurityGroups", 
+				    "tenantSettings.enabledSecurityGroups", 
+				    {"graphId", "name"}, 
+				    {"tenantSettings.enabledSecurityGroups.graphId", "tenantSettings.enabledSecurityGroups.name"}
+				  ), 
+				  #"Filtered Rows-enabledSecurityGroups.graphId is not NULL" = Table.SelectRows(
+				    #"Expanded tenantSettings.enabledSecurityGroups1", 
+				    each ([tenantSettings.enabledSecurityGroups.graphId] <> null)
+				  ), 
+				  #"Renamed Columns - tenantSettings.settingName to PBTS_settingName" = Table.RenameColumns(
+				    #"Filtered Rows-enabledSecurityGroups.graphId is not NULL", 
+				    {{"tenantSettings.settingName", "PBTS_settingName"}}
+				  ),
+				    #"Removed Columns" = Table.RemoveColumns(#"Renamed Columns - tenantSettings.settingName to PBTS_settingName",{"tenantSettings.canSpecifySecurityGroups", "tenantSettings.enabledSecurityGroups.graphId"}),
+				    #"Grouped Rows" = Table.Group(#"Removed Columns", {"PBTS_settingName"}, {{"GroupCount", each Table.RowCount(_), Int64.Type}}),
+				    #"GroupCount to EntraGroupCount" = Table.RenameColumns(#"Grouped Rows",{{"GroupCount", "EntraGroupCount"}})
+				in
+				    #"GroupCount to EntraGroupCount"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

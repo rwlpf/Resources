@@ -1,0 +1,1 @@
+https://www.mssqltips.com/sqlservertip/7774/save-money-microsoft-fabric-pause-start-capacity/

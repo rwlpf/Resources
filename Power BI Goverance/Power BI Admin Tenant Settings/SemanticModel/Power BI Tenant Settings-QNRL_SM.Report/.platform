@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Power BI Tenant Settings-QNRL"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "a570dbf9-9887-47bd-83b1-2365305bd69e"
+  }
+}

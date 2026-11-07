@@ -1,0 +1,61 @@
+table xfromTenantSettingsGroupOrder
+	isHidden
+	lineageTag: 57efad56-f24b-4e46-b298-117e59510764
+
+	column TenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: 04966ccd-4078-4d71-a3d4-71ce95ff933a
+		summarizeBy: none
+		sourceColumn: TenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroupOrder
+		dataType: string
+		isHidden
+		lineageTag: 869a70a9-4293-4902-8444-38bc3624ed74
+		summarizeBy: none
+		sourceColumn: TenantSettingGroupOrder
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition xfromTenantSettingsGroupOrder = m
+		mode: import
+		queryGroup: xfrom_Quorum_Recommended_Settings
+		source = ```
+				let
+				  Source = Excel.Workbook(
+				    File.Contents(pExcelSpreadSheetFilePath), 
+				    null, 
+				    true
+				  ), 
+				  Settings_Sheet = Source{[Item = "Settings", Kind = "Sheet"]}[Data], 
+				  #"Promoted Headers" = Table.PromoteHeaders(Settings_Sheet, [PromoteAllScalars = true]), 
+				  #"Removed Deleted Items" = Table.SelectRows(#"Promoted Headers", each ([Deleted] = null)), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Removed Deleted Items", 
+				    {{"RecommendedSetting", type logical}}
+				  ), 
+				  #"Remove any values where the ID equals Null" = Table.SelectRows(
+				    #"Changed Type", 
+				    each ([ID] <> null)
+				  ), 
+				  #"Removed Other Columns" = Table.SelectColumns(
+				    #"Remove any values where the ID equals Null", 
+				    {"TenantSettingGroup", "TenantSettingGroupOrder"}
+				  ), 
+				  #"Removed Duplicates" = Table.Distinct(#"Removed Other Columns"), 
+				  #"Sorted Rows" = Table.Sort(#"Removed Duplicates", {{"TenantSettingGroupOrder", Order.Ascending}})
+				in
+				  #"Sorted Rows"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

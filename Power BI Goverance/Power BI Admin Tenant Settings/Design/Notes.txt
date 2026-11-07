@@ -1,0 +1,13 @@
+Notes:
+For the Tenant Settings Buttons, when clicked the background of the button set the whole colour to the outline (dark greenyblue colour). Will pop since the font is white.
+Top 3 boxes, align the Number and Title a bit more centre so it's not at the bottom of each box. (suggestion, maybe use a separate shape and then the card invisible on top since pbi can be a bit finickity)
+Tooltip:
+Change the colour, from red to what?
+make the font bigger, so it fills each card
+maybe make the card a bit smaller or rounded
+add a background colour so the card shows up more and looks more pop-y?
+underneath the details, drill through to the details to get comments etc
+maybe add the comment to the tooltip?
+darren has an idea for the tooltips, let's do some sketches..
+sketch: instead of having the whole box coloured, maybe have a small indicator for colour, or a tick for true?
+ 

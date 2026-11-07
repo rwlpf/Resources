@@ -1,0 +1,212 @@
+---
+title: "PowerBi Development Pipeline"
+author: Christopher Proudfoot
+date: 04/11/2022
+format:
+  docx:
+    toc: true
+    reference-doc: Word_Template.dotx
+---
+
+{{< pagebreak >}}
+
+# Overview
+## Introduction
+
+This document will illustrate the process and best practices for creating a PowerBI workspace and development pipeline. This will be done using the PowerBI service and PowerBI desktop.
+
+<br>
+
+## Prerequisites
+
+Creating a PowerBI development pipeline requires a premium workspace and, thus, a premium license.
+To follow our best practices, we recommend having Azure Active Directory(AAD) groups set up
+
+<br>
+
+# Development
+## Creating a Premium Workspace
+
+First, we need to create a premium workspace. If you already have one you would like to include in your development pipeline, please move on to the next section. 
+Start by navigating to the PowerBI Service using your choice of browsers and sign into the tenant you want the workspace to be in. Then in the workspace tab on the right, hit the "Create a workspace" button.
+
+
+![](Screenshots/Screenshot%202022-11-04%20124544.png)
+
+{{< pagebreak >}}
+
+Name your workspace and in the advanced options, make sure you set the license mode to Premium per user or Premium per capacity.
+
+
+::: {#create-workspace layout-ncol=2}
+
+![](Screenshots/Screenshot%202022-11-04%20125750.png)
+
+![](Screenshots/Screenshot%202022-11-04%20125823.png)
+
+:::
+
+<br>
+
+Following our best practices, we advise giving an AAD group admin access to the new workspace and removing the creators' admin access.
+
+
+::: {#create-workspace layout-ncol=2}
+
+![](Screenshots/Screenshot%202022-11-01%20155353.png)
+
+![](Screenshots/Screenshot%202022-11-01%20155654.png)
+
+:::
+
+<br>
+
+Finally, you will want to add some content to your new workspace. We will use our datasaurus.pbix we completed earlier. 
+
+
+![](Screenshots/Screenshot%202022-11-04%20143203.png)
+
+<br>
+
+Please use whatever file you wish to add to the workspace. Hit publish and select the workspace we have just created.
+
+
+![](Screenshots/Screenshot%202022-11-04%20143312.png)
+
+<br>
+
+Once that has finished publishing, we can begin creating the development pipeline.
+
+<br>
+
+## Creating a Development Pipeline
+
+We can create the development pipeline now that we have our premium workspace. If you navigate the workspace on the PowerBI service, you will notice a "Create deployment pipeline" button under the name.
+
+
+![](Screenshots/Capture.PNG)
+
+<br>
+
+You will be prompted for a name and description of the pipeline. 
+
+
+![](Screenshots/Screenshot%202022-11-01%20160239.png)
+
+{{< pagebreak >}}
+
+You will then be asked to assign your workspace to a deployment stage. 
+
+
+![](Screenshots/Screenshot%202022-11-01%20160326.png)
+
+<br>
+
+For this example, we will imagine that our workspace is already in production so we will add it to the production stage. Similarly, if your workspace was still in development then you would add it to the development stage.
+
+
+![](Screenshots/Screenshot%202022-11-03%20100824.png)
+
+<br>
+
+Now we can see our workspace in the production stage, plus we can see its contents (reports, datasets, est). Next, we need to deploy this workspace to the test and development stages. Click on the three dots in the production stage then select "Deploy to the previous stage".
+
+
+![](Screenshots/Screenshot%202022-11-03%20100844.png)
+
+![](Screenshots/Screenshot%202022-11-03%20100928.png)
+
+{{< pagebreak >}}
+
+Then repeat this for the test stage to development.
+
+![](Screenshots/Screenshot%202022-11-03%20100959.png) 
+
+<br>
+
+Doing this will create two new premium workspaces, Datasaurus\[development\] and Datasaurus[test]
+
+<br>
+
+## Development Pipeline Configuration
+
+Before we can start using this pipeline for CI/CD we need to make some changes to the configurations. First, we want to change the names of our workspaces to aline with our naming convention. Change the \[development\] to [Dev] and change [test] to [UAT].
+
+Next because these are new workspaces we will have to repeat the process of assigning access groups. Add your AAD group as admin and remove creators' admin privileges. 
+
+Lastly, we are going to look at changing the data sources for our different development stages. It is common to have different data sources for each stage in the development pipeline for example, when developing a dataset you may want to use a small sample of the target data to optimise development time and processing. Changing these sources manually would be very tedious as the datasets move through the pipeline, thankfully PowerBI will do most of the work for us. To do this we recommend first parameterising the data sources in your datasets if you have not already and making sure that they are published to all stages of the pipeline. This will allow us to create parameter rules in our pipeline.
+
+To do this click on the lightning bolt symbol in the test stage of the pipeline.
+
+![](Screenshots/Screenshot%202022-11-03%20160942.png)
+
+{{< pagebreak >}}
+
+Then select the dataset you would like to create a parameter rule for.
+
+![](Screenshots/Screenshot%202022-11-03%20161008.png)
+
+{{< pagebreak >}}
+
+In parameter rules hit "+ Add rule"
+
+![](Screenshots/Screenshot%202022-11-03%20162019.png)
+
+{{< pagebreak >}}
+
+Now we want to select the parameter for the data source and change the value so that it points to our test data source.
+
+![](Screenshots/Screenshot%202022-11-03%20161229.png)
+
+<br>
+
+Repeat this process for the production stage. 
+
+This is a powerful tool if you have certain parameters that vary over your pipeline.
+
+<br>
+
+# CI/CD
+
+Now that everything is set up we can use our pipeline for development. When we first deployed our workspace to the three stages you may have noticed a green tick between the stages.
+
+![](Screenshots/Screenshot%202022-11-07%20145018.png)
+
+This indicates that the contents of either stage are identical. 
+
+In the PowerBI desktop, make some changes to your .pbix file, save them and publish it to the development workspace. If you look back at the development pipeline you will notice that the green tick has changed to a yellow cross.
+
+![](Screenshots/Screenshot%202022-11-03%20160720.png)
+
+{{< pagebreak >}}
+
+ This tells us that there are some differences in the contents of the workspaces. If you hit compare you will see the specific elements that do not match.
+
+ ![](Screenshots/Screenshot%202022-11-03%20160736.png)
+
+<br>
+
+In this case, we have made changes to the datasaurus dataset. The $\neq$ indicates that there are differences in the file. You might also see a + if you have added a new file or - if you have removed one.
+
+Now we have finished making changes to our dataset we would like to move it to the next stage of our development pipeline ready to test. There are two ways to do this, if you would like to deploy all changes from one stage to another then just hit the deploy button. If you would like to be more specific about what files are deployed to the next stage you can select several files before hitting deploy.
+
+
+
+![](Screenshots/Screenshot%202022-11-03%20161916.png)
+
+{{< pagebreak >}}
+
+A confirmation window will appear stating the files that will be deployed to the next stage. You have the option to leave a comment here.
+
+![](Screenshots/Screenshot%202022-11-03%20160806.png)
+
+
+When you finally hit deploy you will notice that the yellow cross has changed back to a tick signifying that there are no longer any differences between our Dev and Test stages. But this means our test and production stage are now no longer synced. Once all the testing has been completed then you can repeat the process to deploy to the production phases.
+
+![](Screenshots/Screenshot%202022-11-03%20160837.png)
+
+<br>
+
+At each stage of the deployment pipeline, you can publish content to an app.
+
+![](Screenshots/Screenshot%202022-11-03%20162325.png)

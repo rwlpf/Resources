@@ -1,0 +1,128 @@
+table PropertyTypes
+	isHidden
+	lineageTag: 9806c68d-f306-4bb9-8068-58dc1255bc5e
+
+	column 'tenantSettings.settingName'
+		dataType: string
+		isHidden
+		lineageTag: dbb3b842-d478-4b37-bd18-0201cc6cf061
+		summarizeBy: none
+		sourceColumn: tenantSettings.settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.tenantSettingGroup'
+		dataType: string
+		isHidden
+		lineageTag: ea30b0a0-26e5-4440-9d61-0eb0aef3052f
+		summarizeBy: none
+		sourceColumn: tenantSettings.tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.properties.name'
+		dataType: string
+		isHidden
+		lineageTag: 94b94f8d-b721-4701-97b0-38e75a2948d3
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.name
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.properties.value'
+		dataType: string
+		isHidden
+		lineageTag: 81a046dd-9d9e-417b-8af5-3dcf9fab95e0
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.value
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'tenantSettings.properties.type'
+		dataType: string
+		isHidden
+		lineageTag: a4749112-868a-40ae-9eae-97ff4aee95cb
+		summarizeBy: none
+		sourceColumn: tenantSettings.properties.type
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: string
+		isHidden
+		lineageTag: ae45bd2d-ac15-490a-a8d3-002917285798
+		summarizeBy: none
+		sourceColumn: Date
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition PropertyTypes = m
+		mode: import
+		source = ```
+				let
+				  Source = Json.Document(
+				    File.Contents(
+				    // //   "C:\Users\Robert.French\OneDrive - Quorum\BI Team\General\Power BI Admin Tenant Settings\2024-01-18-TenantSettings.json"
+				    pJsonFilePath
+				    )
+				  ), 
+				  #"Converted to Table" = Table.FromRecords({Source}), 
+				  #"Expanded tenantSettings" = Table.ExpandListColumn(#"Converted to Table", "tenantSettings"), 
+				  #"Expanded tenantSettings1" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings", 
+				    "tenantSettings", 
+				    {
+				      "settingName", 
+				      "title", 
+				      "enabled", 
+				      "canSpecifySecurityGroups", 
+				      "enabledSecurityGroups", 
+				      "tenantSettingGroup", 
+				      "properties"
+				    }, 
+				    {
+				      "tenantSettings.settingName", 
+				      "tenantSettings.title", 
+				      "tenantSettings.enabled", 
+				      "tenantSettings.canSpecifySecurityGroups", 
+				      "tenantSettings.enabledSecurityGroups", 
+				      "tenantSettings.tenantSettingGroup", 
+				      "tenantSettings.properties"
+				    }
+				  ), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Expanded tenantSettings1", 
+				    {
+				      {"tenantSettings.settingName", type text}, 
+				      {"tenantSettings.title", type text}, 
+				      {"tenantSettings.enabled", type logical}, 
+				      {"tenantSettings.canSpecifySecurityGroups", type logical}, 
+				      {"tenantSettings.enabledSecurityGroups", type any}, 
+				      {"tenantSettings.tenantSettingGroup", type text}, 
+				      {"tenantSettings.properties", type any}
+				    }
+				  ),
+				    #"Removed Columns" = Table.RemoveColumns(#"Changed Type",{"tenantSettings.title", "tenantSettings.enabled", "tenantSettings.canSpecifySecurityGroups", "tenantSettings.enabledSecurityGroups"}),
+				    #"Expanded tenantSettings.properties" = Table.ExpandListColumn(#"Removed Columns", "tenantSettings.properties"),
+				    #"Expanded tenantSettings.properties1" = Table.ExpandRecordColumn(#"Expanded tenantSettings.properties", "tenantSettings.properties", {"name", "value", "type"}, {"tenantSettings.properties.name", "tenantSettings.properties.value", "tenantSettings.properties.type"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Expanded tenantSettings.properties1", each ([tenantSettings.properties.name] <> null))
+				in
+				  #"Filtered Rows"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+

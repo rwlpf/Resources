@@ -1,0 +1,25 @@
+table DimPriority
+	lineageTag: 89fef7d2-e446-4ad4-9ae9-0982fb2cc556
+
+	column Priority
+		dataType: int64
+		formatString: 0
+		lineageTag: a15a83be-caa0-46c8-948e-59ddb9e4d26f
+		summarizeBy: none
+		sourceColumn: Priority
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimPriority = m
+		mode: import
+		queryGroup: Dimension
+		source =
+				let
+				    Source = xfromPriority
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

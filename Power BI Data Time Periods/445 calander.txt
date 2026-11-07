@@ -1,0 +1,47 @@
+let
+  // Enter the date in Advanced Editor for the first day of the earliest Fiscal Year in #date(yyyy,m,d) format
+  // StartDate = #date(2017, 12, 31),
+  StartDate = #date(2023, 2, 27),
+  // Enter the desired range of years as List in Advanced Editor
+  YearRange = {2022 .. 2024},
+  // In Advanced Editor, use one of the two options for this step (code out the one not used with //) to either hard code or dynamically calculate the years with 53 weeks.  Substitute a different evaluation criterion as needed.
+  // YearsWith53Weeks = {2019},
+  YearsWith53Weeks = List.Select(YearRange, each Date.DayOfWeekName(#date(_, 11, 30)) = "Saturday"),
+  StartingTable = Table.FromColumns({YearRange}, {"Year"}),
+  AddNumberOfWeeksColumn = Table.AddColumn(StartingTable, "Weeks", each if List.Contains(YearsWith53Weeks, [Year]) then 53 else 52),
+  #"Changed Type4" = Table.TransformColumnTypes(AddNumberOfWeeksColumn, {{"Year", Int64.Type}, {"Weeks", Int64.Type}}),
+  // In the Advanced Editor, enter the two patterns for 52 and 53 week years as a list of weeks per fiscal month
+  AddListOfMonthAndWeekCounts = Table.AddColumn(#"Changed Type4", "Custom", each if [Weeks] = 53 then
+        List.Zip({{1 .. 12}, {4, 4, 5, 4, 4, 5, 4, 4, 5, 4, 5, 5}})
+      else
+        List.Zip({{1 .. 12}, {4, 4, 5, 4, 4, 5, 4, 4, 5, 4, 4, 5}})),
+  #"Expanded Custom" = Table.ExpandListColumn(AddListOfMonthAndWeekCounts, "Custom"),
+  #"Extracted Values" = Table.TransformColumns(
+    #"Expanded Custom", 
+    {"Custom", each Text.Combine(List.Transform(_, Text.From), ";"), type text}
+  ),
+  #"Split Column by Delimiter" = Table.SplitColumn(#"Extracted Values", "Custom", Splitter.SplitTextByDelimiter(";", QuoteStyle.Csv), {"FM", "NumWeeks"}),
+  #"Changed Type" = Table.TransformColumnTypes(#"Split Column by Delimiter", {{"FM", Int64.Type}, {"NumWeeks", Int64.Type}}),
+  AddListOfWeeksColumn = Table.AddColumn(#"Changed Type", "WeekInFM", each {1 .. [NumWeeks]}),
+  #"Expanded Custom1" = Table.ExpandListColumn(AddListOfWeeksColumn, "WeekInFM"),
+  #"Changed Type1" = Table.TransformColumnTypes(#"Expanded Custom1", {{"WeekInFM", Int64.Type}}),
+  AddWeekIndex = Table.AddIndexColumn(#"Changed Type1", "FW_Index", 1, 1, Int64.Type),
+  AddFWinYear = Table.AddColumn(AddWeekIndex, "FWinYear", each let
+        thisyear = [Year], 
+        thisindex = [FW_Index], 
+        result = Table.RowCount(
+          Table.SelectRows(AddWeekIndex, each [Year] = thisyear and [FW_Index] <= thisindex)
+        )
+      in
+        result),
+  Add7DayListPerWeek = Table.AddColumn(AddFWinYear, "WeekDay", each {1 .. 7}),
+  #"Expanded WeekDay" = Table.ExpandListColumn(Add7DayListPerWeek, "WeekDay"),
+  #"Changed Type2" = Table.TransformColumnTypes(#"Expanded WeekDay", {{"WeekDay", Int64.Type}}),
+  RemoveUnneededColumns = Table.RemoveColumns(#"Changed Type2", {"Weeks", "NumWeeks", "WeekDay"}),
+  AddDayIndex = Table.AddIndexColumn(RemoveUnneededColumns, "DayIndex", 0, 1, Int64.Type),
+  AddDatesBasedOnStartDateAndDayIndex = Table.AddColumn(AddDayIndex, "Date", each Date.AddDays(StartDate, [DayIndex]), type date),
+  #"Filtered rows" = Table.SelectRows(AddDatesBasedOnStartDateAndDayIndex, each [Date] >= #date(2023, 2, 27)),
+  #"Transform columns" = Table.TransformColumnTypes(#"Filtered rows", {{"FWinYear", type text}}),
+  #"Replace errors" = Table.ReplaceErrorValues(#"Transform columns", {{"FWinYear", null}})
+in
+  #"Replace errors"

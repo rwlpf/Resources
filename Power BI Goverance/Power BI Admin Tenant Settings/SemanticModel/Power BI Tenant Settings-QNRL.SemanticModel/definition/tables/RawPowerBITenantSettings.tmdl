@@ -1,0 +1,142 @@
+table RawPowerBITenantSettings
+	isHidden
+	lineageTag: 75f7c30f-554b-44c0-a38d-d50f1f93fc9f
+
+	column settingName
+		dataType: string
+		isHidden
+		lineageTag: 65a27688-d4bc-4372-8e2a-1b6aadd1b292
+		summarizeBy: none
+		sourceColumn: settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		isHidden
+		lineageTag: 92ff04c7-386e-453b-9395-18bc9d52fae4
+		summarizeBy: none
+		sourceColumn: title
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column enabled
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: b9515d59-df02-4539-a661-963d6d2a757b
+		summarizeBy: none
+		sourceColumn: enabled
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column canSpecifySecurityGroups
+		dataType: boolean
+		isHidden
+		formatString: """TRUE"";""TRUE"";""FALSE"""
+		lineageTag: a1dcfcd4-11b8-4e7b-828c-ca033fbae8bb
+		summarizeBy: none
+		sourceColumn: canSpecifySecurityGroups
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column tenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: 54f8c4ac-0018-4086-86ff-4407d4868895
+		summarizeBy: none
+		sourceColumn: tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column enabledSecurityGroups
+		dataType: string
+		lineageTag: 4b8f4809-36ba-409f-988a-b0cb2fc4142e
+		summarizeBy: none
+		sourceColumn: enabledSecurityGroups
+
+		annotation SummarizationSetBy = Automatic
+
+	column properties
+		dataType: string
+		lineageTag: fabec2bc-e937-4348-8083-d3ca9f2f3ec2
+		summarizeBy: none
+		sourceColumn: properties
+
+		annotation SummarizationSetBy = Automatic
+
+	column Date
+		dataType: string
+		lineageTag: 22303d38-d498-4d81-9e64-fdaacc0481fe
+		summarizeBy: none
+		sourceColumn: Date
+
+		annotation SummarizationSetBy = Automatic
+
+	partition RawPowerBITenantSettings = m
+		mode: import
+		queryGroup: PowerBIEnvironment_ImportedSettings
+		source = ```
+				let
+				  Source = Json.Document(
+				    File.Contents(pJsonFilePath)
+				  ), 
+				  #"Converted to Table" = Table.FromRecords({Source}), 
+				  // Expand the record into individual columns
+				    #"Expanded tenantSettings_StepOne" = Table.ExpandListColumn(#"Converted to Table", "tenantSettings"), 
+				  // Expand the other remaining columns
+				    #"Expanded tenantSettings_StepTwo" = Table.ExpandRecordColumn(
+				    #"Expanded tenantSettings_StepOne", 
+				    "tenantSettings", 
+				    {
+				      "settingName", 
+				      "title", 
+				      "enabled", 
+				      "canSpecifySecurityGroups", 
+				      "tenantSettingGroup", 
+				      "enabledSecurityGroups", 
+				      "properties"
+				    }, 
+				    {
+				      "settingName", 
+				      "title", 
+				      "enabled", 
+				      "canSpecifySecurityGroups", 
+				      "tenantSettingGroup", 
+				      "enabledSecurityGroups", 
+				      "properties"
+				    }
+				  ), 
+				  #"Changed Type" = Table.TransformColumnTypes(
+				    #"Expanded tenantSettings_StepTwo", 
+				    {
+				      {"settingName", type text}, 
+				      {"title", type text}, 
+				      {"enabled", type logical}, 
+				      {"canSpecifySecurityGroups", type logical}, 
+				      {"enabledSecurityGroups", type any}, 
+				      {"tenantSettingGroup", type text}, 
+				      {"properties", type any}
+				    }
+				  ), 
+				  #"Filtered Rows" = Table.SelectRows(#"Changed Type", each true)
+				in
+				    #"Filtered Rows"
+				```
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

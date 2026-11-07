@@ -1,0 +1,4 @@
+https://raw.githubusercontent.com/rwlpf/PowerBI_Maps/master/UK%20Postcodes/UkPostcodes.geojson - UK PostCode Areas
+
+https://raw.githubusercontent.com/rwlpf/PowerBI_Maps/master/UK%20Postcodes/PostalSector_V2.json - Post Code Sector -> RMSect
+

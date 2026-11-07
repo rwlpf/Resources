@@ -1,0 +1,80 @@
+table DimTenantSettingGroup
+	lineageTag: 707853cc-772a-4100-91ba-6a31148081e6
+
+	measure Measure = ```
+			
+			VAR _SelectedPriorty =
+			    IF (
+			        HASONEVALUE ( DimPriority[Priority] ),
+			        SELECTEDVALUE ( DimPriority[Priority] )
+			    ) //Check to see how many rows which are marked as different in CurrentVsRecommendedSettings
+			//where the PBTS_tenantSettingGroup match in CurrentVsRecommendedSettings and TenantSettingGroup
+			// VAR _CountDifferentSettings =
+			//     COUNTROWS (
+			//         FILTER (
+			//             CurrentVsRecommendedSettings,
+			//             DimTenantSettingGroup[PBTS_tenantSettingGroup] = CurrentVsRecommendedSettings[PBTS_tenantSettingGroup]
+			//                 && CurrentVsRecommendedSettings[Different] = 1
+			//                 && CurrentVsRecommendedSettings[Priority] = _SelectedPriorty
+			//         )
+			//     )
+			// VAR _CountInString =
+			//     CONCATENATE ( " - ", CONVERT ( _CountDifferentSettings, STRING ) )
+			RETURN
+			    // CONCATENATE ( DimTenantSettingGroup[PBTS_tenantSettingGroup], _CountInString )
+			    _SelectedPriorty
+			
+			```
+		lineageTag: 624c2d3b-9dba-4061-b6e0-0d7ed82fb208
+
+	column DifferentCount
+		dataType: int64
+		formatString: 0
+		lineageTag: 76d1310c-06b3-4098-8407-6b594e5612d9
+		summarizeBy: none
+		sourceColumn: DifferentCount
+
+		annotation SummarizationSetBy = Automatic
+
+	column TenantSettingGroupOrder
+		dataType: int64
+		formatString: 0
+		lineageTag: edf04f48-a792-4265-886a-dc91eb16389c
+		summarizeBy: none
+		sourceColumn: TenantSettingGroupOrder
+
+		annotation SummarizationSetBy = Automatic
+
+	column PBTS_tenantSettingGroup
+		dataType: string
+		lineageTag: f0a314c5-a161-406a-9905-d1a31e3776cb
+		summarizeBy: none
+		sourceColumn: PBTS_tenantSettingGroup
+		sortByColumn: TenantSettingGroupOrder
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column SameCount
+		dataType: int64
+		formatString: 0
+		lineageTag: 111bc5c2-1ede-4f7a-a8ef-1cad7ef7ad22
+		summarizeBy: none
+		sourceColumn: SameCount
+
+		annotation SummarizationSetBy = Automatic
+
+	partition DimTenantSettingGroup = m
+		mode: import
+		queryGroup: Dimension
+		source =
+				let
+				    Source = xformTenantSettingGroup
+				in
+				    Source
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

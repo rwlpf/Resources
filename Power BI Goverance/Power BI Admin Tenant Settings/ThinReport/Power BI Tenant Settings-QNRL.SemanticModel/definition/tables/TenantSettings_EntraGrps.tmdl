@@ -1,0 +1,30 @@
+table TenantSettings_EntraGrps
+	lineageTag: 810a2dfb-e9ac-405b-aa9e-79163191c6b7
+	sourceLineageTag: 31c28301-3bfb-47da-93b1-c4443ea7667f
+
+	column PBTS_settingName
+		dataType: string
+		lineageTag: f00302af-e2ce-4faa-b47c-e689ac98da66
+		sourceLineageTag: f8482fff-bdc5-469c-9340-fa2783f6d369
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: PBTS_settingName
+
+		annotation SummarizationSetBy = User
+
+	column 'tenantSettings.enabledSecurityGroups.name'
+		dataType: string
+		lineageTag: aa3f9f0b-bdb2-4620-b8db-ae77ab466fb5
+		sourceLineageTag: c71aedac-5d44-4f13-965b-4f64b9cfb873
+		dataCategory: Uncategorized
+		summarizeBy: none
+		sourceColumn: tenantSettings.enabledSecurityGroups.name
+
+		annotation SummarizationSetBy = User
+
+	partition TenantSettings_EntraGrps = entity
+		mode: directQuery
+		source
+			entityName: TenantSettings_EntraGrps
+			expressionSource: 'DirectQuery to AS - Power BI Tenant Settings-QNRL_SM'
+

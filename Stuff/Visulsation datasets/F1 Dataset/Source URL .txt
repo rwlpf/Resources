@@ -1,0 +1,5 @@
+https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020?resource=download&select=results.csv
+
+
+Adding SVG's to Power BI
+https://sqlserverbi.blog/2019/11/05/next-level-power-bi-svg-databars/

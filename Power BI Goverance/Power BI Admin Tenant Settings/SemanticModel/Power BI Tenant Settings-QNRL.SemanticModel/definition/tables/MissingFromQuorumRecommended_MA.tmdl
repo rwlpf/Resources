@@ -1,0 +1,65 @@
+table MissingFromQuorumRecommended_MA
+	isHidden
+	lineageTag: 42c922db-4fdb-40fe-81f1-c99cf4bc36f3
+
+	column settingName
+		dataType: string
+		isHidden
+		lineageTag: 889c1e79-31a3-42b6-b6b4-8a34d99853d1
+		summarizeBy: none
+		sourceColumn: settingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column title
+		dataType: string
+		isHidden
+		lineageTag: da596ae2-9e24-408a-a959-008108edae1a
+		summarizeBy: none
+		sourceColumn: title
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column tenantSettingGroup
+		dataType: string
+		isHidden
+		lineageTag: 3e4a3dbf-330b-4533-bd57-71e1667218f0
+		summarizeBy: none
+		sourceColumn: tenantSettingGroup
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'QuorumRecommnedSettings_MA.SettingName'
+		dataType: string
+		isHidden
+		lineageTag: c04999af-72ff-4b8c-8137-b9dea1df79df
+		summarizeBy: none
+		sourceColumn: QuorumRecommnedSettings_MA.SettingName
+
+		changedProperty = IsHidden
+
+		annotation SummarizationSetBy = Automatic
+
+	partition MissingFromQuorumRecommended_MA = m
+		mode: import
+		queryGroup: Missing_Added_Settings
+		source =
+				let
+				    Source = Table.NestedJoin(xformPowerBITenantSettings_MA, {"settingName"}, xformQuorumRecommnedSettings_MA, {"SettingName"}, "QuorumRecommnedSettings_MA", JoinKind.LeftOuter),
+				    #"Expanded QuorumRecommnedSettings_MA" = Table.ExpandTableColumn(Source, "QuorumRecommnedSettings_MA", {"SettingName"}, {"QuorumRecommnedSettings_MA.SettingName"}),
+				    #"Filtered Rows" = Table.SelectRows(#"Expanded QuorumRecommnedSettings_MA", each ([QuorumRecommnedSettings_MA.SettingName] = null))
+				in
+				    #"Filtered Rows"
+
+	changedProperty = IsHidden
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

@@ -1,0 +1,16 @@
+expression pExcelSpreadSheetFilePath = "C:\Users\Robert.French\OneDrive - Quorum Network Resources Ltd\BI Team\General\Power BI Admin Tenant Settings\PowerBI Tenant Settings - Master.xlsx" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: ff7f82dc-1761-4d43-ae55-b63ed28ba7f8
+	queryGroup: Parameters
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navigation
+
+expression pJsonFilePath = "C:\Users\Robert.French\OneDrive - Quorum Network Resources Ltd\BI Team\General\Power BI Admin Tenant Settings\PowerBITenantAdminSettings.json" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 096e2022-b98a-4688-b661-8a5ab6c1207c
+	queryGroup: Parameters
+
+	annotation PBI_ResultType = Text
+
+	annotation PBI_NavigationStepName = Navigation
+

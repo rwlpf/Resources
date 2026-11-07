@@ -1,0 +1,4 @@
+https://www.microsoft.com/en-us/download/details.aspx?id=56519
+https://learn.microsoft.com/en-us/power-bi/guidance/whitepaper-powerbi-security
+https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-communication
+List of ports and FQDNs by the power bi data gateway service 

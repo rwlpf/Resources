@@ -1,0 +1,47 @@
+let
+  Source = Excel.CurrentWorkbook(){[Name = "Parameters"]}[Content], 
+  StartDate = Number.From(Source[Value]{0}), 
+  EndDate = Number.From(Source[Value]{1}), 
+  Custom1 = {StartDate .. EndDate}, 
+  #"Converted to Table" = Table.FromList(
+    Custom1, 
+    Splitter.SplitByNothing(), 
+    null, 
+    null, 
+    ExtraValues.Error
+  ), 
+  #"Renamed Columns" = Table.RenameColumns(#"Converted to Table", {{"Column1", "DateKey"}}), 
+  DateKey = Table.TransformColumnTypes(#"Renamed Columns", {{"DateKey", type date}}), 
+  DayID = Table.AddIndexColumn(DateKey, "DayID", 1, 1), 
+  YearID = Table.AddColumn(DayID, "YearID", each Number.RoundDown(([DayID] - 1) / 364) + 1), 
+  QuarterID = Table.AddColumn(YearID, "QuarterID", each Number.RoundDown(([DayID] - 1) / 91) + 1), 
+  MonthID = Table.AddColumn(
+    QuarterID, 
+    "MonthID", 
+    each Number.RoundDown([DayID] / 91)
+      * 3
+        + (
+          if Number.Mod([DayID], 91) = 0 then
+            0
+          else if Number.Mod([DayID], 91) <= 28 then
+            1
+          else if Number.Mod([DayID], 91) <= 56 then
+            2
+          else
+            3
+        )
+  ), 
+  WeekID = Table.AddColumn(MonthID, "WeekID", each Number.RoundDown(([DayID] - 1) / 7) + 1), 
+  #"Changed Type" = Table.TransformColumnTypes(
+    WeekID, 
+    {
+      {"DayID", type number}, 
+      {"YearID", type number}, 
+      {"QuarterID", type number}, 
+      {"MonthID", type number}, 
+      {"WeekID", type number}, 
+      {"DateKey", type date}
+    }
+  )
+in
+  #"Changed Type"

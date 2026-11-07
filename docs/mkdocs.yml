@@ -1,0 +1,14 @@
+site_name: Resources
+site_description: "Resources site"
+site_author: rwlpf
+repo_url: https://github.com/rwlpf/Resources
+edit_uri: edit/master/docs/
+
+theme:
+  name: material
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
