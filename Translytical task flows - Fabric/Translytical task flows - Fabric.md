@@ -33,3 +33,7 @@ Translytical Task Flows Community Gallery
 Community discussions and contributions related to Translytical Task Flows in Microsoft Fabric.
 
 [Translytical Task Flows Community Discussions](https://community.fabric.microsoft.com/category/pbi_comm_galleries/discussions/pbi_translyticalgallery)
+
+---
+Page with an overview of user data functions in Microsoft Fabric.
+[User Data Functions Overview](https://learn.microsoft.com/en-gb/fabric/data-engineering/user-data-functions/user-data-functions-overview)
